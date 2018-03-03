@@ -1,0 +1,3000 @@
+  159  sudo apt-get autoremove
+  160  sudo apt-get clean
+  161  lsusb
+  162  sudo sh TurnOffScreen.sh
+  163  cd Desktop
+  164  sudo sh TurnOffScreen.sh
+  165  sudo apt-get install firefox
+  166  cd Desktop
+  167  sudo sh TurnOffScreen.sh
+  168  cd Desktop
+  169  sudo sh TurnOffScreen.sh
+  170  lsusb
+  171  sudo apt-get autoremove
+  172  sudo apt-get clean
+  173  lsusb
+  174  gedit /etc/usb_modeswitch.conf
+  175  sudo gedit /etc/usb_modeswitch.conf
+  176  lsusb
+  177  sudo eject /etc/dev/008
+  178  ls
+  179  sudo eject /dev/bus/usb/002
+  180  sudo eject /dev/bus/usb/002/008
+  181  ls
+  182  lsusb
+  183  ls  /dev/bus/usb/002/
+  184  sudo eject  /dev/bus/usb/002/010
+  185  lsusb
+  186  sudo eject  /dev/sr0
+  187  lsusb
+  188  sudo eject  /dev/sr0
+  189  lsusb
+  190  sudo eject  /dev/sr0
+  191  lsusb
+  192  sudo eject  /dev/sr0
+  193  lsusb
+  194  sudo eject  /dev/sr0
+  195  lsusb
+  196  sudo eject  /dev/sr0
+  197  lsusb
+  198  sudo eject  /dev/sr0
+  199  lsusb
+  200  sudo eject  /dev/sr0
+  201  lsusb
+  202  sudo eject  /dev/sr0
+  203  lsusb
+  204  sudo eject  /dev/sr0
+  205  lsusb
+  206  sudo eject  /dev/sr0
+  207  lsusb
+  208  sudo eject  /dev/sr0
+  209  lsusb
+  210  sudo apt-get remove unity-lens-files
+  211  exit
+  212  cd Desktop
+  213  sudo sh TurnOffScreen.sh
+  214  sudo eject  /dev/sr0
+  215  lsusb
+  216  sudo eject  /dev/sr0
+  217  lsusb
+  218  sudo eject  /dev/sr0
+  219  lsusb
+  220  sudo eject  /dev/sr0
+  221  lsusb
+  222  sudo apt-get install nautilus-image-converter
+  223  sudo eject  /dev/sr0
+  224  lsusb
+  225  sudo eject  /dev/sr0
+  226  lsusb
+  227  sudo eject  /dev/sr0
+  228  lsusb
+  229  sudo eject  /dev/sr0
+  230  arise
+  231  lsusb
+  232  sudo eject  /dev/sr0
+  233  lsusb
+  234  sudo eject  /dev/sr0
+  235  lsusb
+  236  sudo eject  /dev/sr0
+  237  lsusb
+  238  sudo eject  /dev/sr0
+  239  lsusb
+  240  sudo eject  /dev/sr0
+  241  lsusb
+  242  sudo eject  /dev/sr0
+  243  lsusb
+  244  sudo eject  /dev/sr0
+  245  lsusb
+  246  sudo eject  /dev/sr0
+  247  lsusb
+  248  sudo eject  /dev/sr0
+  249  lsusb
+  250  kill 
+  251  kill LibraOffice
+  252  ls process
+  253  process
+  254  ls pid
+  255  pid
+  256  ps
+  257  ps -e
+  258  sudo kill 3651
+  259  ps -e
+  260  sudo kill 3744
+  261  ps -e
+  262  lsusb
+  263  sudo eject  /dev/sr0
+  264  lsusb
+  265  sudo eject  /dev/sr0
+  266  lsusb
+  267  sudo eject  /dev/sr0
+  268  lsusb
+  269  sudo eject  /dev/sr0
+  270  lsusb
+  271  sudo eject  /dev/sr0
+  272  lsusb
+  273  sudo eject  /dev/sr0
+  274  lsusb
+  275  sudo eject  /dev/sr0
+  276  lsusb
+  277  sudo eject  /dev/sr0
+  278  lsusb
+  279  sleep 10 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  280  sleep 5 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  281  lsusb
+  282  sudo eject  /dev/sr0
+  283  lsusb
+  284  sleep 5 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  285  history
+  286  sudo apt-get clean
+  287  sudo apt-get autoremove
+  288  lsusb
+  289  sudo eject  /dev/sr0
+  290  lsusb
+  291  sleep 5 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  292  lsusb
+  293  sudo eject  /dev/sr0
+  294  lsusb
+  295  sleep 5 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  296  lsusb
+  297  sudo eject  /dev/sr0
+  298  sleep 5 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  299  lsusb
+  300  sudo eject  /dev/sr0
+  301  sleep 5 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  302  lsusb
+  303  sudo eject  /dev/sr0
+  304  lsusb
+  305  sleep 10 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  306  cd Desktop
+  307  sudo sh TurnOffScreen.sh
+  308  lsusb
+  309  sudo eject  /dev/sr0
+  310  lsusb
+  311  sleep 10 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  312  lsusb
+  313  sudo eject  /dev/sr0
+  314  sleep 10 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  315  lsusb
+  316  sudo eject  /dev/sr0
+  317  lsusb
+  318  sleep 10 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  319  history
+  320  lsusb
+  321  sudo eject  /dev/sr0
+  322  lsusb
+  323  sleep 10 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  324  lsusb
+  325  sudo eject  /dev/sr0
+  326  arise
+  327  sudo eject  /dev/sr0
+  328  lsusb
+  329  sleep 10 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  330  dict
+  331  dict --help
+  332  lsusb
+  333  sudo eject  /dev/sr0
+  334  lsusb
+  335  sleep 10 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  336  sudo add-apt-repository "deb http://archive.ubuntu.com/ubuntu $(lsb_release -sc) universe"
+  337  sudo apt-get install dict
+  338  sudo apt-get install dictd
+  339  sudo apt-get install dict-gcide 
+  340  sudo apt-get install dict-wn
+  341  sudo apt-get install dict-devil
+  342  sudo apt-get install dict-moby-thesaurus
+  343  dict "activity"
+  344  $ sudo apt-get install myspell-en-gb
+  345  sudo apt-get install myspell-en-gb
+  346  sudo ln
+  347  ln --help
+  348  ls
+  349  cd /
+  350  ls
+  351  cd usr
+  352  cd share
+  353  ls
+  354  cd hunspell
+  355  ls
+  356  sudo ln -s hyph_en_US.dic hyph_en_GB.dic
+  357  cd
+  358  ls
+  359  sudo apt-get install hunspell-en-GB
+  360  lsusb
+  361  sudo eject  /dev/sr0
+  362  lsusb
+  363  sleep 10 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  364  lsusb
+  365  sudo eject  /dev/sr0
+  366  lsusb
+  367  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  368  lsusb
+  369  sudo eject  /dev/sr0
+  370  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  371  lsusb
+  372  sudo eject  /dev/sr0
+  373  lsusb
+  374  clear
+  375  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  376  lsusb
+  377  sudo eject  /dev/sr0
+  378  lsusb
+  379  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  380  lsusb
+  381  sudo eject  /dev/sr0
+  382  lsusb
+  383  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  384  lsusb
+  385  sudo eject  /dev/sr0
+  386  lsusb
+  387  clear
+  388  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  389  history
+  390  nautils-image-converter
+  391  ls
+  392  cd dhuriyananthar
+  393  ls
+  394  cd Dhuriyananthar
+  395  ls
+  396  cd Corr*
+  397  ls
+  398  conert *.jpg test.df
+  399  convet
+  400  convert
+  401  convert *.jpg pictures.pdf
+  402  ls
+  403  cd Desk*
+  404  cd phatch
+  405  cd turiy*
+  406  ls
+  407  convert *.jpg turiyaveli.pdf
+  408  ls
+  409  lsusb
+  410  sudo eject  /dev/sr0
+  411  lsusb
+  412  sudo eject  /dev/sr0
+  413  lsusb
+  414  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  415  lsusb
+  416  sudo eject  /dev/sr0
+  417  lsusb
+  418  clear
+  419  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  420  gs
+  421  ;s
+  422  ls
+  423  cd Desktop
+  424  cd phatch
+  425  ls
+  426  gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/default     -dNOPAUSE -dQUIET -dBATCH -dDetectDuplicateImages     -dCompressFonts=true -r150 -sOutputFile=output.pdf turiyaveli.pdf
+  427  convert -units PixelsPerInch turiyaveli.pdf -density 300 fileout.pdf
+  428  convert *.jpg turiyaveli.pdf
+  429  cd phatch/turiyanandar
+  430  cd phatch
+  431  cd phatc*
+  432  cd phatch
+  433  ls
+  434  cd Desktop
+  435  cd phatch
+  436  cd turiyanandar
+  437  convert *.jpg turiyaveli.pdf
+  438  exit
+  439  lsusb
+  440  sudo eject  /dev/sr0
+  441  lsusb
+  442  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  443  lsusb
+  444  sudo eject  /dev/sr0
+  445  lsusb
+  446  clear
+  447  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  448  lsusb
+  449  sudo eject  /dev/sr0
+  450  lsusb
+  451  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  452  lsusb
+  453  sudo eject  /dev/sr0
+  454  lsusb
+  455  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  456  lsusb
+  457  sudo eject  /dev/sr0
+  458  lsusb
+  459  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  460  lsusb
+  461  sudo eject  /dev/sr0
+  462  lsusb
+  463  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  464  lsusb
+  465  sudo eject  /dev/sr0
+  466  lsusb
+  467  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  468  lsusb
+  469  sudo eject  /dev/sr0
+  470  lsusb
+  471  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  472  ifconfig
+  473  lsusb
+  474  sudo eject  /dev/sr0
+  475  lsusb
+  476  sudo eject  /dev/sr0
+  477  lsusb
+  478  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  479  lsusb
+  480  sudo eject  /dev/sr0
+  481  lsusb
+  482  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  483  lsusb
+  484  sudo eject  /dev/sr0
+  485  lsusb
+  486  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  487  lsusb
+  488  sudo eject  /dev/sr0
+  489  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  490  sudo eject  /dev/sr0
+  491  lsusb
+  492  clear
+  493  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  494  lsusb
+  495  sudo eject  /dev/sr0
+  496  lsusb
+  497  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  498  lsusb
+  499  sudo eject  /dev/sr0
+  500  lsusb
+  501  clear
+  502  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  503  lsusb
+  504  sudo eject  /dev/sr0
+  505  lsusb
+  506  clear
+  507  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  508  lsusb
+  509  cd Desktop
+  510  Turn*.sh
+  511  sudo Turn*.sh
+  512  ls
+  513  sudo TurnOffScreen.sh
+  514  history
+  515  sudo sh Turn*.sh
+  516  lsusb
+  517  sudo sh Turn*.sh
+  518  lsusb
+  519  sudo eject  /dev/sr0
+  520  lsusb
+  521  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  522  lsusb
+  523  sudo eject  /dev/sr0
+  524  lsusb
+  525  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  526  lsusb
+  527  sudo eject  /dev/sr0
+  528  lsusb
+  529  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  530  sudo shutdown -P 60
+  531  lsusb
+  532  sudo eject  /dev/sr0
+  533  lsusb
+  534  clear
+  535  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  536  cd downloads
+  537  ls
+  538  cd Downloads
+  539  cd
+  540  ls
+  541  md
+  542  mdir
+  543  cd /opt/ && sudo tar -zxvf ~/Downloads/eclipse-*.tar.gz
+  544  clear
+  545  gksudo gedit /usr/share/applications/eclipse.desktop
+  546  sudo apt-get install gksu
+  547  gksudo gedit /usr/share/applications/eclipse.desktop
+  548  lsusb
+  549  sudo eject  /dev/sr0
+  550  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  551  javac
+  552  java
+  553  java -ver
+  554  java -version
+  555  sudo add-apt-repository ppa:eclipse-team/ppa && sudo apt-get update && sudo apt-get upgrade
+  556  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  557  java
+  558  javac
+  559  whereis java
+  560  sudo ln -s /usr/lib/jvm/java-7-openjdk/bin/javac /usr/bin/javac
+  561  javac
+  562  java -version
+  563  sudo eject  /dev/sr0
+  564  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  565  lsusb
+  566  sudo eject  /dev/sr0
+  567  lsusb
+  568  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  569  lsusb
+  570  sudo eject  /dev/sr0
+  571  lsusb
+  572  clear
+  573  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  574  lsusb
+  575  sudo eject  /dev/sr0
+  576  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  577  sudo eject  /dev/sr0
+  578  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  579  sudo eject  /dev/sr0
+  580  lsusb
+  581  clear
+  582  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  583  lsusb
+  584  sudo eject  /dev/sr0
+  585  lsusb
+  586  clear
+  587  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  588  lsusb
+  589  sudo eject  /dev/sr0
+  590  lsusb
+  591  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  592  lsusb
+  593  sudo eject  /dev/sr0
+  594  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  595  lsusb
+  596  sudo eject  /dev/sr0
+  597  lsusb
+  598  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  599  lsusb
+  600  sudo eject  /dev/sr0
+  601  clear
+  602  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  603  sudo eject  /dev/sr0
+  604  lsusb
+  605  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  606  lsusb
+  607  sudo eject  /dev/sr0
+  608  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  609  sudo eject  /dev/sr0
+  610  clear
+  611  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  612  sudo eject  /dev/sr0
+  613  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  614  java
+  615  whereis java
+  616  ls
+  617  sudo gedit .bashrc
+  618  source ~/.bashrc
+  619  javac /home/cloudsim-3.0.2/examples/org/cloudbus/cloudsim/examples/CloudSimExample1.java
+  620  path
+  621  PATH
+  622  ls
+  623  tree
+  624  pwd
+  625  sudo gedit .bashrc
+  626  source ~/.bashrc
+  627  javac /home/athman/cloudsim-3.0.2/examples/org/cloudbus/cloudsim/examples/CloudSimExample1.java
+  628  java org.cloudbus.cloudsim.examples.CloudSimExample1
+  629  sudo eject  /dev/sr0
+  630  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  631  sudo eject  /dev/sr0
+  632  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  633  sudo eject  /dev/sr0
+  634  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  635  cd Desktop
+  636  history
+  637  clear
+  638  sudo sh TurnOffScreen.sh
+  639  sudo eject  /dev/sr0
+  640  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  641  sudo eject  /dev/sr0
+  642  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  643  sudo eject  /dev/sr0
+  644  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  645  sudo eject  /dev/sr0
+  646  arise
+  647  sudo eject  /dev/sr0
+  648  lsusb
+  649  sudo eject  /dev/sr0
+  650  battery-stats
+  651  history
+  652  dict "egregore"
+  653  dict "station"
+  654  dict "egregore"
+  655  dict egregore
+  656  dict
+  657  dict --help
+  658  dict -D
+  659  dictd
+  660  sudo dictd
+  661  sudo eject  /dev/sr0
+  662  lsusb
+  663  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  664  lsusb
+  665  sudo eject  /dev/sr0
+  666  lsusb
+  667  c;ear
+  668  clear
+  669  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  670  notepadqq
+  671  Notepadqq
+  672  notepadqq
+  673  sudo apt-get install notepadqq
+  674  sudo add-apt-repository ppa:notepadqq-team/notepadqq
+  675  sudo apt-get install notepadqq
+  676  sudo apt-get update
+  677  sudo apt-get install notepadqq
+  678  sudo eject  /dev/sr0
+  679  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  680  sudo sh TurnOffScreen.sh
+  681  cd Desktop
+  682  sudo sh TurnOffScreen.sh
+  683  sudo shutdown -P 30
+  684  sudo sh TurnOffScreen.sh
+  685  sudo eject  /dev/sr0
+  686  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  687  dict drone
+  688  sudo eject  /dev/sr0
+  689  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  690  sudo eject  /dev/sr0
+  691  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  692  sudo eject  /dev/sr0
+  693  clear
+  694  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  695  sudo eject  /dev/sr0
+  696  arise
+  697  sudo eject  /dev/sr0
+  698  arise
+  699  sudo eject  /dev/sr0
+  700  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  701  sudo eject  /dev/sr0
+  702  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  703  sudo eject  /dev/sr0
+  704  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  705  sudo eject  /dev/sr0
+  706  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  707  sudo eject  /dev/sr0
+  708  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  709  sudo sh TurnOffScreen.sh
+  710  cd Desktop
+  711  sudo sh TurnOffScreen.sh
+  712  sudo eject  /dev/sr0
+  713  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  714  sudo eject  /dev/sr0
+  715  clear
+  716  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  717  sudo eject  /dev/sr0
+  718  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  719  sudo eject  /dev/sr0
+  720  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  721  sudo eject  /dev/sr0
+  722  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  723  dconf reset -f /com/canonical/indicator/datetime/ 
+  724  killall unity-panel-service
+  725  sudo eject  /dev/sr0
+  726  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  727  lsusb
+  728  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  729  panel
+  730  dict occurred
+  731  dict wonderfu
+  732  dict wonderful
+  733  sudo eject  /dev/sr0
+  734  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  735  sudo eject  /dev/sr0
+  736  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  737  sudo eject  /dev/sr0
+  738  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  739  npm
+  740  jitsu
+  741  npm install jitsu -g
+  742  jitsu
+  743  sudo npm install jitsu -g
+  744  jitsu
+  745  sudo npm install jitsu -g
+  746  mkdir myapp
+  747  cd myapp
+  748  jitsu install http-server
+  749  dir
+  750  ls
+  751  node bin/http-server
+  752  sudo eject  /dev/sr0
+  753  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  754  node
+  755  whereis node
+  756  gedit
+  757  node helloworld.js
+  758  sudo apt-get install nodejs
+  759  node --help
+  760  nodejs
+  761  node --version
+  762  sudo apt-get --purge remove node
+  763  sudo apt-get --purge remove nodejs
+  764  sudo apt-get autoremove
+  765  sudo apt-get clean
+  766  clear
+  767  sudo apt-get install nodejs
+  768  node --version
+  769  node
+  770  nodejs
+  771  node
+  772  sudo apt-get install nodejs
+  773  node --version
+  774  sudo apt-get purge nodejs*
+  775  sudo apt-get install curl
+  776  curl -sL https://deb.nodesource.com/setup_4.x | sudo bash -
+  777  clear
+  778  node
+  779  whereis node
+  780  sudo apt-get install nodejs
+  781  sudo apt-get autoremove
+  782  sudo apt-get clean
+  783  sudo apt-get purge nodejs*
+  784  sudo update-alternatives --install /usr/bin/node node /usr/bin/nodejs 10
+  785  sudo apt-get --purge remove node
+  786  sudo apt-get install nodejs-legacy
+  787  sudo ln -s /usr/bin/nodejs /usr/sbin/node
+  788  clear
+  789  node
+  790  clear
+  791  ls
+  792  node helloworld.js
+  793  cd Projects
+  794  cd Sahaj*
+  795  ls
+  796  node server.js
+  797  killall node
+  798  clear
+  799  ls
+  800  clear
+  801  ls
+  802  node server.js
+  803  cd Projects
+  804  cd Sahaj*
+  805  ls
+  806  lsusb
+  807  ls
+  808  node server1.js
+  809  ls
+  810  killall node
+  811  node server1.js
+  812  clear
+  813  node server1.js
+  814  clear
+  815  node server1.js
+  816  clear
+  817  node server1.js
+  818  killall node
+  819  clear
+  820  node server1.js
+  821  clear
+  822  node server1.js
+  823  lsusb
+  824  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  825  sudo eject  /dev/sr0
+  826  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  827  node server2.js
+  828  clear
+  829  killall node
+  830  node server2.js
+  831  clear
+  832  node server2.js
+  833  clear
+  834  node server2.js
+  835  killall node
+  836  clear
+  837  node server2.js
+  838  clear
+  839  node server2.js
+  840  killall node
+  841  clear
+  842  node server2.js
+  843  killall node
+  844  clear
+  845  node server2.js
+  846  clear
+  847  killall node
+  848  node server2.js
+  849  whereis node
+  850  node --version
+  851  node --help
+  852  sudo eject  /dev/sr0
+  853  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  854  dispatcher
+  855  npm install dispatcher
+  856  ws
+  857  clear
+  858  cd Projects
+  859  ;s
+  860  ls
+  861  cd Saha*
+  862  ls
+  863  clear
+  864  node server3.js
+  865  cd Desktop
+  866  sudo sh TrunOffScreen.sh
+  867  ls
+  868  sudo sh -TurnOffScreen.sh
+  869  sh --help
+  870  man sh
+  871  history
+  872  sudo eject  /dev/sr0
+  873  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  874  sudo eject  /dev/sr0
+  875  cd Projects
+  876  cd Sah*
+  877  clear
+  878  killall node
+  879  ls
+  880  cd projects
+  881  cd Projects
+  882  cd Sah*
+  883  ls
+  884  ls -ltr
+  885  ls
+  886  cd Projects
+  887  cd Sa*
+  888  ls
+  889  find . -type f -name '*~' -delete
+  890  ls
+  891  clear
+  892  ls
+  893  node server.js
+  894  ls
+  895  node server.js
+  896  npm
+  897  sudo apt-get install npm
+  898  npm list
+  899  npm ls
+  900  node server.js
+  901  ls
+  902  node server.js
+  903  clear
+  904  node server.js
+  905  npm install express --save
+  906  npm list
+  907  npm install cookie-parser --save
+  908  npm install multer --save
+  909  node newserver.js
+  910  killall node
+  911  clear
+  912  node newserver.js
+  913  clear
+  914  node newserver.js
+  915  cd
+  916  ls
+  917  cd ninja
+  918  ls
+  919  node app.js
+  920  npm install module  --save
+  921  node app.js
+  922  node server1.js
+  923  cd
+  924  cd Projects
+  925  cd Sa*
+  926  ls
+  927  node newserver.js
+  928  clear
+  929  killall node
+  930  clear
+  931  node server1.js
+  932  clear
+  933  node newserver.js
+  934  clear
+  935  node newserver.js
+  936  cleqar
+  937  clear
+  938  node newserver.js
+  939  node server.js
+  940  clear
+  941  node server.js
+  942  clear
+  943  node server.js
+  944  lsusb
+  945  clea
+  946  clear
+  947  lsusb
+  948  sudo eject  /dev/sr0
+  949  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  950  node server.js
+  951  cd Proj*
+  952  cd Sa*
+  953  node server.js
+  954  clear
+  955  node server.js
+  956  clear
+  957  lsusb
+  958  sudo eject  /dev/sr0
+  959  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  960  node server.js
+  961  clear
+  962  node server.js
+  963  clear
+  964  killall node
+  965  node server.js
+  966  sudo eject  /dev/sr0
+  967  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  968  cd Pro*
+  969  cd Sah*
+  970  clear
+  971  node server.js
+  972  clear
+  973  node server.js
+  974  killall node
+  975  node server.js
+  976  killall node
+  977  clear
+  978  killall node
+  979  node server.js
+  980  killall node
+  981  cd Projects
+  982  cd Sah*
+  983  node server.js
+  984  lsusb
+  985  sudo eject  /dev/sr0
+  986  lsusb
+  987  sudo eject  /dev/sr0
+  988  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  989  arise
+  990  sudo eject  /dev/sr0
+  991  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  992  sudo shutdown -P 50
+  993  sudo eject  /dev/sr0
+  994  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+  995  cd Pro*
+  996  cd Sah*
+  997  ls
+  998  node server.js
+  999  sudo eject  /dev/sr0
+ 1000  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1001  sudo eject  /dev/sr0
+ 1002  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1003  sudo eject  /dev/sr0
+ 1004  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1005  sudo eject  /dev/sr0
+ 1006  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1007  sudo eject  /dev/sr0
+ 1008  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1009  sudo apt-get install inkscape
+ 1010  cd Pro*
+ 1011  cd Sah*
+ 1012  node server.js
+ 1013  cd Pro*
+ 1014  cd Sah*
+ 1015  clear
+ 1016  node server.js
+ 1017  cd Pro*
+ 1018  cd Sah*
+ 1019  clear
+ 1020  node server.js
+ 1021  sudo eject  /dev/sr0
+ 1022  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1023  sudo eject  /dev/sr0
+ 1024  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1025  sudo eject  /dev/sr0
+ 1026  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1027  sudo eject  /dev/sr0
+ 1028  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1029  cd Pro*
+ 1030  cd Sah*
+ 1031  clear
+ 1032  ls
+ 1033  node server.js
+ 1034  killall node
+ 1035  shutdown -i
+ 1036  shutdown -hellp
+ 1037  shutdown -help
+ 1038  shutdown -i 00
+ 1039  shutdown -h
+ 1040  shutdown -00
+ 1041  shutdown -0
+ 1042  shutdown 0
+ 1043  sudo shutdown 0
+ 1044  lsusb
+ 1045  sudo eject  /dev/sr0
+ 1046  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1047  dict excrusion
+ 1048  dict excursion
+ 1049  clear
+ 1050  cd Pro*
+ 1051  cd Sah*
+ 1052  node server.js
+ 1053  last
+ 1054  sudo eject  /dev/sr0
+ 1055  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1056  sudo add-apt-repository ppa:webupd8team/brackets
+ 1057  sudo apt-get update && apt-get install brackets
+ 1058  sudo apt-get install brackets
+ 1059  cd Pro*
+ 1060  cd Sah*
+ 1061  clear
+ 1062  node server.js
+ 1063  sudo eject  /dev/sr0
+ 1064  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1065  sudo eject  /dev/sr0
+ 1066  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1067  dict ply
+ 1068  dict helm
+ 1069  sudo eject  /dev/sr0
+ 1070  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1071  sudo eject  /dev/sr0
+ 1072  lsusb
+ 1073  sudo eject  /dev/sr0
+ 1074  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1075  sudo eject  /dev/sr0
+ 1076  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1077  cd Desktop
+ 1078  ls
+ 1079  sudo sh TurnOffScreen.sh
+ 1080  sudo shutdown 0
+ 1081  sudo eject  /dev/sr0
+ 1082  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1083  sudo eject  /dev/sr0
+ 1084  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1085  arise
+ 1086  sudo eject  /dev/sr0
+ 1087  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1088  sudo eject  /dev/sr0
+ 1089  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1090  sudo eject  /dev/sr0
+ 1091  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1092  cd Desktop
+ 1093  cd b*
+ 1094  ls
+ 1095  cd blogg*
+ 1096  ls
+ 1097  convert
+ 1098  convert -delay 100 -loop 0 frame-1.jpg frame2.jpg test.gif
+ 1099  convert -delay 100 -loop 0 frame-1.jpg frame-2.jpg test.gif
+ 1100  ls
+ 1101  convert -delay 10 -loop 0 frame-1.jpg frame-2.jpg test.gif
+ 1102  sudo eject  /dev/sr0
+ 1103  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1104  sudo eject  /dev/sr0
+ 1105  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1106  sudo eject  /dev/sr0
+ 1107  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1108  sudo eject  /dev/sr0
+ 1109  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1110  lsusb
+ 1111  sudo eject  /dev/sr0
+ 1112  lsusb
+ 1113  cd Pro*
+ 1114  cd Sah*
+ 1115  clear
+ 1116  ls
+ 1117  node server.js
+ 1118  lsusb
+ 1119  sudo eject  /dev/sr0
+ 1120  clear
+ 1121  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1122  firefox
+ 1123  sudo eject  /dev/sr0
+ 1124  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1125  sudo eject  /dev/sr0
+ 1126  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1127  cd Projects
+ 1128  cd Sa*
+ 1129  ls
+ 1130  node server.js
+ 1131  kill allnodes
+ 1132  killall node
+ 1133  node server.js
+ 1134  killall node
+ 1135  clear
+ 1136  node server.js
+ 1137  killall node
+ 1138  node server.js
+ 1139  sudo eject  /dev/sr0
+ 1140  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1141  sudo eject  /dev/sr0
+ 1142  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1143  cd Projects
+ 1144  cd Sa*
+ 1145  ls
+ 1146  node server.js
+ 1147  clear
+ 1148  node server.js
+ 1149  clear
+ 1150  node server.js
+ 1151  clear
+ 1152  node server.js
+ 1153  sudo eject  /dev/sr0
+ 1154  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1155  node server.js
+ 1156  cd Proje*
+ 1157  cd Sah*
+ 1158  clear
+ 1159  node server.js
+ 1160  clear
+ 1161  node server.js
+ 1162  sudo eject  /dev/sr0
+ 1163  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1164  clear
+ 1165  gedit
+ 1166  clear
+ 1167  sudo eject  /dev/sr0
+ 1168  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1169  nautilus
+ 1170  cd Proje*
+ 1171  cd Sah*
+ 1172  node server.js
+ 1173  clear
+ 1174  node server.js
+ 1175  killall nodes
+ 1176  node server.js
+ 1177  cd Proje*
+ 1178  cd Sah*
+ 1179  node server.js
+ 1180  clear
+ 1181  cd
+ 1182  clear
+ 1183  sudo eject  /dev/sr0
+ 1184  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1185  cd Proje*
+ 1186  cd Sah*
+ 1187  node server.js
+ 1188  killall node
+ 1189  killall nodes
+ 1190  clear
+ 1191  cd
+ 1192  clear
+ 1193  ls
+ 1194  cd HTML*
+ 1195  ls
+ 1196  node nodexml.js
+ 1197  npm
+ 1198  npm install xmldom
+ 1199  node nodexml.js
+ 1200  node readastext.js
+ 1201  lsusb
+ 1202  sudo eject  /dev/sr0
+ 1203  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1204  lsusb
+ 1205  sudo eject  /dev/sr0
+ 1206  lsusb
+ 1207  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1208  lsusb
+ 1209  sudo eject  /dev/sr0
+ 1210  lsusb
+ 1211  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1212  sudo eject  /dev/sr0
+ 1213  lsusb
+ 1214  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1215  lsusb
+ 1216  cd Proje*
+ 1217  cd Sah*
+ 1218  node server.js
+ 1219  clear
+ 1220  cd
+ 1221  clear
+ 1222  sudo eject  /dev/sr0
+ 1223  lsusb
+ 1224  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1225  dict bathe
+ 1226  dict perversion
+ 1227  dict abberrant
+ 1228  dict abberant
+ 1229  dict aberant
+ 1230  dict aberrant
+ 1231  lsusb
+ 1232  sudo eject  /dev/sr0
+ 1233  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1234  npm
+ 1235  npm info
+ 1236  npm -s
+ 1237  npm -ls
+ 1238  npm-s
+ 1239  npm-ls
+ 1240  npm ls list
+ 1241  npm ls ll
+ 1242  npm ls
+ 1243  npm list -g --depth=0
+ 1244  npm list -g
+ 1245  clear
+ 1246  npm install jsonfile --save
+ 1247  sudo eject  /dev/sr0
+ 1248  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1249  sudo eject  /dev/sr0
+ 1250  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1251  sudo eject  /dev/sr0
+ 1252  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1253  sudo eject  /dev/sr0
+ 1254  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1255  sudo eject  /dev/sr0
+ 1256  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1257  sudo eject  /dev/sr0
+ 1258  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1259  sudo eject  /dev/sr0
+ 1260  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1261  sudo eject  /dev/sr0
+ 1262  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1263  sudo eject  /dev/sr0
+ 1264  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1265  sudo eject  /dev/sr0
+ 1266  lsusb
+ 1267  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1268  lsusb
+ 1269  sudo eject  /dev/sr0
+ 1270  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1271  sudo eject  /dev/sr0
+ 1272  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1273  sudo eject  /dev/sr0
+ 1274  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1275  lsusb
+ 1276  cleqar
+ 1277  history
+ 1278  lsusb
+ 1279  sudo eject  /dev/sr0
+ 1280  lsusb
+ 1281  sudo eject  /dev/sr0
+ 1282  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1283  sudo eject  /dev/sr0
+ 1284  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1285  sudo eject  /dev/sr0
+ 1286  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1287  sudo eject  /dev/sr0
+ 1288  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1289  sudo eject  /dev/sr0
+ 1290  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1291  sudo apt-get remove --purge indicator-datetime
+ 1292  sudo eject  /dev/sr0
+ 1293  sudo apt-get remove --purge indicator-datetime
+ 1294  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1295  sudo apt-get remove --purge indicator-datetime
+ 1296  sudo eject  /dev/sr0
+ 1297  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1298  sudo eject  /dev/sr0
+ 1299  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1300  sudo eject  /dev/sr0
+ 1301  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1302  sudo eject  /dev/sr0
+ 1303  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1304  sudo eject  /dev/sr0
+ 1305  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1306  sudo eject  /dev/sr0
+ 1307  lsusb
+ 1308  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1309  lsusb
+ 1310  sudo eject  /dev/sr0
+ 1311  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1312  sudo apt-get remove --purge indicator-datetime
+ 1313  sudo eject  /dev/sr0
+ 1314  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1315  sudo apt-get install ubuntu-desktop
+ 1316  sudo eject  /dev/sr0
+ 1317  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1318  sudo eject  /dev/sr0
+ 1319  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1320  sudo eject  /dev/sr0
+ 1321  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1322  sudo eject  /dev/sr0
+ 1323  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1324  history
+ 1325  cd Desktop
+ 1326  ls
+ 1327  sudo sh TurnOffScreen.sh
+ 1328  sudo eject  /dev/sr0
+ 1329  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1330  sudo eject  /dev/sr0
+ 1331  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1332  sudo eject  /dev/sr0
+ 1333  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1334  node server.js
+ 1335  cd Projects
+ 1336  cd SahajFitness
+ 1337  ls
+ 1338  node server.js
+ 1339  sudo eject  /dev/sr0
+ 1340  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1341  sudo eject  /dev/sr0
+ 1342  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1343  sudo eject  /dev/sr0
+ 1344  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1345  node server.js
+ 1346  cd Pro*
+ 1347  cd Sah*
+ 1348  dir
+ 1349  node server.js
+ 1350  cd Pro*
+ 1351  cd Sah*
+ 1352  ls
+ 1353  node server.js
+ 1354  killall node
+ 1355  killall nodes
+ 1356  killall node
+ 1357  clear
+ 1358  node server.js
+ 1359  clear
+ 1360  node server.js
+ 1361  clear
+ 1362  sudo eject  /dev/sr0
+ 1363  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1364  node server.js
+ 1365  clear
+ 1366  node server.js
+ 1367  clear
+ 1368  node server.js
+ 1369  clear
+ 1370  node server.js
+ 1371  clear
+ 1372  node server.js
+ 1373  clear
+ 1374  npm ls
+ 1375  npm install buffer
+ 1376  node server.js
+ 1377  clear
+ 1378  node server.js
+ 1379  clear
+ 1380  node server.js
+ 1381  clear
+ 1382  npm install -g node-inspector
+ 1383  npm install node-monkey
+ 1384  node server.js
+ 1385  clear
+ 1386  node server.js
+ 1387  killall node
+ 1388  clear
+ 1389  node server.js
+ 1390  clear
+ 1391  cd Proj*
+ 1392  cd Sah*
+ 1393  ls
+ 1394  node server.js
+ 1395  clear
+ 1396  node server.js
+ 1397  clear
+ 1398  node server.js
+ 1399  clear
+ 1400  node server.js
+ 1401  clear
+ 1402  ls
+ 1403  find .-name"*~"
+ 1404  find
+ 1405  find . -name “*~” -exec rm -rf {} 
+ 1406  find . -name “*~” -exec rm -rf {} \;
+ 1407  ls
+ 1408  find . -name \*~ | xargs rm
+ 1409  ls
+ 1410  node server.js
+ 1411  ls
+ 1412  find . -name \*~ | xargs rm
+ 1413  ls
+ 1414  delete new 1~
+ 1415  ls
+ 1416  delete new 1~
+ 1417  find . -name \*~ | xargs rm
+ 1418  ls
+ 1419  node server.js
+ 1420  find . -name \*~ | xargs rm
+ 1421  ls
+ 1422  node server.js
+ 1423  sudo eject  /dev/sr0
+ 1424  ls
+ 1425  lsusb
+ 1426  sudo eject  /dev/sr0
+ 1427  arise
+ 1428  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1429  clear
+ 1430  sudo eject  /dev/sr0
+ 1431  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1432  cd Pro*
+ 1433  cd Sah*
+ 1434  ls
+ 1435  find . -name \*~ | xargs rm
+ 1436  ls
+ 1437  node server.js
+ 1438  killall node
+ 1439  clear
+ 1440  cd Proj*
+ 1441  cd Saha*
+ 1442  ls
+ 1443  node server.js
+ 1444  clear
+ 1445  find . -name \*~ | xargs rm
+ 1446  ls
+ 1447  node server.js
+ 1448  clear
+ 1449  node server.js
+ 1450  clear
+ 1451  find . -name \*~ | xargs rm
+ 1452  ls
+ 1453  node server.js
+ 1454  clear
+ 1455  node server.js
+ 1456  clear
+ 1457  find . -name \*~ | xargs rm
+ 1458  clear
+ 1459  node server.js
+ 1460  clear
+ 1461  find . -name \*~ | xargs rm
+ 1462  clear
+ 1463  node server.js
+ 1464  cd Pro*
+ 1465  cd Sah*
+ 1466  clear
+ 1467  node server.js
+ 1468  ssudo eject  /dev/sr0
+ 1469  sudo eject  /dev/sr0
+ 1470  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1471  clear
+ 1472  cd Pro*
+ 1473  cd Sah*
+ 1474  node server.js
+ 1475  sudo eject  /dev/sr0
+ 1476  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1477  sudo eject  /dev/sr0
+ 1478  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1479  npm install [-g] shelljs
+ 1480  sudo npm install [-g] shelljs
+ 1481  sudo npm install  shelljs
+ 1482  cd Pro*
+ 1483  cd Sah*
+ 1484  ls
+ 1485  node server.js
+ 1486  clear
+ 1487  node server.js
+ 1488  clear
+ 1489  node server.js
+ 1490  clear
+ 1491  node server.js
+ 1492  node version
+ 1493  node
+ 1494  node server.js
+ 1495  clear
+ 1496  node server.js
+ 1497  clear
+ 1498  node server.js
+ 1499  clear
+ 1500  node server.js
+ 1501  clear
+ 1502  node server.js
+ 1503  clear
+ 1504  node server.js
+ 1505  clear
+ 1506  node server.js
+ 1507  clear
+ 1508  node server.js
+ 1509  clear
+ 1510  node server.js
+ 1511  ckear
+ 1512  clear
+ 1513  node server.js
+ 1514  clear
+ 1515  node server.js
+ 1516  clear
+ 1517  node server.js
+ 1518  sudo eject  /dev/sr0
+ 1519  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1520  cat ~/.bash_history
+ 1521  history > myhistory.txt
+ 1522  ls
+ 1523  sudo gedit ~/.bashrc
+ 1524  cd ~/Projects/SahajFitness
+ 1525  ls
+ 1526  node server.js
+ 1527  sudo eject  /dev/sr0
+ 1528  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1529  node server.js
+ 1530  cd ~/Projects/SahajFitness
+ 1531  clear
+ 1532  node server.js
+ 1533  clear
+ 1534  node server.js
+ 1535  sclear
+ 1536  CLEAR
+ 1537  clear
+ 1538  node server.js
+ 1539  clear
+ 1540  node server.js
+ 1541  ls
+ 1542  node
+ 1543  clear
+ 1544  node server.js
+ 1545  clear
+ 1546  node server.js
+ 1547  clear
+ 1548  node server.js
+ 1549  clear
+ 1550  node server.js
+ 1551  clear
+ 1552  node sed
+ 1553  node
+ 1554  clear
+ 1555  node server.js
+ 1556  clear
+ 1557  node server.js
+ 1558  clear
+ 1559  node server.js
+ 1560  clear
+ 1561  node server.js
+ 1562  clear
+ 1563  node server.js
+ 1564  clear
+ 1565  node server.js
+ 1566  clear
+ 1567  node server.js
+ 1568  sudo eject  /dev/sr0
+ 1569  lsusb
+ 1570  sudo eject  /dev/sr0
+ 1571  lsusb
+ 1572  sudo eject  /dev/sr0
+ 1573  lsusb
+ 1574  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1575  ren iamthat.php iamthat.mp3
+ 1576  name
+ 1577  rename
+ 1578  rename iamthat.php iamthat.mp3
+ 1579  mv iamthat.php iamthat.mp3
+ 1580  ls
+ 1581  sudo eject  /dev/sr0
+ 1582  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1583  cd ~/Projects/SahajFitness
+ 1584  node server.js
+ 1585  ls
+ 1586  mv download.php yoga_alpha_01.mp3
+ 1587  sudo eject  /dev/sr0
+ 1588  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1589  clear
+ 1590  cd ~/Projects/SahajFitness
+ 1591  node server.js
+ 1592  killall node
+ 1593  clear
+ 1594  node server.js
+ 1595  ls
+ 1596  node
+ 1597  node -v
+ 1598  clear
+ 1599  node testserver.js
+ 1600  cd ~/Projects/SahajFitness
+ 1601  node testserver.js
+ 1602  clear
+ 1603  killall node
+ 1604  node server3.js
+ 1605  node simpleserver.js
+ 1606  node synchronous.js
+ 1607  clear
+ 1608  sudo eject  /dev/sr0
+ 1609  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1610  mv download.php yoga_alpha_02.mp3
+ 1611  mv download.php yoga_alpha_03.mp3
+ 1612  dict liverage
+ 1613  dict leverage
+ 1614  cd ~/Projects/SahajFitness
+ 1615  npm install async.js
+ 1616  node server3.js
+ 1617  node server.js
+ 1618  lsusb
+ 1619  sudo eject  /dev/sr0
+ 1620  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1621  cd ~/Projects/SahajFitness
+ 1622  node server.js
+ 1623  clear
+ 1624  node server.js
+ 1625  clear
+ 1626  node server.js
+ 1627  clear
+ 1628  node server.js
+ 1629  sudo eject  /dev/sr0
+ 1630  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1631  clear
+ 1632  node server.js
+ 1633  clear
+ 1634  node server.js
+ 1635  clear
+ 1636  node server.js
+ 1637  clear
+ 1638  killall node
+ 1639  clear
+ 1640  node server.js
+ 1641  sudo eject  /dev/sr0
+ 1642  clear
+ 1643  cd ~/Projects/SahajFitness
+ 1644  clear
+ 1645  node server.js
+ 1646  sudo eject  /dev/sr0
+ 1647  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1648  cd ~/Projects/SahajFitness
+ 1649  node server.js
+ 1650  sudo eject  /dev/sr0
+ 1651  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1652  sudo eject  /dev/sr0
+ 1653  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1654  cd ~/Projects/SahajFitness
+ 1655  node server.js
+ 1656  clear
+ 1657  ls
+ 1658  node server_readfile.js
+ 1659  clear
+ 1660  node server_readfile.js
+ 1661  clear
+ 1662  node server_readfile.js
+ 1663  clear
+ 1664  node server.js
+ 1665  clear
+ 1666  node server.js
+ 1667  clear
+ 1668  node server.js
+ 1669  sudo eject  /dev/sr0
+ 1670  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1671  sudo eject  /dev/sr0
+ 1672  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1673  sudo eject  /dev/sr0
+ 1674  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1675  sudo eject  /dev/sr0
+ 1676  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1677  cd ~/Projects/SahajFitness
+ 1678  node server.js
+ 1679  clear
+ 1680  node server.js
+ 1681  clear
+ 1682  killall node
+ 1683  node server.js
+ 1684  clear
+ 1685  node server.js
+ 1686  cd ~/Projects/SahajFitness
+ 1687  node server.js
+ 1688  clear
+ 1689  node server.js
+ 1690  cd ~/Projects/SahajFitness
+ 1691  node server.js
+ 1692  sudo eject  /dev/sr0
+ 1693  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1694  ls
+ 1695  lsusb
+ 1696  cd ~/Projects/SahajFitness
+ 1697  mkdir -p test
+ 1698  ls
+ 1699  mkdir -p test1
+ 1700  cd images
+ 1701  cp -r /* /test1
+ 1702  cp -r /* test1
+ 1703  cp -r /* /home/Projects/SahajFitness/test1
+ 1704  cp -r /* /Home/Projects/SahajFitness/test1
+ 1705  cp -r /* /home/athman/Projects/SahajFitness/test1
+ 1706  sudo cp -r /* /home/athman/Projects/SahajFitness/test1
+ 1707  cd ~/Projects/SahajFitness
+ 1708  cp -r /home/athman/Projects/SahajFitness/images/* /home/athman/Projects/SahajFitness/test1
+ 1709  mkdir -p test1
+ 1710  cp -r /home/athman/Projects/SahajFitness/images/* /home/athman/Projects/SahajFitness/test1
+ 1711  cd test1
+ 1712  ls
+ 1713  cd download
+ 1714  ls
+ 1715  exit
+ 1716  sudo eject  /dev/sr0
+ 1717  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1718  cd ~/Projects/SahajFitness
+ 1719  clear
+ 1720  node server.js
+ 1721  clear
+ 1722  node server.js
+ 1723  sudo eject  /dev/sr0
+ 1724  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1725  cd ~/Projects/SahajFitness
+ 1726  node server.js
+ 1727  killall node
+ 1728  clear
+ 1729  node server.js
+ 1730  cd ~/Projects/SahajFitness
+ 1731  node server.js
+ 1732  cd ~/Projects/SahajFitness
+ 1733  node server.js
+ 1734  sudo eject  /dev/sr0
+ 1735  lsusb
+ 1736  sudo eject  /dev/sr0
+ 1737  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1738  clear
+ 1739  node simpleserver.js
+ 1740  cd ~/Projects/SahajFitness
+ 1741  clear
+ 1742  node simpleserver.js
+ 1743  clear
+ 1744  node simpleserver.js
+ 1745  clear
+ 1746  node server.js
+ 1747  clear
+ 1748  rm
+ 1749  rm --help
+ 1750  ls
+ 1751  rm -rf test
+ 1752  ls
+ 1753  rm -rf test
+ 1754  ls
+ 1755  node server.js
+ 1756  clear
+ 1757  lsusb
+ 1758  sudo eject  /dev/sr0
+ 1759  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1760  cd ~/Projects/SahajFitness
+ 1761  node server.js
+ 1762  clear
+ 1763  node server.js
+ 1764  clear
+ 1765  node server.js
+ 1766  sudo eject  /dev/sr0
+ 1767  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1768  node server.js
+ 1769  sudo eject  /dev/sr0
+ 1770  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1771  cd ~/Projects/SahajFitness
+ 1772  clear
+ 1773  node server.js
+ 1774  clear
+ 1775  node server.js
+ 1776  clear
+ 1777  node server.js
+ 1778  clear
+ 1779  node server.js
+ 1780  clear
+ 1781  node server.js
+ 1782  clear
+ 1783  node server.js
+ 1784  clear
+ 1785  node server.js
+ 1786  clear
+ 1787  node server.js
+ 1788  clear
+ 1789  node server.js
+ 1790  clear
+ 1791  node server.js
+ 1792  clear
+ 1793  node server.js
+ 1794  clear
+ 1795  node server.js
+ 1796  sudo eject  /dev/sr0
+ 1797  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1798  sudo eject  /dev/sr0
+ 1799  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1800  sudo -H gedit /etc/rc.local
+ 1801  clear
+ 1802  cd ~/Projects/SahajFitness
+ 1803  clear
+ 1804  node server.js
+ 1805  clear
+ 1806  node server.js
+ 1807  sudo eject  /dev/sr0
+ 1808  lsusb
+ 1809  sudo eject  /dev/sr0
+ 1810  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1811  sudo eject  /dev/sr0
+ 1812  lsusb
+ 1813  clear
+ 1814  cd ~/Projects/SahajFitness
+ 1815  node server.js
+ 1816  lsusb
+ 1817  sudo eject  /dev/sr0
+ 1818  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1819  node server.js
+ 1820  clear
+ 1821  node server_jsondb.js
+ 1822  clear
+ 1823  node server_jsondb.js
+ 1824  clear
+ 1825  node server_jsondb.js
+ 1826  killall node
+ 1827  clear
+ 1828  node server_jsondb.js
+ 1829  killall
+ 1830  killall node
+ 1831  node server_jsondb.js
+ 1832  ps -ax|grep node
+ 1833  clear
+ 1834  lsusb
+ 1835  node server_jsondb.js
+ 1836  clear
+ 1837  node server_jsondb.js
+ 1838  cd ~/Projects/SahajFitness
+ 1839  node server_jsondb.js
+ 1840  clear
+ 1841  killall node
+ 1842  clear
+ 1843  node server_jsondb.js
+ 1844  clear
+ 1845  node server_jsondb.js
+ 1846  clear
+ 1847  node server_jsondb.js
+ 1848  clear
+ 1849  node server_jsondb.js
+ 1850  clear
+ 1851  node server_jsondb.js
+ 1852  clear
+ 1853  node server_jsondb.js
+ 1854  clear
+ 1855  node server_jsondb.js
+ 1856  clear
+ 1857  node server_jsondb.js
+ 1858  clear
+ 1859  node server_jsondb.js
+ 1860  sudo eject  /dev/sr0
+ 1861  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1862  sudo eject  /dev/sr0
+ 1863  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1864  cd ~/Projects/SahajFitness
+ 1865  node server_jsondb.js
+ 1866  clear
+ 1867  node server_jsondb.js
+ 1868  cd ~/Projects/SahajFitness
+ 1869  node server_jsondb.js
+ 1870  sudo eject  /dev/sr0
+ 1871  clear
+ 1872  killall node
+ 1873  clear
+ 1874  node server_jsondb.js
+ 1875  cd ~/Projects/SahajFitness
+ 1876  node server_jsondb.js
+ 1877  clear
+ 1878  node server_jsondb.js
+ 1879  sudo eject  /dev/sr0
+ 1880  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1881  node server_jsondb.js
+ 1882  cd ~/Projects/SahajFitness
+ 1883  node server_jsondb.js
+ 1884  clear
+ 1885  node server_jsondb.js
+ 1886  cd ~/Projects/SahajFitness
+ 1887  node server_jsondb.js
+ 1888  clear
+ 1889  node server_jsondb.js
+ 1890  clear
+ 1891  node server_jsondb.js
+ 1892  clear
+ 1893  node server_jsondb.js
+ 1894  clear
+ 1895  node server_jsondb.js
+ 1896  clear
+ 1897  node server_jsondb.js
+ 1898  clear
+ 1899  node server_jsondb.js
+ 1900  clear
+ 1901  node server_jsondb.js
+ 1902  sudo eject  /dev/sr0
+ 1903  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1904  clear
+ 1905  cd ~/Projects/SahajFitness
+ 1906  clear
+ 1907  node server_jsondb.js
+ 1908  clear
+ 1909  node server_jsondb.js
+ 1910  clear
+ 1911  node server_jsondb.js
+ 1912  clear
+ 1913  node server_jsondb.js
+ 1914  clear
+ 1915  node server_jsondb.js
+ 1916  clear
+ 1917  node server_jsondb.js
+ 1918  clear
+ 1919  node server_jsondb.js
+ 1920  sudo eject  /dev/sr0
+ 1921  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1922  cd ~/Projects/SahajFitness
+ 1923  node server_jsondb.js
+ 1924  clear
+ 1925  sudo eject  /dev/sr0
+ 1926  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1927  node server_jsondb.js
+ 1928  clear
+ 1929  node server_jsondb.js
+ 1930  clear
+ 1931  node server_jsondb.js
+ 1932  sudo eject  /dev/sr0
+ 1933  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1934  sudo eject  /dev/sr0
+ 1935  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1936  cd desktop
+ 1937  cd Desktop
+ 1938  sh TurnOff.sh
+ 1939  ls
+ 1940  sh TurnOffScreen.sh
+ 1941  ls
+ 1942  cd Desktop
+ 1943  ls
+ 1944  node testserver.js
+ 1945  clear
+ 1946  node testserver.js
+ 1947  clear
+ 1948  node testserver.js
+ 1949  clear
+ 1950  node testserver.js
+ 1951  clear
+ 1952  killall node
+ 1953  clear
+ 1954  ls
+ 1955  clear
+ 1956  clearr
+ 1957  cd ~/Projects/SahajFitness
+ 1958  node server_jsondb.js
+ 1959  clea
+ 1960  clear
+ 1961  node server_jsondb.js
+ 1962  cd Desktop
+ 1963  sh TurnOffScreen.sh
+ 1964  clear
+ 1965  cd ~/Projects/SahajFitness
+ 1966  node server_jsondb.js
+ 1967  clear
+ 1968  node server_jsondb.js
+ 1969  clear
+ 1970  node server_jsondb.js
+ 1971  cd ~/Projects/SahajFitness
+ 1972  node server_jsondb.js
+ 1973  clear
+ 1974  node server_jsondb.js
+ 1975  clear
+ 1976  node server_jsondb.js
+ 1977  clear
+ 1978  node server_jsondb.js
+ 1979  clear
+ 1980  node server_jsondb.js
+ 1981  cd ~/Projects/SahajFitness
+ 1982  node server_jsondb.js
+ 1983  clear
+ 1984  node server_jsondb.js
+ 1985  cleqar
+ 1986  clear
+ 1987  node server_jsondb.js
+ 1988  clear
+ 1989  node server_jsondb.js
+ 1990  clear
+ 1991  sudo eject  /dev/sr0
+ 1992  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 1993  node server_jsondb.js
+ 1994  clear
+ 1995  node server_jsondb.js
+ 1996  clear
+ 1997  node server_jsondb.js
+ 1998  clear
+ 1999  node server_jsondb.js
+ 2000  cd Desktop
+ 2001  sh TurnOffScreen.sh
+ 2002  cd ~/Projects/SahajFitness
+ 2003  ls
+ 2004  find . -name \*~ | xargs rm
+ 2005  ls
+ 2006  node server.js
+ 2007  clear
+ 2008  sudo eject  /dev/sr0
+ 2009  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2010  node server.js
+ 2011  clear
+ 2012  node server.js
+ 2013  clear
+ 2014  node server.js
+ 2015  clear
+ 2016  node server.js
+ 2017  clear
+ 2018  node server.js
+ 2019  clear
+ 2020  node server.js
+ 2021  clear
+ 2022  node server.js
+ 2023  sudo eject  /dev/sr0
+ 2024  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2025  sudo eject  /dev/sr0
+ 2026  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2027  sudo eject  /dev/sr0
+ 2028  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2029  sudo eject  /dev/sr0
+ 2030  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2031  sudo eject  /dev/sr0
+ 2032  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2033  sudo eject  /dev/sr0
+ 2034  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2035  sudo eject  /dev/sr0
+ 2036  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2037  sudo eject  /dev/sr0
+ 2038  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2039  sudo eject  /dev/sr0
+ 2040  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2041  find . -name \*~ | xargs rm
+ 2042  ls
+ 2043  cd ~/Projects/SahajFitness
+ 2044  node server.js
+ 2045  clear
+ 2046  node server.js
+ 2047  clear
+ 2048  node server.js
+ 2049  clear
+ 2050  node server.js
+ 2051  clear
+ 2052  sh TurnOffScreen.sh
+ 2053  cd Desktop
+ 2054  cdcd
+ 2055  cd\
+ 2056  clear
+ 2057  cd Desktop
+ 2058  sh TurnOffScreen.sh
+ 2059  cd ~/Projects/SahajFitness
+ 2060  clear
+ 2061  node server.js
+ 2062  sudo eject  /dev/sr0
+ 2063  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2064  cd ~/Projects/SahajFitness
+ 2065  node server.js
+ 2066  clear
+ 2067  cd ~/Projects/SahajFitness
+ 2068  node server.js
+ 2069  sudo eject  /dev/sr0
+ 2070  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2071  node server.js
+ 2072  clear
+ 2073  cd Desktop
+ 2074  cd
+ 2075  cd Desktop
+ 2076  sh TurnOffScreen.sh
+ 2077  sudo eject  /dev/sr0
+ 2078  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2079  sudo eject  /dev/sr0
+ 2080  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2081  cd Desktop
+ 2082  sh TurnOffScreen.sh
+ 2083  cd
+ 2084  cd Down*
+ 2085  cd fla*
+ 2086  ls
+ 2087  cd Vi*
+ 2088  ls
+ 2089  ffmpeg -i test.mp4
+ 2090  ffmpg -i test.mp4
+ 2091  ffmpeg
+ 2092  cd ~/Projects/SahajFitness
+ 2093  node server.js
+ 2094  clear
+ 2095  sudo eject  /dev/sr0
+ 2096  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2097  node server.js
+ 2098  cd ~/Projects/SahajFitness
+ 2099  node server.js
+ 2100  clear
+ 2101  cd
+ 2102  cd Desktop
+ 2103  sh -TurnOffScreen.sh
+ 2104  sh TurnOffScreen.sh
+ 2105  cd ~/Projects/SahajFitness
+ 2106  cd ~/Desktop
+ 2107  cd ~/Projects/SahajFitness
+ 2108  clear
+ 2109  node server.js
+ 2110  clear
+ 2111  node server.js
+ 2112  clear
+ 2113  sudo eject  /dev/sr0
+ 2114  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2115  node server.js
+ 2116  cd ~/Desktop
+ 2117  sh TurnOffScreen.sh
+ 2118  sudo eject  /dev/sr0
+ 2119  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2120  cd ~/Projects/SahajFitness
+ 2121  clear
+ 2122  node server.js
+ 2123  node jsondb_server.js
+ 2124  node server_jsondb.js
+ 2125  clear
+ 2126  node server.js
+ 2127  clear
+ 2128  node server.js
+ 2129  clear
+ 2130  node server.js
+ 2131  clear
+ 2132  node server.js
+ 2133  clear
+ 2134  node server.js
+ 2135  clear
+ 2136  cd ~/Projects/SahajFitness
+ 2137  node server.js
+ 2138  clear
+ 2139  node server.js
+ 2140  clear
+ 2141  node server.js
+ 2142  clear
+ 2143  sudo eject  /dev/sr0
+ 2144  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2145  cd ~/Projects/SahajFitness
+ 2146  node server.js
+ 2147  clear
+ 2148  node server.js
+ 2149  clear
+ 2150  node server.js
+ 2151  clear
+ 2152  cd ~/Desktop
+ 2153  sh TurnOffScreen.sh
+ 2154  cd ~/Projects/SahajFitness
+ 2155  node server.js
+ 2156  clear
+ 2157  cd ~/Projects/SahajFitness
+ 2158  node server.js
+ 2159  clear
+ 2160  node server.js
+ 2161  clar
+ 2162  clear
+ 2163  node server.js
+ 2164  cd ~/Projects/SahajFitness
+ 2165  node server.js
+ 2166  clear
+ 2167  node server.js
+ 2168  clear
+ 2169  node server.js
+ 2170  clear
+ 2171  sudo eject  /dev/sr0
+ 2172  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2173  node server.js
+ 2174  sudo eject  /dev/sr0
+ 2175  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2176  cd ~/Projects/SahajFitness
+ 2177  node server.js
+ 2178  clear
+ 2179  node server.js
+ 2180  cd ~/Projects/SahajFitness
+ 2181  node server.js
+ 2182  clear
+ 2183  node server.js
+ 2184  sudo eject  /dev/sr0
+ 2185  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2186  clear
+ 2187  node server.js
+ 2188  clear
+ 2189  node server.js
+ 2190  clear
+ 2191  node server.js
+ 2192  clear
+ 2193  node server.js
+ 2194  sudo eject  /dev/sr0
+ 2195  clear
+ 2196  arise
+ 2197  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2198  sudo eject  /dev/sr0
+ 2199  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2200  cd ~/Projects/SahajFitness
+ 2201  node server.js
+ 2202  clear
+ 2203  node server.js
+ 2204  cd ~/Projects/SahajFitness
+ 2205  node server.js
+ 2206  clear
+ 2207  node server.js
+ 2208  clear
+ 2209  node server.js
+ 2210  clear
+ 2211  node server.js
+ 2212  clear
+ 2213  node server.js
+ 2214  clear
+ 2215  sudo eject  /dev/sr0
+ 2216  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2217  sudo eject  /dev/sr0
+ 2218  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2219  sudo eject  /dev/sr0
+ 2220  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2221  sudo eject  /dev/sr0
+ 2222  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2223  cp
+ 2224  cp --help
+ 2225  ls
+ 2226  cp -R ~/Friends ~/copyof
+ 2227  clear
+ 2228  cd ~/Projects/SahajFitness
+ 2229  node server.js
+ 2230  clear
+ 2231  sudo eject  /dev/sr0
+ 2232  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2233  sudo apt-get install unity-tweak-tool
+ 2234  sudo apt-get install unity-fileslense
+ 2235  sudo apt-get install unity-webapps-common
+ 2236  clear
+ 2237  cd ~/Projects/SahajFitness
+ 2238  node server.js
+ 2239  clear
+ 2240  cd ~/Projects/SahajFitness
+ 2241  node server.js
+ 2242  clear
+ 2243  node server.js
+ 2244  sudo eject  /dev/sr0
+ 2245  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2246  cd ~/Projects/SahajFitness
+ 2247  node server.js
+ 2248  clear
+ 2249  node server.js
+ 2250  cd ~/Projects/SahajFitness
+ 2251  node server.js
+ 2252  clear
+ 2253  node server.js
+ 2254  sudo eject  /dev/sr0
+ 2255  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2256  sudo apt-get install wine
+ 2257  cd ~/Projects/SahajFitness
+ 2258  node server.js
+ 2259  sudo eject  /dev/sr0
+ 2260  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2261  clear
+ 2262  node server.js
+ 2263  sudo eject  /dev/sr0
+ 2264  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2265  clear
+ 2266  cd ~/Projects/SahajFitness
+ 2267  node server.js
+ 2268  clear
+ 2269  sudo eject  /dev/sr0
+ 2270  clear
+ 2271  node server.js
+ 2272  clear
+ 2273  node server.js
+ 2274  cd ~/Desktop
+ 2275  ls T*
+ 2276  sh TurnOffScreen.sh
+ 2277  cd ~/Projects/SahajFitness
+ 2278  clear
+ 2279  node server.js
+ 2280  clear
+ 2281  node server.js
+ 2282  clear
+ 2283  node server.js
+ 2284  clear
+ 2285  node server.js
+ 2286  clear
+ 2287  node server.js
+ 2288  clear
+ 2289  node server.js
+ 2290  clear
+ 2291  node server.js
+ 2292  clear
+ 2293  node server.js
+ 2294  clear
+ 2295  cd ~/Desktop
+ 2296  sh TurnOffScreen.sh
+ 2297  cd ~/Projects/SahajFitness
+ 2298  node server.js
+ 2299  cd ~/Projects/SahajFitness
+ 2300  node server.js
+ 2301  clear
+ 2302  sudo eject  /dev/sr0
+ 2303  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2304  node server.js
+ 2305  sudo eject  /dev/sr0
+ 2306  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2307  arise
+ 2308  sudo eject  /dev/sr0
+ 2309  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2310  cd ~/Desktop
+ 2311  sh TurnOffScreen.sh
+ 2312  sudo eject  /dev/sr0
+ 2313  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2314  cd ~/Projects/SahajFitness
+ 2315  node server.js
+ 2316  sudo eject  /dev/sr0
+ 2317  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2318  sudo eject  /dev/sr0
+ 2319  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2320  sudo eject  /dev/sr0
+ 2321  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2322  cd ~/Projects/SahajFitness
+ 2323  node server.js
+ 2324  clear
+ 2325  node server.js
+ 2326  clear
+ 2327  node server.js
+ 2328  clear
+ 2329  node server.js
+ 2330  clear
+ 2331  node server.js
+ 2332  clear
+ 2333  node server.js
+ 2334  clear
+ 2335  node server.js
+ 2336  clear
+ 2337  node server.js
+ 2338  clear
+ 2339  node server.js
+ 2340  clear
+ 2341  node server.js
+ 2342  clear
+ 2343  node server.js
+ 2344  celar
+ 2345  clear
+ 2346  node server.js
+ 2347  clear
+ 2348  node server.js
+ 2349  clear
+ 2350  cd ~/Desktop
+ 2351  sh TurnOffScreen.sh
+ 2352  cd ~/Projects/SahajFitness
+ 2353  node server.js
+ 2354  clear
+ 2355  node server.js
+ 2356  clear
+ 2357  node server.js
+ 2358  clear
+ 2359  node server.js
+ 2360  cd ~/Projects/SahajFitness
+ 2361  node server.js
+ 2362  clear
+ 2363  cd ~/Desktop
+ 2364  sh TurnOffScreen.sh
+ 2365  sudo eject  /dev/sr0
+ 2366  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2367  cd
+ 2368  cd ~/Projects/SahajFitness
+ 2369  clear
+ 2370  node server.js
+ 2371  clear
+ 2372  node server.js
+ 2373  cd ~/Projects/SahajFitness
+ 2374  node server.js
+ 2375  clear
+ 2376  sudo eject  /dev/sr0
+ 2377  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2378  clear
+ 2379  node server.js
+ 2380  clear
+ 2381  node server.js
+ 2382  clear
+ 2383  node server.js
+ 2384  clear
+ 2385  node server.js
+ 2386  clear
+ 2387  node server.js
+ 2388  clear
+ 2389  sudo eject  /dev/sr0
+ 2390  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2391  clear
+ 2392  cd ~/Projects/SahajFitness
+ 2393  node server.js
+ 2394  sudo eject  /dev/sr0
+ 2395  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2396  node server.js
+ 2397  clear
+ 2398  node server.js
+ 2399  sudo eject  /dev/sr0
+ 2400  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2401  cd ~/Projects/SahajFitness
+ 2402  node server.js
+ 2403  cd ~/Desktop
+ 2404  sh TurnOffScreen.sh
+ 2405  sudo eject  /dev/sr0
+ 2406  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2407  sudo eject  /dev/sr0
+ 2408  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2409  sudo eject  /dev/sr0
+ 2410  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2411  sudo eject  /dev/sr0
+ 2412  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2413  sudo eject  /dev/sr0
+ 2414  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2415  sudo eject  /dev/sr0
+ 2416  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2417  cd ~/Projects/SahajFitness
+ 2418  node server.js
+ 2419  arise
+ 2420  node server.js
+ 2421  sudo eject  /dev/sr0
+ 2422  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2423  easytether -usb
+ 2424  easytether
+ 2425  easytether-usb
+ 2426  which node
+ 2427  node version
+ 2428  node -version
+ 2429  node --help
+ 2430  node -v
+ 2431  sudo eject  /dev/sr0
+ 2432  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2433  sudo eject  /dev/sr0
+ 2434  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2435  cd ~/Projects/SahajFitness
+ 2436  node server.js
+ 2437  sudo eject  /dev/sr0
+ 2438  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2439  sudo eject  /dev/sr0
+ 2440  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2441  cd ~/Desktop
+ 2442  sh -TurnOffScreen.sh
+ 2443  sudo sh TurnOffScreen.sh
+ 2444  sh -TurnOffScreen.sh
+ 2445  sudo eject  /dev/sr0
+ 2446  lsusb
+ 2447  sudo eject  /dev/sr0
+ 2448  arise
+ 2449  clear
+ 2450  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2451  sh -TurnOffScreen.sh
+ 2452  sudo sh TurnOffScreen.sh
+ 2453  cd ~/Desktop
+ 2454  sudo sh TurnOffScreen.sh
+ 2455  cd
+ 2456  ls
+ 2457  cd Eng*
+ 2458  ls
+ 2459  clear
+ 2460  ls
+ 2461  egrep -o "^[0-9]{8}\s[0-9]{2}\s[a-z]\s[0-9]{2}\s[a-zA-Z]*\s" data.noun | cut -d ' ' -f 5 > conv.data.noun
+ 2462  ls
+ 2463  sudo eject  /dev/sr0
+ 2464  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2465  sudo eject  /dev/sr0
+ 2466  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2467  sudo eject  /dev/sr0
+ 2468  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2469  gcc
+ 2470  where gcc
+ 2471  whereis gcc
+ 2472  ls
+ 2473  gedit
+ 2474  ls *.c
+ 2475  gcc  my.c -o myapp
+ 2476  gedit
+ 2477  gedit my.c
+ 2478  gcc  my.c -o myapp
+ 2479  gcc  my.c 
+ 2480  gcc  my.c -o my1
+ 2481  ./my1
+ 2482  g++
+ 2483  whereis g++
+ 2484  g++  mycpp.cpp -o mycpp
+ 2485  ./mycpp
+ 2486  sudo eject  /dev/sr0
+ 2487  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2488  sudo eject  /dev/sr0
+ 2489  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2490  sudo sh TurnOffScreen.sh
+ 2491  cd ~/Desktop
+ 2492  sudo sh TurnOffScreen.sh
+ 2493  sudo eject  /dev/sr0
+ 2494  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2495  lsusb
+ 2496  sudo eject  /dev/sr0
+ 2497  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2498  sudo eject  /dev/sr0
+ 2499  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2500  sudo eject  /dev/sr0
+ 2501  lsusb
+ 2502  sudo eject  /dev/sr0
+ 2503  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2504  cd ~/Desktop
+ 2505  sh TurnOffScreen.sh
+ 2506  sudo eject  /dev/sr0
+ 2507  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2508  sudo eject  /dev/sr0
+ 2509  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2510  sudo eject  /dev/sr0
+ 2511  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2512  sudo eject  /dev/sr0
+ 2513  arise
+ 2514  sudo eject  /dev/sr0
+ 2515  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2516  sudo eject  /dev/sr0
+ 2517  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2518  sudo eject  /dev/sr0
+ 2519  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2520  javac
+ 2521  whereis javac
+ 2522  javac version
+ 2523  javac -version
+ 2524  cd workspace
+ 2525  ls
+ 2526  java -jar test.jar
+ 2527  sudo eject  /dev/sr0
+ 2528  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2529  sudo eject  /dev/sr0
+ 2530  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2531  sudo eject  /dev/sr0
+ 2532  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2533  cd ~/Desktop
+ 2534  sh TurnOffScreen.sh
+ 2535  shutdown -0
+ 2536  shutdown -now
+ 2537  shutdown --help
+ 2538  shutdown -h 0
+ 2539  sudo shutdown -h 0
+ 2540  history
+ 2541  easytether -usb
+ 2542  easytether
+ 2543  sudo eject  /dev/sr0
+ 2544  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2545  npm install jsPDF
+ 2546  sudo npm install jsPDF
+ 2547  npm
+ 2548  npm --help
+ 2549  npm -help
+ 2550  npm -ls
+ 2551  npm ls
+ 2552  cd ~/Desktop
+ 2553  sh TurnOffScreen.sh
+ 2554  sudo npm install jspdf
+ 2555  sudo npm start
+ 2556  cd
+ 2557  cd ~/Downloads/jsPDF*
+ 2558  ls
+ 2559  sudo sh build.sh
+ 2560  make Makefile
+ 2561  make
+ 2562  npm start
+ 2563  cd
+ 2564  clear
+ 2565  npmls
+ 2566  npm ls
+ 2567  npm install pdf.js
+ 2568  sudo eject  /dev/sr0
+ 2569  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2570  orange
+ 2571  sudo eject  /dev/sr0
+ 2572  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2573  sudo apt-get update
+ 2574  gmic
+ 2575  whereis gmic
+ 2576  sudo eject  /dev/sr0
+ 2577  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2578  sudo eject  /dev/sr0
+ 2579  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2580  sudo eject  /dev/sr0
+ 2581  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2582  dict intrigue
+ 2583  sudo eject  /dev/sr0
+ 2584  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2585  sudo eject  /dev/sr0
+ 2586  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2587  cd ~/Desktop
+ 2588  sh TrunOffScreen.sh
+ 2589  sudo sh TrunOffScreen.sh
+ 2590  ls
+ 2591  sudo sh TrunOffScreen.sh
+ 2592  sudo sh TurnOffScreen.sh
+ 2593  பபபரகரப
+ 2594  sudo eject  /dev/sr0
+ 2595  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2596  dict interdisciplinary
+ 2597  sudo eject  /dev/sr0
+ 2598  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2599  sudo eject  /dev/sr0
+ 2600  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2601  sudo eject  /dev/sr0
+ 2602  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2603  sudo eject  /dev/sr0
+ 2604  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2605  sudo eject  /dev/sr0
+ 2606  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2607  sudo eject  /dev/sr0
+ 2608  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2609  sudo eject  /dev/sr0
+ 2610  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2611  sudo eject  /dev/sr0
+ 2612  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2613  arise
+ 2614  sudo eject  /dev/sr0
+ 2615  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2616  sudo eject  /dev/sr0
+ 2617  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2618  sudo eject  /dev/sr0
+ 2619  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2620  sudo eject  /dev/sr0
+ 2621  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2622  sudo eject  /dev/sr0
+ 2623  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2624  sudo eject  /dev/sr0
+ 2625  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2626  sudo eject  /dev/sr0
+ 2627  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2628  sudo eject  /dev/sr0
+ 2629  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2630  sudo eject  /dev/sr0
+ 2631  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2632  lsusb
+ 2633  sudo eject  /dev/sr0
+ 2634  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2635  lsusb
+ 2636  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2637  lsusb
+ 2638  sudo eject  /dev/sr0
+ 2639  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance'
+ 2640  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance1'
+ 2641  sudo eject  /dev/sr0
+ 2642  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance1'
+ 2643  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance connection 1'
+ 2644  sudo eject  /dev/sr0
+ 2645  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance connection 1'
+ 2646  sudo eject  /dev/sr0
+ 2647  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance connection 1'
+ 2648  cd ~/Desktop
+ 2649  sudo sh TurnOffScreen.sh
+ 2650  sudo eject  /dev/sr0
+ 2651  arise
+ 2652  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance connection 1'
+ 2653  sudo eject  /dev/sr0
+ 2654  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance connection 1'
+ 2655  sudo eject  /dev/sr0
+ 2656  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance connection 1'
+ 2657  sudo eject  /dev/sr0
+ 2658  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance connection 1'
+ 2659  sudo eject  /dev/sr0
+ 2660  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance connection 1'
+ 2661  sudo eject  /dev/sr0
+ 2662  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance connection 1'
+ 2663  sudo eject  /dev/sr0
+ 2664  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance connection 1'
+ 2665  sudo eject  /dev/sr0
+ 2666  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance connection 1'
+ 2667  sudo eject  /dev/sr0
+ 2668  lsusb
+ 2669  sudo eject  /dev/sr0
+ 2670  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance connection 1'
+ 2671  cd ~/Desktop
+ 2672  sudo sh TurnOffScreen.sh
+ 2673  cd ~/Desktop
+ 2674  sudo eject  /dev/sr0
+ 2675  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance connection 1'
+ 2676  sudo eject  /dev/sr0
+ 2677  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance connection 1'
+ 2678  cd ~/Desktop
+ 2679  sudo sh TurnOffScreen.sh
+ 2680  sudo eject  /dev/sr0
+ 2681  lsusb
+ 2682  ffmpeg -i "concat:input1.mpg|input2.mpg|input3.mpg" -c copy output.mpg
+ 2683  ffmpeg
+ 2684  convert
+ 2685  mencoder
+ 2686  sudo apt-get install ffmpeg
+ 2687  sudo sh *.sh
+ 2688  ffmpeg
+ 2689  ffmpeg -i "concat:input1.mpg|input2.mpg|input3.mpg" -c copy output.mpg
+ 2690  cd ~/Downloads/flareGet/Videos
+ 2691  ffmpeg -i "concat:input1.flv|2.flv|3.flv" -c copy output.flv
+ 2692  ffmpeg -i "concat:1.flv|2.flv|3.flv" -c copy output.flv
+ 2693  ffmpeg -f concat -i inputs.txt -c copy output.mp4
+ 2694  ffmpeg -i input0.flv -map 0 -c copy -f mpegts -bsf h264_mp4toannexb -y temp0 2> /dev/null & ffmpeg -i input1.flv -map 0 -c copy -f mpegts -bsf h264_mp4toannexb -y temp1 2> /dev/null & \
+ 2695  cd ~/Downloads/flareGet/Videos
+ 2696  ffmpeg -i 1.flv -map 0 -c copy -f mpegts -bsf h264_mp4toannexb -y temp0 2> /dev/null & ffmpeg -i 2.flv -map 0 -c copy -f mpegts -bsf h264_mp4toannexb -y temp1 2> /dev/null & ffmpeg -f mpegts -i "concat:temp0|temp1" -c copy -absf aac_adtstoasc output.mp4
+ 2697  sudo eject  /dev/sr0
+ 2698  lsusb
+ 2699  sudo eject  /dev/sr0
+ 2700  lsusb
+ 2701  cd ~/Desktop
+ 2702  sudo sh TurnOffScreen.sh
+ 2703  sudo eject  /dev/sr0
+ 2704  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance connection 1'
+ 2705  sudo eject  /dev/sr0
+ 2706  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance connection 1'
+ 2707  sudo eject  /dev/sr0
+ 2708  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance connection 1'
+ 2709  sudo eject  /dev/sr0
+ 2710  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance connection 1'
+ 2711  sudo apt-get update
+ 2712  sudo apt-get install vlc vlc-plugin-*
+ 2713  sudo apt-get update
+ 2714  sudo eject  /dev/sr0
+ 2715  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance connection 1'
+ 2716  sudo eject  /dev/sr0
+ 2717  lsusb
+ 2718  sudo eject  /dev/sr0
+ 2719  lsusb
+ 2720  sudo eject  /dev/sr0
+ 2721  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance connection 1'
+ 2722  ffmpeg
+ 2723  cd Downloads
+ 2724  ffmpeg -i 1694.flv output.mpeg
+ 2725  ffmpeg -i 1694.flv output.mp4
+ 2726  sudo eject  /dev/sr0
+ 2727  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance connection 1'
+ 2728  sudo eject  /dev/sr0
+ 2729  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance connection 1'
+ 2730  lsusb
+ 2731  sudo eject  /dev/sr0
+ 2732  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance connection 1'
+ 2733  cd ~/Desktop
+ 2734  sudo sh TurnOffScreen.sh
+ 2735  sudo eject  /dev/sr0
+ 2736  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance connection 1'
+ 2737  sudo eject  /dev/sr0
+ 2738  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance connection 1'
+ 2739  lsusb
+ 2740  sudo eject  /dev/sr0
+ 2741  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance connection 1'
+ 2742  sudo eject  /dev/sr0
+ 2743  sleep 15 && nmcli nm wwan on && nmcli con up id 'Reliance connection 1'
+ 2744  sudo eject  /dev/sr0
+ 2745  lsusb
+ 2746  sudo shutdown -i
+ 2747  sudo shutdown
+ 2748  sudo shutdown --help
+ 2749  sudo shutdown -h
+ 2750  sudo shutdown -h 00
+ 2751  sudo eject  /dev/sr0
+ 2752  nmcli nm wwan on && nmcli con up id 'Reliance connection 1'
+ 2753  lsusb
+ 2754  clear
+ 2755  ipconfig
+ 2756  ip
+ 2757  ip -d
+ 2758  lsusb
+ 2759  ipconfig
+ 2760  ifconfig
+ 2761  ppp0
+ 2762  sudo eject  /dev/sr0
+ 2763  nmcli nm wwan on && nmcli con up id 'Reliance connection 1'
+ 2764  lsusb
+ 2765  nmcli nm wwan on && nmcli con up id 'Reliance connection 1'
+ 2766  clear
+ 2767  ifconfig
+ 2768  sudo eject  /dev/sr0
+ 2769  nmcli nm wwan on && nmcli con up id 'Reliance connection 1'
+ 2770  lsusb
+ 2771  nmcli nm wwan on && nmcli con up id 'Reliance connection 1'
+ 2772  lsusb
+ 2773  sudo eject  /dev/sr0
+ 2774  lsusb
+ 2775  nmcli nm wwan on && nmcli con up id 'Reliance connection 1'
+ 2776  lsusb
+ 2777  sudo eject  /dev/sr0
+ 2778  lsusb
+ 2779  clear
+ 2780  nmcli nm wwan on && nmcli con up id 'Reliance connection 1'
+ 2781  lsusb
+ 2782  nmcli nm wwan on && nmcli con up id 'Reliance connection 1'
+ 2783  lsusb
+ 2784  sudo eject  /dev/sr0
+ 2785  lsusb
+ 2786  nmcli nm wwan on && nmcli con up id 'Reliance connection 1'
+ 2787  lsusb
+ 2788  sudo eject  /dev/sr0
+ 2789  lsusb
+ 2790  nmcli nm wwan on && nmcli con up id 'Reliance connection 1'
+ 2791  lsusb
+ 2792  sudo eject  /dev/sr0
+ 2793  arise
+ 2794  lsusb
+ 2795  nmcli nm wwan on && nmcli con up id 'Reliance connection 1'
+ 2796  lsusb
+ 2797  sudo eject  /dev/sr0
+ 2798  nmcli nm wwan on && nmcli con up id 'Reliance connection 1'
+ 2799  lsusb
+ 2800  nmcli nm wwan on && nmcli con up id 'Reliance connection 1'
+ 2801  lsusb
+ 2802  sudo eject  /dev/sr0
+ 2803  lsusb
+ 2804  sudo eject  /dev/sr0
+ 2805  lsusb
+ 2806  clear
+ 2807  lsusb
+ 2808  sudo eject  /dev/sr0
+ 2809  lsusb
+ 2810  nmcli nm wwan on && nmcli con up id 'Reliance connection 1'
+ 2811  lsusb
+ 2812  sudo eject  /dev/sr0
+ 2813  lsusb
+ 2814  sudo eject  /dev/sr0
+ 2815  lsusb
+ 2816  dict euclid
+ 2817  dict esoteric
+ 2818  lsusb
+ 2819  sudo eject  /dev/sr0
+ 2820  lsusb
+ 2821  clear
+ 2822  lsusb
+ 2823  sudo eject  /dev/sr0
+ 2824  lsusb
+ 2825  sudo eject  /dev/sr0
+ 2826  lsusb
+ 2827  clear
+ 2828  lsusb
+ 2829  sudo eject  /dev/sr0
+ 2830  lsusb
+ 2831  sudo eject  /dev/sr0
+ 2832  nmcli nm wwan on && nmcli con up id 'Reliance connection'
+ 2833  cd ~/Desktop
+ 2834  sudo sh TurnOffScreen.sh
+ 2835  dict endeavour
+ 2836  sudo sh TurnOffScreen.sh
+ 2837  sudo eject  /dev/sr0
+ 2838  lsusb
+ 2839  clear
+ 2840  lsusb
+ 2841  clear
+ 2842  lsusb
+ 2843  clear
+ 2844  lsusb
+ 2845  sudo eject  /dev/sr0
+ 2846  lsusb
+ 2847  clear
+ 2848  lsusb
+ 2849  dict endeavour
+ 2850  lsusb
+ 2851  sudo eject  /dev/sr0
+ 2852  lsusb
+ 2853  clear
+ 2854  lsusb
+ 2855  sudo eject  /dev/sr0
+ 2856  lsusb
+ 2857  clear
+ 2858  lsusb
+ 2859  sudo eject  /dev/sr0
+ 2860  lsusb
+ 2861  clear
+ 2862  lsusb
+ 2863  sudo eject  /dev/sr0
+ 2864  lsusb
+ 2865  sudo eject  /dev/sr0
+ 2866  lsusb
+ 2867  inkscape
+ 2868  lsusb
+ 2869  clear
+ 2870  lsusb
+ 2871  sudo eject  /dev/sr0
+ 2872  lsusb
+ 2873  sudo eject  /dev/sr0
+ 2874  ipcongig
+ 2875  ipconfig
+ 2876  ping
+ 2877  ip
+ 2878  ipconfing
+ 2879  lsip
+ 2880  ifconfig
+ 2881  lsusb
+ 2882  clear
+ 2883  sudo eject  /dev/sr0
+ 2884  clear
+ 2885  lsusb
+ 2886  clear
+ 2887  ifconfig
+ 2888  lsusb
+ 2889  sudo eject  /dev/sr0
+ 2890  clear
+ 2891  lsusb
+ 2892  ifconfig
+ 2893  lsusb
+ 2894  sudo eject  /dev/sr0
+ 2895  clear
+ 2896  lsusb
+ 2897  sudo eject  /dev/sr0
+ 2898  clear
+ 2899  ifconfig
+ 2900  sudo eject  /dev/sr0
+ 2901  skype
+ 2902  lsusb
+ 2903  clear
+ 2904  sudo eject  /dev/sr0
+ 2905  clear
+ 2906  sudo eject  /dev/sr0
+ 2907  clear
+ 2908  lsusb
+ 2909  ifconfig
+ 2910  lsusb
+ 2911  ifconfig
+ 2912  dict intrigue
+ 2913  dict peril
+ 2914  irresolute
+ 2915  dict irresolute
+ 2916  lsusb
+ 2917  c;ear
+ 2918  clear
+ 2919  lsusb
+ 2920  clear
+ 2921  sudo shutdown -r
+ 2922  sudo shutdown -help
+ 2923  shutdown --help
+ 2924  sudo shutdown -r
+ 2925  sudo shutdown -r 0
+ 2926  lsusb
+ 2927  sudo eject  /dev/sr0
+ 2928  clear
+ 2929  lsusb
+ 2930  clear
+ 2931  lsusb
+ 2932  sudo eject  /dev/sr0
+ 2933  ls
+ 2934  ls m*
+ 2935  mycpp
+ 2936  my1
+ 2937  clear
+ 2938  sudo eject  /dev/sr0
+ 2939  clear
+ 2940  sudo eject  /dev/sr0
+ 2941  lsusb
+ 2942  sudo eject  /dev/sr0
+ 2943  lsusb
+ 2944  clear
+ 2945  lsusb
+ 2946  clear
+ 2947  lsusb
+ 2948  sudo eject  /dev/sr0
+ 2949  clear
+ 2950  lsusb
+ 2951  sudo eject  /dev/sr0
+ 2952  clear
+ 2953  sudo eject  /dev/sr0
+ 2954  clearr
+ 2955  clear
+ 2956  dict amusement
+ 2957  dict dice
+ 2958  dict pacified
+ 2959  sudo eject  /dev/sr0
+ 2960  clear
+ 2961  sudo eject  /dev/sr0
+ 2962  lsusb
+ 2963  clear
+ 2964  lsusb
+ 2965  sudo eject  /dev/sr0
+ 2966  lsusb
+ 2967  ifconfig
+ 2968  lsusb
+ 2969  sudo eject  /dev/sr0
+ 2970  clear
+ 2971  lsusb
+ 2972  sudo eject  /dev/sr0
+ 2973  lsusb
+ 2974  sudo eject  /dev/sr0
+ 2975  lsusb
+ 2976  cd desktop
+ 2977  ls
+ 2978  cd Desktop
+ 2979  clear
+ 2980  sudo sh TurnOffScreen.sh
+ 2981  lsusb
+ 2982  clear
+ 2983  sudo eject  /dev/sr0
+ 2984  clear
+ 2985  sudo eject  /dev/sr0
+ 2986  clear
+ 2987  sudo eject  /dev/sr0
+ 2988  lsusb
+ 2989  sudo eject  /dev/sr0
+ 2990  sclear
+ 2991  clear
+ 2992  nmcli nm wwan on && nmcli con up id 'Reliance connection'
+ 2993  sudo eject  /dev/sr0
+ 2994  lsusb
+ 2995  nmcli nm wwan on && nmcli con up id 'Reliance connection'
+ 2996  lsusb
+ 2997  sudo eject  /dev/sr0
+ 2998  lsusb
+ 2999  clear
+ 3000  lsusb
+ 3001  sudo eject  /dev/sr0
+ 3002  lsusb
+ 3003  clear
+ 3004  convert
+ 3005  cd Chidambaram
+ 3006  ls
+ 3007  ls *.png
+ 3008  convert postyourad2.png -quality 50 p2.png
+ 3009  ls *.png
+ 3010  convert postyourad2.png -quality 50 postyourad2_1.png
+ 3011  convert postyourad1.png -quality 50 postyourad1_1.png
+ 3012  convert postyourad.png -quality 50 postyourar_1.png
+ 3013  convert newbanner.png -quality 50 newbanner_1.png
+ 3014  convert postyourad3.png -quality 50 postyourar_3.png
+ 3015  convert postyourad4.png -quality 50 postyourar4_1.png
+ 3016  ls
+ 3017  ls *.png
+ 3018  convert newbanner.png -quality 75 aa.png
+ 3019  convert newbanner.png -quality 30  aa.png
+ 3020  convert newbanner.png -quality 99  aa.png
+ 3021  convert newbanner.png -quality 99  aa.jpg
+ 3022  convert newbanner.png -quality 50  banner.jpg
+ 3023  convert newbanner.png -quality 75  banner.jpg
+ 3024  convert newbanner.png -quality 90  banner.jpg
+ 3025  convert ad1.png -quality 50 ad2.png
+ 3026  lsusb
+ 3027  sudo eject  /dev/sr0
+ 3028  clear
+ 3029  nmcli nm wwan on && nmcli con up id 'Reliance connection'
+ 3030  lsusb
+ 3031  sudo eject  /dev/sr0
+ 3032  lsusb
+ 3033  nmcli nm wwan on && nmcli con up id 'Reliance connection'
+ 3034  lsusb
+ 3035  sudo eject  /dev/sr0
+ 3036  lsusb
+ 3037  nmcli nm wwan on && nmcli con up id 'Reliance connection'
+ 3038  convert newbanner.png -quality 75  banner.jpg
+ 3039  cd Chid*
+ 3040  convert newbanner.png -quality 75  banner.jpg
+ 3041  sudo eject  /dev/sr0
+ 3042  lsusb
+ 3043  cordova
+ 3044  nodejs
+ 3045  clear
+ 3046  cordova
+ 3047  sudo npm install -g cordova
+ 3048  cordova create hello com.example.hello HelloWorld
+ 3049  ls
+ 3050  cd hello
+ 3051  cordova platform add android
+ 3052  cordova requirements
+ 3053  clear
+ 3054  cordova run android
+ 3055  export ANDROID_HOME=/home/android-sdk-linux/
+ 3056  export PATH=$PATH:/home/android-sdk-linux/tools
+ 3057  cordova run android
+ 3058  cd
+ 3059  ls
+ 3060  cd android*
+ 3061  export ANDROID_HOME=/home/android-sdk-linux/
+ 3062  cordova run android
+ 3063  cdcd hello
+ 3064  cd
+ 3065  clear
+ 3066  cd hello
+ 3067  cordova run android
+ 3068  export ANDROID_HOME=~/home/android-sdk-linux/
+ 3069  export PATH=$PATH:~/home/android-sdk-linux/tools
+ 3070  cordova run android
+ 3071  cd
+ 3072  sudo gedit ~/.bashrc
+ 3073  clear
+ 3074  echo $ANDROID_HOME
+ 3075  echo $PATH
+ 3076  CLEAR
+ 3077  cd hello
+ 3078  clear
+ 3079  cordova run android
+ 3080  echo $ANDROID_HOME
+ 3081  sudo gedit ~/.bashrc
+ 3082  clear
+ 3083  echo $ANDROID_HOME
+ 3084  sudo gedit ~/.bashrc
+ 3085  cd hello
+ 3086  clear
+ 3087  cordova run android
+ 3088  clear
+ 3089  sudo gedit ~/.bashrc
+ 3090  clear
+ 3091  echo $ANDROID_HOME
+ 3092  cordova run android
+ 3093  cd hello
+ 3094  cordova run android
+ 3095  clear
+ 3096  sudo eject  /dev/sr0
+ 3097  cordova run android
+ 3098  ifconfig
+ 3099  lsusb
+ 3100  clear
+ 3101  sudo eject  /dev/sr0
+ 3102  clear
+ 3103  nmcli nm wwan on && nmcli con up id 'Reliance connection'
+ 3104  cordova run android
+ 3105  cd hello
+ 3106  cordova run android
+ 3107  echo $ANDROID_HOME
+ 3108  cordova run android
+ 3109  sudo gedit ~/.bashrc
+ 3110  clear
+ 3111  echo $ANDROID_HOME
+ 3112  cordova run android
+ 3113  cd
+ 3114  cd /
+ 3115  ls
+ 3116  cd etc
+ 3117  cd profile
+ 3118  gedit profile
+ 3119  sudo gedit ~/.bashrc
+ 3120  echo $ANDROID_HOME
+ 3121  sudo gedit ~/.bashrc
+ 3122  echo $ANDROID_HOME
+ 3123  cordova run android
+ 3124  cd hello
+ 3125  cordova run android
+ 3126  cordova platform add android
+ 3127  cd
+ 3128  ./android sdk
+ 3129  ./android
+ 3130  android
+ 3131  cd hello
+ 3132  cordova run android
+ 3133  sudo eject  /dev/sr0
+ 3134  nmcli nm wwan on && nmcli con up id 'Reliance connection'
+ 3135  sudo eject  /dev/sr0
+ 3136  clear
+ 3137  vazha
+ 3138  clear
+ 3139  android
+ 3140  ifconfig
+ 3141  sudo eject  /dev/sr0
+ 3142  sudo shutdown -i 0
+ 3143  sudo shutdown -i
+ 3144  sudo shutdown 0
+ 3145  sudo eject  /dev/sr0
+ 3146  clear
+ 3147  sudo eject  /dev/sr0
+ 3148  clear
+ 3149  sudo eject  /dev/sr0
+ 3150  clear
+ 3151  lsusb
+ 3152  sudo eject  /dev/sr0
+ 3153  clear
+ 3154  sudo eject  /dev/sr0
+ 3155  ifconfig
+ 3156  cat ~/.bash_history
+ 3157  ls his*
+ 3158  history > myhis.txt
