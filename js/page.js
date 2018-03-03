@@ -1,7 +1,7 @@
 var globalVars = {unloaded:false};
 
 $(document).ready(function() {
-$('#content').load('home.html');
+$('#content').load('workouts.html');
 });
 
 
