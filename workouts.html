@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+</head>
+<body>
+<h3>The BUT Operator</h3>
+<p>The BUT operator accepts two or more inputs and produce an output</p>
+<p>by&nbsp; following the boolean expression <strong>Q = A BUT B =&gt; NOT(A) AND B</strong></p>
+<p>&nbsp;</p>
+<table>
+<tbody>
+<tr>
+<td style="width: 280px;">Symbol</td>
+<td colspan="3">Truth Table</td>
+</tr>
+<tr>
+<td rowspan="5">
+<div style="float: center; padding: 10px 0px 10px 0px;"><img title="2-input Logic NAND Gate" src="images/BUT_DIN.svg" alt="2-input logic BUT gate" width="210" height="59" />
+<p>&nbsp;</p>
+<div>2-input BUT Gate</div>
+</div>
+</td>
+<td style="width: 75px;">A</td>
+<td style="width: 75px;">B</td>
+<td style="width: 75px;">Q</td>
+</tr>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Boolean Expression <strong>Q&nbsp;=&nbsp;<span style="text-decoration: overline;">A</span>.B</strong></td>
+<td colspan="3">&nbsp;NOT of A AND with B results Q</td>
+</tr>
+</tbody>
+</table>
+<p>It also makes sense that only when the inputs are contrast with one another BUT</p>
+<p>logic works to select the dominant case. Similar to the <strong>Exclusive OR</strong> logic</p>
+<p>we can call BUT logic as <strong>Exclusive AND </strong>or simply <strong>XAND</strong></p>
+<p>&nbsp;</p>
+<h3>The NBUT Operator</h3>
+<p>The NBUT operator accepts two or more inputs and produce an output</p>
+<p>by&nbsp; following the boolean expression</p>
+<p><strong>Q = A NBUT B =&gt; NOT(NOT(A) AND B) =&gt; A OR NOT(B)</strong></p>
+<p>&nbsp;</p>
+<table>
+<tbody>
+<tr>
+<td style="width: 280px;">Symbol</td>
+<td colspan="3">Truth Table</td>
+</tr>
+<tr>
+<td rowspan="5">
+<div style="float: center; padding: 10px 0px 10px 0px;"><img title="2-input Logic NAND Gate" src="images/NBUT_DIN.svg" alt="2-input logic NBUT gate" width="210" height="59" />
+<p>&nbsp;</p>
+<div>2-input NBUT Gate</div>
+</div>
+</td>
+<td style="width: 75px;">A</td>
+<td style="width: 75px;">B</td>
+<td style="width: 75px;">Q</td>
+</tr>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Boolean Expression <strong>Q&nbsp;=&nbsp;A + <span style="text-decoration: overline;">B</span></strong></td>
+<td colspan="3">&nbsp;A OR with NOT of B results Q</td>
+</tr>
+</tbody>
+</table>
+<p><strong>NBUT </strong>is just the opposite of BUT logic built with OR logic. Here when the</p>
+<p>inputs are contrast with one another NBUT logic selects the inferior case.</p>
+</body>
+</html>
