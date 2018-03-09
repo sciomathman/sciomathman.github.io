@@ -11,5 +11,113 @@
 <p>Output:</p>
 <p>&nbsp;<strong><img src="images/clickformore.svg" alt="code output" width="200" height="200" /></strong></p>
 <p>Tue Mar 06 2018 18:33:13 GMT+0530 (+0530)</p>
+<br>
+<p><strong>Complements of a Number</strong></p>
+<p>&nbsp;The Complement of a number gives out a number which can sum-up to the original number and yield the digit-wise minimum or maximum number</p>
+<p>&nbsp;</p>
+<div class="w3-panel w3-pale-yellow w3-leftbar w3-border-yellow">
+<p><strong>Complement:</strong> <span data-source="entry-dictionary"><span class="sb-0"><span class="sn">a</span> <span class="dt "> <strong class="mw_t_bc">: </strong>something that fills up, <a class="mw_t_a_link" href="https://www.merriam-webster.com/dictionary/completes">completes</a>, or makes better or perfect</span></span></span></p>
+<ul class="vis">
+<li><span class="t">The scarf is a perfect <span class="mw_t_wi">complement</span> to her outfit.</span></li>
+</ul>
+<p><a href="https://www.merriam-webster.com/dictionary/complement" target="_blank" rel="noopener">Source:Merriam-Webster</a>.</p>
+</div>
+<p>&nbsp;There are two variants in doing complement of a number</p>
+<p>1. r<sup>s</sup> Complement</p>
+<p>2. (r-1)<sup>s</sup> Complement</p>
+<table style="height: 601px; border-color: black; margin-left: auto; margin-right: auto; width: 535px;" border="black">
+<tbody>
+<tr style="height: 50px;">
+<td style="width: 128.033px; height: 50px;"><strong>Specification</strong></td>
+<td style="width: 133.583px; height: 50px;"><strong>&nbsp;r<sup>s</sup> Complement</strong></td>
+<td style="width: 137.817px; height: 50px;"><strong>(r-1)<sup>s</sup> Complement</strong></td>
+<td style="width: 107.567px; height: 50px;">&nbsp;<strong>Details</strong></td>
+</tr>
+<tr style="height: 355.633px;">
+<td style="width: 128.033px; height: 355.633px;">Formula</td>
+<td style="width: 133.583px; height: 355.633px;">r<sup>n</sup> - N</td>
+<td style="width: 137.817px; height: 355.633px;">&nbsp;r<sup>n</sup> - r<sup>-m</sup> - N</td>
+<td style="width: 107.567px; height: 355.633px;">
+<p><strong>&nbsp;r</strong> - radix of the number</p>
+<p><strong>N</strong> - given number</p>
+<p><strong>n</strong> - number of digits in integer part</p>
+<p><strong>m</strong> - number of digits in fractional part</p>
+</td>
+</tr>
+<tr style="height: 27px;">
+<td style="width: 128.033px; height: 27px;">&nbsp;Input : <strong>25</strong><sub>10</sub></td>
+<td style="width: 133.583px; height: 27px;">
+<p><span style="text-decoration: underline;">10<sup>s</sup> Complement</span></p>
+<p>10<sup>2</sup> - 25 = <strong>75</strong><sub>10</sub></p>
+</td>
+<td style="width: 137.817px; height: 27px;">
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">9<sup>s</sup> Complement</span></p>
+<p>10<sup>2</sup> - 25 - 10<sup>0</sup> = <strong>74</strong><sub>10</sub></p>
+&nbsp;</td>
+<td style="width: 107.567px; height: 27px;">&nbsp;</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 128.033px; height: 24px;">&nbsp;Input : <strong>10010</strong><sub>2</sub></td>
+<td style="width: 133.583px; height: 24px;">
+<p><span style="text-decoration: underline;">2<sup>s</sup> Complement</span></p>
+<p>2<sup>5</sup> - 10010 = <strong>01110</strong><sub>2</sub></p>
+</td>
+<td style="width: 137.817px; height: 24px;">
+<p><span style="text-decoration: underline;">1<sup>s</sup> Complement</span></p>
+<p>2<sup>5</sup> - 2<sup>0</sup> -10010 = <strong>01101</strong><sub>2</sub></p>
+&nbsp;</td>
+<td style="width: 107.567px; height: 24px;">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>Examples:</p>
+<p>1. For N = 235.877<sub>10</sub></p>
+<table style="height: 62px; margin-left: auto; margin-right: auto;" width="459">
+<tbody>
+<tr>
+<td style="width: 221.5px;">
+<p><span style="text-decoration: underline;">10<sup>s</sup> Complement</span></p>
+<p>10<sup>3</sup> - 235.877</p>
+<p>= 1000 - 235.877</p>
+<p>= <strong>764.123</strong><sub>10</sub></p>
+</td>
+<td style="width: 221.5px;">
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">9<sup>s</sup> Complement</span></p>
+<p>10<sup>3</sup> - 235.877 - 10<sup>-3</sup></p>
+<p>=1000 - 235.877 - 0.001</p>
+<p>= <strong>764.122</strong><sub>10</sub></p>
+<p>&nbsp;</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;2. For N = 10010.01101<sub>2</sub></p>
+<table style="height: 62px; margin-left: auto; margin-right: auto;" width="459">
+<tbody>
+<tr>
+<td style="width: 221.5px;">
+<p><span style="text-decoration: underline;">2<sup>s</sup> Complement</span></p>
+<p>2<sup>5</sup> - 10010.01101<sub>2</sub></p>
+<p>= 100000<sub>2</sub> - 10010.01101<sub>2</sub></p>
+<p>= <strong>01101.10011</strong><sub>2</sub></p>
+</td>
+<td style="width: 221.5px;">
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">1<sup>s</sup> Complement</span></p>
+<p>2<sup>5</sup> - 10010.01101<sub>2</sub>- 2<sup>-5</sup></p>
+<p>=100000 -10010.01101<sub>2</sub> - 0.000001</p>
+<p>=&nbsp;<strong>01101.10010</strong><sub>2</sub></p>
+<p>&nbsp;</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>Fri Mar 09 2018 16:18:20 GMT+0530</p>
+<p>&nbsp;</p>
 </body>
 </html>
