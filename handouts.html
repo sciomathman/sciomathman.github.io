@@ -2,17 +2,20 @@
 <html>
 <head>
 <title>handouts</title>
+<link type="text/css" rel="stylesheet" href="./css/w3.css" media="all">
+<script src="./data/twitterappcreated.js"></script>
+<script src="./data/twittertoken.js"></script>
 </head>
 <body>
-<p><strong>SVG "Click For More" animation for HTML pages</strong></p>
+<div class="w3-container w3-deep-orange"><p><strong>SVG "Click For More" animation for HTML pages</strong></p></div>
 <hr />
 <p>&lt;svg class = "svg_animation1" expanded = "true" height = "200px" width = "200px"&gt;<br /> &lt;circle cx = "50%" cy = "50%" r = "35%" fill = "#ededed"&gt;<br /> &lt;animate attributeName="r" begin="0s" dur="1s" repeatCount="indefinite" from="25%" to="35%"/&gt;<br /> &lt;/circle&gt;<br /> &lt;circle cx = "50%" cy = "50%" r = "25%" fill = "#808080"&gt;<br /> &lt;animate attributeName="r" begin="0s" dur="1s" repeatCount="indefinite" from="15%" to="25%"/&gt;<br /> &lt;/circle&gt;<br /> &lt;circle class = "innerCircle" cx = "50%" cy = "50%" r = "15%" fill = "#000000"/&gt;<br /> &lt;text x="90" y="100" fill="white" width = "30%" style="font-size: 8px;"&gt;Click&lt;/text&gt;<br /> &lt;text x="85" y="110" fill="white" width = "30%" style="font-size: 8px;"&gt;For More&lt;/text&gt;<br /> &lt;/svg&gt;</p>
 <hr />
 <p>Output:</p>
 <p>&nbsp;<strong><img src="images/clickformore.svg" alt="code output" width="200" height="200" /></strong></p>
-<p>Tue Mar 06 2018 18:33:13 GMT+0530 (+0530)</p>
+<div class="w3-container w3-black"><p>Tue Mar 06 2018 18:33:13 GMT+0530 (+0530)</p></div>
 <br>
-<p><strong>Complements of a Number</strong></p>
+<div class="w3-container w3-deep-orange"><p><strong>Complements of a Number</strong></p></div>
 <p>&nbsp;The Complement of a number gives out a number which can sum-up to the original number and yield the digit-wise minimum or maximum number</p>
 <p>&nbsp;</p>
 <div class="w3-panel w3-pale-yellow w3-leftbar w3-border-yellow">
@@ -117,7 +120,117 @@
 </tbody>
 </table>
 <p>&nbsp;</p>
-<p>Fri Mar 09 2018 16:18:20 GMT+0530</p>
+<div class="w3-container w3-black"><p>Fri Mar 09 2018 16:18:20 GMT+0530</p></div>
 <p>&nbsp;</p>
+<br>
+<br>
+<div class="w3-container w3-deep-orange"><p><strong>A Simple Twitter Bot for Quotes and Monitors </strong></p></div>
+<hr />
+<br>
+<p><strong style="font-size:25px;">Step 1:</strong> Go to <a href="https://apps.twitter.com/">https://apps.twitter.com/</a> and sign in with your twitter bot account. Click "Create New App" button to get the following screen. After filling out the app details and agreeing with Twitter Developer Agreement click on the button "Create your Twitter application" to get into the app info screen</p>
+<br>
+<p>&nbsp;<strong><img src="images/twitter_newapp.png" alt="new app screen" /></strong></p>
+<br>
+<br>
+<p><strong style="font-size:25px;">Step 2:</strong> On successful creation the following page appears and in that switch to "Keys and Access Tokens" tab</p>
+<br>
+<div id="includedContent1" style="width:80%;"></div>
+ <script> 
+ (function () {
+ var dd = document.getElementById("includedContent1");
+   dd.innerHTML = tw1;
+   })();
+    </script> 
+    <br><br>
+<p><strong style="font-size:25px;">Step 3:</strong> Bot's consumer key and its secret are automatically generated and for access tokens you have to generate it by cliking on the button "Create my access token" down to that page.</p>
+<br>
+<div id="includedContent2" style="width:80%;"></div>
+ <script> 
+ (function () {
+ var dd = document.getElementById("includedContent2");
+   dd.innerHTML = tw2;
+   })();
+    </script>
+    <br><br> 
+<p><strong style="font-size:25px;">Step 4:</strong> Then copy all the four values (1) Consumer key (2) Consumer secret (3) Access token key and (4) Access token secret in a new text file in the below shown format and name it as 'config.js'</p>
+<br>
+<p>&nbsp;<strong><img src="images/twitter_config.png" alt="new app screen" /></strong></p>
+<br><br>
+<p><strong style="font-size:25px;">Step 5:</strong> If your device is not installed with Node.js then install it by following the guidelines as per your system platform</p>
+<br>
+<p>Node.js Installation for:</p>
+
+<ol>
+  <li><a href="http://nodesource.com/blog/installing-nodejs-tutorial-windows/" target="_blank">Windows</a></li>
+  <li><a href="https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-16-04" target="_blank">Ubuntu</a></li>
+  <li><a href="https://medium.freecodecamp.org/building-a-node-js-application-on-android-part-1-termux-vim-and-node-js-dfa90c28958f" target="_blank">Android</a></li>
+</ol> 
+
+<br>
+<br>
+<p><strong style="font-size:25px;">Step 6:</strong> After Node.js installation make a new directory for the twitter bot and issue the command "npm init" from the command line / Terminal. Just press "Enter" to fill the default settings for the app and this will create a file "package.json" in the directory</p>
+<br>
+<p>&nbsp;<strong><img src="images/twitter_npminit.png" alt="new app screen" /></strong></p>
+<br><br>
+<p><strong style="font-size:25px;">Step 7:</strong> Then install node dependencies required for the bot ("Twitter" & "fs" modules). </strong></p>
+<br>
+<p>&nbsp;<strong><img src="images/twitter_moduletwitter.png" alt="new app screen" /></strong></p>
+<br>
+<p>&nbsp;<strong><img src="images/twitter_modulefs.png" alt="new app screen" /></strong></p>
+<br>
+<br>
+<p><strong style="font-size:25px;">Step 8:</strong> At last create the bot script as follows and save the file as "app.js". Note: In the script pls change the 'yourfile' string with the data file of yours and also include the right path to all supporting files and modules </strong></p>
+<br>
+<textarea rows="15" style="width:70%;background-color:#e3e3e3;">
+
+// app.js
+var Twitter = require('twitter');
+var config = require('./config.js');
+var T = new Twitter(config);
+var fs = require('fs');
+var firstline = "";
+
+fs.readFile('yourfile', 'utf8', function(err, data)
+{
+console.log("Reading...");
+    if (err)
+    {
+        // check and handle err
+        console.log(err);
+    }
+    firstLine = data.split('\n')[0];
+    var remainingLines = data.split('\n').slice(1).join('\n');    
+    fs.writeFile('yourfile', remainingLines,  function(err) {
+   if (err) {
+      return console.error(err);
+   }   
+   console.log("Post File updated successfully");   
+   });
+    
+    SendTweetMsg(firstLine);
+	});
+
+function SendTweetMsg(tweetmsg){
+	T.post('statuses/update', {status:tweetmsg},  function(error, tweet, response) {
+  	if(error) throw error;
+  	//console.log(tweet);  // Tweet body. 
+  	//console.log(response);  // Raw response object. 
+    console.log("Done");
+   	});
+  	console.log(tweetmsg); 
+}
+</textarea>
+<br>
+<br>
+<p><strong style="font-size:25px;">Step 9:</strong> Thats all!!! Run the node command with a simple watch cycle or with a startup feature </strong></p>
+<textarea rows = "3" style = "width:70%;background-color:#e3e3e3;">
+//For sending tweets every 1hr (3600 seconds)
+(Your bot directory)$ sudo watch -n 3600 node app.js
+</textarea>
+<br>
+<br>
+<div class="w3-container w3-black"><p>Fri Mar 22 2018 15:45:20 GMT+0530</p></div>
+<br>
+<br>
 </body>
 </html>
