@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.label {
+    color: white;
+    height: 22px;
+    padding:5px;    
+    font-family: Times;
+    font-weight:Bold;
+}
+.lbgreen {background-color: #4CAF50;} /* Green */
+.lbblue {background-color: #2196F3;} /* Blue */
+.lborange {background-color: #ff9800;} /* Orange */
+.lbred {background-color: #f44336;} /* Red */ 
+.lbgray {background-color: #e7e7e7; color: black;} /* Gray */ 
+
+input.txt{
+    height:22px;
+}
+.btn{
+    margin-top:10px;
+    background-color:#4CAF50;
+    border: none;
+    color:white;
+    		padding:16px 32px;
+	text-decoration:none;
+	cursor:pointer; 
+ 
+}
+
+.textfont {
+    margin-top:20px;    		
+    font-family: "Times New Roman", Times, serif;
+}
+
+ .input-row {
+    clear: both;
+    font-size: 14px;
+    line-height: 1.5em;
+    position: relative;
+}
+textarea{
+ -webkit-box-sizing: border-box;
+ -moz-box-sizing: border-box;
+ box-sizing: border-box;
+ width: 100%;
+}
+.fstyle{
+background-color:#D7BDE2;
+width: 80%;
+ margin-left: 10%;
+ padding:10px;
+   -webkit-box-sizing: border-box;
+ -moz-box-sizing: border-box;
+ box-sizing: border-box;
+  border: 2px solid #6C3483;
+ }
+.outstyle{
+background-color:#CCD1D1;
+width: 80%;
+ margin-left: 10%;
+ padding:10px;
+  -webkit-box-sizing: border-box;
+ -moz-box-sizing: border-box;
+ box-sizing: border-box;
+  border: 2px solid #34495E;
+}
+.formatstyle{
+  -webkit-box-sizing: border-box;
+ -moz-box-sizing: border-box;
+ box-sizing: border-box;
+  background-color:#EBDEF0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding:10px 5px;
+  color:#D7A5E2;
+}
+.flexdisplay {
+ display: -webkit-flex; /* Safari */
+  display: flex;  
+ 
+}
+input[type=radio] {
+  /* one way to help with spacing */
+  margin-right: 10px;
+}
+</style>
+<title>IEEE Reference Section Coder </title>
+<script type="text/javascript">
+function handleIt() {
+	document.getElementById("reftext").value = document.getElementById("reftext").value +  document.getElementById("entrytext").value + "\n";
+}
+function ele(id){
+	return document.getElementById(id);
+}
+function init_page(){
+	hidelist();
+	let r1 = document.getElementsByName('citationtype');
+	let r2 = document.getElementsByName('format');      
+	for(let j=0;j<r1.length;j++){
+		r1[j].addEventListener("change", function(){gettypelist(r1[j].value);});
+		r1[j].checked = false;	    
+	}
+	for(let k=0;k<r2.length;k++){
+		r2[k].addEventListener("change", function(){editentry(r2[k].value);});
+		r2[k].checked = false; 	    
+	}
+}
+function copy(){
+	var copyText = document.querySelector("#reftext");
+	copyText.select();
+	document.execCommand("copy");
+	alert("Copied to Clipboard");
+}
+function gettypelist(selectedval){
+	hidelist();
+	document.getElementById("entrytext").value = "";
+    let flist = document.getElementsByClassName("formatstyle");
+	let label = document.getElementsByTagName('label');
+	let label_list = [];
+	for(let i=0;i<label.length;i++){
+	let ele_id = label[i].id;
+	let chk = ele_id.includes(selectedval + "_");
+	if(chk){
+	 label_list.push(ele_id);
+     flist[0].style.color = "black";
+	 label[i].style.display = "flex"; 
+	}
+	}	
+	let entry = document.getElementById(label_list[0]).innerHTML;	
+}
+function hidelist(){
+	let label = document.getElementsByTagName('label');
+	for(let i=0;i<label.length;i++){
+	label[i].style.display = "none";        
+	}
+}
+function editentry(selectedformat){
+let e0 = document.getElementById(selectedformat).innerHTML.split(">");
+let e1 = e0[2].split("<");
+document.getElementById("entrytext").value = e1[0];
+}
+</script>
+</head>
+<body onload = "init_page()">
+<h1 style="margin-left:42%;">Reference Entry</h1>
+<br>
+<div class="fstyle">
+<form name="entryform" action="javascript:handleIt()">
+<div id="selectcitation">
+<input type="radio" name="citationtype" value="Assignments" checked> Assignments<br>
+<input type="radio" name="citationtype" value="AV" checked> A-V Materials<br>
+<input type="radio" name="citationtype" value="Book_Chapters" checked> Book Chapters<br>
+<input type="radio" name="citationtype" value="Books" checked> Books<br>
+<input type="radio" name="citationtype" value="Conference_Papers" checked> Conference Papers<br>
+<input type="radio" name="citationtype" value="Datasets" checked> Datasets<br>
+<input type="radio" name="citationtype" value="E-books" checked> E-books<br>
+<input type="radio" name="citationtype" value="E-book_Chapters" checked> E-book Chapters<br>
+<input type="radio" name="citationtype" value="E-journals" checked> E-journals<br>
+<input type="radio" name="citationtype" value="Internet_Documents" checked> Internet Documents<br>
+<input type="radio" name="citationtype" value="Journal_Articles" checked> Journal Articles<br>
+<input type="radio" name="citationtype" value="Newspaper_Articles" checked> Newspaper Articles<br>
+<input type="radio" name="citationtype" value="Podcasts" checked> Podcasts<br>
+<input type="radio" name="citationtype" value="Readers/Study_Guides" checked> Readers/Study Guides<br>
+<input type="radio" name="citationtype" value="Theses" checked> Theses<br>
+
+</div>
+<div class="formatstyle">
+<h4>Select the format to customize</h4>
+<label id="Assignments_1" class="flexdisplay"><input type="radio" name="format" value="Assignments_1" checked><span>[1] S. F. Reid, "The Importance of scientific method," Unpublished manuscript, BSC100: Building Blocks for Science Students, Murdoch Univ., Murdoch, WA, Australia, 2016.</span></label>
+<label id="AV_1" class="flexdisplay"><input type="radio" name="format" value="AV_1" checked><span>[1] I. Holm, Narrator, and J. Fullerton-Smith, Producer, How to Build a Human [DVD]. London: BBC; 2002.</span></label>
+<label id="AV_2" class="flexdisplay"><input type="radio" name="format" value="AV_2" checked><span>[2] R. Aedy, Interviewer, D. Hector, Interviewee, and S. Clark, Producer, "The future of engineering," The Buzz, 25 Sept., 2004 [Radio broadcast]. Sydney: ABC Radio.</span></label>
+<label id="AV_3" class="flexdisplay"><input type="radio" name="format" value="AV_3" checked><span>[3] D. Fisher, Writer, and T. Baker, Presenter, Doctor Who and the Creature From the Pit [Sound recording]. Bath, UK: BBC Audiobooks, 2009.</span></label>
+<label id="AV_4" class="flexdisplay"><input type="radio" name="format" value="AV_4" checked><span>[4] T. Jones and P. Williams, Reporters, BP releases report into Gulf of Mexico oil spill. Lateline, 8 Sept., 2010 [Television broadcast]. Sydney: ABC1 Television.</span></label>
+<label id="AV_5" class="flexdisplay"><input type="radio" name="format" value="AV_5" checked><span>[5] C. Rogers, Writer and Director, Grrls in IT [Videorecording]. Bendigo, Vic. : Video Education Australasia, 1999.</span></label>
+<label id="AV_6" class="flexdisplay"><input type="radio" name="format" value="AV_6" checked><span>[6] NRK. "Medieval helpdesk with English subtitles," YouTube, Feb. 26, 2007 [Video file]. Available: http://www.youtube.com/watch?v=pQHX-SjgQvQ. [Accessed: Jan. 28, 2014].</span></label>
+<label id="Book_Chapters_1" class="flexdisplay"><input type="radio" name="format" value="Book_Chapters_1" checked><span>[1] A. Rezi and M. Allam, "Techniques in array processing by means of transformations, " in Control and Dynamic Systems, Vol. 69, Multidemsional Systems, C. T. Leondes, Ed. San Diego: Academic Press, 1995, pp. 133-180.</span></label>
+<label id="Book_Chapters_2" class="flexdisplay"><input type="radio" name="format" value="Book_Chapters_2" checked><span>[2] O. B. R. Strimpel, "Computer graphics," in McGraw-Hill Encyclopedia of Science and Technology, 8th ed., Vol. 4. New York: McGraw-Hill, 1997, pp. 279-283.</span></label>
+<label id="Books_1" class="flexdisplay"><input type="radio" name="format" value="Books_1" checked><span>[1] W.-K. Chen, Linear Networks and Systems. Belmont, CA: Wadsworth, 1993, pp. 123-135.</span></label>
+<label id="Books_2" class="flexdisplay"><input type="radio" name="format" value="Books_2" checked><span>[2] U. J. Gelinas, Jr., S. G. Sutton, and J. Fedorowicz, Business Processes and Information Technology. Cincinnati: South-Western/Thomson Learning, 2004.</span></label>
+<label id="Books_3" class="flexdisplay"><input type="radio" name="format" value="Books_3" checked><span>[3] World Bank, Information and Communication Technologies: A World Bank group strategy. Washington, DC: World Bank, 2002.</span></label>
+<label id="Books_4" class="flexdisplay"><input type="radio" name="format" value="Books_4" checked><span>[4] Australia. Attorney-Generals Department., Digital Agenda Review, 4 Vols. Canberra: Attorney- General's Department, 2003.</span></label>
+<label id="Books_5" class="flexdisplay"><input type="radio" name="format" value="Books_5" checked><span>[5] The Oxford Dictionary of Computing, 5th ed. Oxford: Oxford University Press, 2003.</span></label>
+<label id="Books_6" class="flexdisplay"><input type="radio" name="format" value="Books_6" checked><span>[6] D. Sarunyagate, Ed., Lasers. New York: McGraw-Hill, 1996.</span></label>
+<label id="Books_7" class="flexdisplay"><input type="radio" name="format" value="Books_7" checked><span>[7] K. Schwalbe, Information Technology Project Management, 3rd ed. Boston: Course Technology, 2004.</span></label>
+<label id="Books_8" class="flexdisplay"><input type="radio" name="format" value="Books_8" checked><span>[8] K. E. Elliott and C.M. Greene, "A local adaptive protocol," Argonne National Laboratory, Argonne, France, Tech. Rep. 916-1010-BB, 1997.</span></label>
+<label id="Conference_Papers_1" class="flexdisplay"><input type="radio" name="format" value="Conference_Papers_1" checked><span>[1] L. Liu and H. Miao, "A specification based approach to testing polymorphic attributes," in Formal Methods and Software Engineering: Proc. of the 6th Int. Conf. on Formal Engineering Methods, ICFEM 2004, Seattle, WA, USA, November 8-12, 2004, J. Davies, W. Schulte, M. Barnett, Eds. Berlin: Springer, 2004. pp. 306-19.</span></label>
+<label id="Conference_Papers_2" class="flexdisplay"><input type="radio" name="format" value="Conference_Papers_2" checked><span>[2] J. Lach, "SBFS: Steganography based file system," in Proc. of the 2008 1st Int. Conf. on Information Technology, IT 2008, 19-21 May 2008, Gdansk, Poland [Online]. Available: IEEE Xplore, http://www.ieee.org. [Accessed: 10 Sept. 2010].</span></label>
+<label id="Conference_Papers_3" class="flexdisplay"><input type="radio" name="format" value="Conference_Papers_3" checked><span>[3] H. A. Nimr, "Defuzzification of the outputs of fuzzy controllers," presented at 5th Int. Conf. on Fuzzy Systems, 1996, Cairo, Egypt. 1996.</span></label>
+<label id="Conference_Papers_4" class="flexdisplay"><input type="radio" name="format" value="Conference_Papers_4" checked><span>[4] T. J. van Weert and R. K. Munro, Eds., Informatics and the Digital Society: Social, ethical and cognitive issues: IFIP TC3/WG3.1&3.2 Open Conf.e on Social, Ethical and Cognitive Issues of Informatics and ICT, July 22-26, 2002, Dortmund, Germany. Boston: Kluwer Academic, 2003.</span></label>
+<label id="Datasets_1" class="flexdisplay"><input type="radio" name="format" value="Datasets_1" checked><span>[1] M. Ambrose, Air Infiltration Results for 129 Australian Dwellings, vol. 1, Canberra: CSIRO, 2018. [Dataset]. Available: https://doi.org/10.25919/5ca54346ef256. [Accessed: July 4, 2019].</span></label>
+<label id="Datasets_2" class="flexdisplay"><input type="radio" name="format" value="Datasets_2" checked><span>[2] United States. National Aeronautics and Space Administration., NASA Prognostics Data Repository, Washington, DC: NASA, 2019. [Online]. Available: https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/. [Accessed: July 4, 2019].</span></label>
+<label id="Datasets_3" class="flexdisplay"><input type="radio" name="format" value="Datasets_3" checked><span>[3] J. Tucker Lima, et al., Data from: A Social-ecological Database to Advance Research on Infrastructure Development Impacts in the Brazilian Amazon - Hydrology Dataset, Dryad Digital Repository, 2016. [Dataset]. Available: https://doi.org/10.5061/dryad.20627. [Accessed: July 11, 2019]. Referenced in: https://doi.org/10.1038/sdata.2016.71.</span></label>
+<label id="Datasets_4" class="flexdisplay"><input type="radio" name="format" value="Datasets_4" checked><span>[4] A. Rakotomamonjy and V. Guigue, "BCI competition III: Dataset II - Ensemble of SVMs for BCIP300 Speller, " IEEE Transactions on Biomedical Engineering, vol. 55, no. 3, pp. 1147-54, March 2008. [Online]. Available: IEEE Xplore, http://www.ieee.org. [Accessed: July 11, 2019].</span></label>
+<label id="E-books_1" class="flexdisplay"><input type="radio" name="format" value="E-books_1" checked><span>[1] L. Bass, P. Clements, and R. Kazman, Software Architecture in Practice, 2nd ed. Reading, MA: Addison Wesley, 2003. [Online] Available: Safari e-book.</span></label>
+<label id="E-books_2" class="flexdisplay"><input type="radio" name="format" value="E-books_2" checked><span>[2] G. S. Thompson and M. P. Harmer, "Nanoscale ceramic composites," in Encyclopedia of Materials: Science and Technology, K. H. J. Buschow, R. W. Cahn, M. C. Flemings, B. Ilschner, E.J. Kramer, S. Mahajan, and P. Veyssière, Eds. Amsterdam: Elsevier, 2001, pp. 5927-5930. [Online]. Available: ScienceDirect.</span></label>
+<label id="E-book_Chapters_1" class="flexdisplay"><input type="radio" name="format" value="E-book_Chapters_1" checked><span>[1] D. Kawecki, "Fuel preparation," in Combustion Engineering Issues for Solid Fuel Systems, B.G. Miller and D.A. Tillman, Eds. Boston, MA: Academic Press, 2008, 199-240. [Online] Available: Referex.</span></label>
+<label id="E-journals_1" class="flexdisplay"><input type="radio" name="format" value="E-journals_1" checked><span>[1] H. Ayasso and A. Mohammad-Djafari, "Joint NDT Image Restoration and Segmentation Using Gauss–Markov–Potts Prior Models and Variational Bayesian Computation," IEEE Transactions on Image Processing, vol. 19, no. 9, pp. 2265-77, 2010. [Online]. Available: IEEE Xplore, http://www.ieee.org. [Accessed Sept. 10, 2010].</span></label>
+<label id="E-journals_2" class="flexdisplay"><input type="radio" name="format" value="E-journals_2" checked><span>[2] P. H. C. Eilers and J. J. Goeman, "Enhancing scatterplots with smoothed densities," Bioinformatics, vol. 20, no. 5, pp. 623-628, March 2004. [Online]. Available: www.oxfordjournals.org. [Accessed Sept. 18, 2004].</span></label>
+<label id="Internet_Documents_1" class="flexdisplay"><input type="radio" name="format" value="Internet_Documents_1" checked><span>[1]  European Telecommunications Standards Institute, “Digital Video Broadcasting (DVB): Implementation guidelines for DVB terrestrial services; transmission aspects,” European Telecommunications Standards Institute, ETSI TR-101-190, 1997. [Online]. Available: http://www.etsi.org. [Accessed: Aug. 17, 1998].</span></label>
+<label id="Internet_Documents_2" class="flexdisplay"><input type="radio" name="format" value="Internet_Documents_2" checked><span>[2] Australia. Department of of Education, Employment and Workplace Relations, Survey on Changes in Awareness and Understanding of Science, Engineering and Technology: Report on findings. Canberra: The Department; 2008. [Online]. Available: http://www.dest.gov.au/NR/rdonlyres/241263CF-8585-4EEC-B104-C947C6C18029/23713/SurveyonChangesinawarenessunderstandingofSET.pdf. [Accessed: Sept. 7, 2010].</span></label>
+<label id="Internet_Documents_3" class="flexdisplay"><input type="radio" name="format" value="Internet_Documents_3" checked><span>[3] Australian Energy Market Act 2004 (Cth). [Online]. Available: https://www.legislation.gov.au/Series/C2004A01335. [Accessed: Apr. 11, 2019].</span></label>
+<label id="Internet_Documents_4" class="flexdisplay"><input type="radio" name="format" value="Internet_Documents_4" checked><span>[4] J. Geralds, "Sega Ends Production of Dreamcast," vnunet.com, para. 2, Jan. 31, 2001. [Online]. Available: http://nl1.vnunet.com/news/1116995. [Accessed: Sept. 12, 2004].</span></label>
+<label id="Journal_Articles_1" class="flexdisplay"><input type="radio" name="format" value="Journal_Articles_1" checked><span>[1] G. Liu, K. Y. Lee, and H. F. Jordan, "TDM and TWDM de Bruijn networks and shufflenets for optical communications," IEEE Trans. Comp., vol. 46, pp. 695-701, June 1997.</span></label>
+<label id="Journal_Articles_2" class="flexdisplay"><input type="radio" name="format" value="Journal_Articles_2" checked><span>[2] J. R. Beveridge and E. M. Riseman, "How easy is matching 2D line models using local search?" IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 19, pp. 564-579, June 1997.</span></label>
+<label id="Newspaper_Articles_1" class="flexdisplay"><input type="radio" name="format" value="Newspaper_Articles_1" checked><span>[1] N. Perpitch, "Green groups battle to overturn gas plan," The Australian, p. 2, Sept. 7, 2010.</span></label>
+<label id="Newspaper_Articles_2" class="flexdisplay"><input type="radio" name="format" value="Newspaper_Articles_2" checked><span>[2] C. Wilson-Clark, "Computers ranked as key literacy," The West Australian, para. 3, March 29, 2004. [Online]. Available: http://www.thewest.com.au. [Accessed Sept. 18, 2004].</span></label>
+<label id="Newspaper_Articles_3" class="flexdisplay"><input type="radio" name="format" value="Newspaper_Articles_3" checked><span>[3] J. Riley, "Call for new look at skilled migrants," The Australian, p. 35, May 31, 2005. [Online]. Available: Factiva, http://global.factiva.com. [Accessed May 31, 2005].</span></label>
+<label id="Podcasts_1" class="flexdisplay"><input type="radio" name="format" value="Podcasts_1" checked><span>[1] R. Robertson, Speaker, Leadership at the Bottom of the Earth…Where No One Hears You Scream, 2010 Sir Walter Murdoch Lecture. Murdoch (WA): Murdoch University; 2010. [Podcast]. Available: https://lectures.murdoch.edu.au/lectopia/lectopia.lasso?ut=1369&id=71101. [Accessed Aug. 5, 2010].</span></label>
+<label id="Podcasts_2" class="flexdisplay"><input type="radio" name="format" value="Podcasts_2" checked><span>[2] D. Hill, Speaker, Australian Media Representation of Asia. In Australia in Asia (FDN110). Murdoch (WA): Murdoch University; Apr. 4, 2012. [Podcast lecture]. Available: https://lectures.murdoch.edu.au/lectopia/casterframe.lasso?fid=375705&cnt=true&usr=S940025F&name=not-indicated. [Accessed Jun. 5, 2012].</span></label>
+<label id="Podcasts_3" class="flexdisplay"><input type="radio" name="format" value="Podcasts_3" checked><span>[3] S. Gary, Presenter, “Black Hole Death Ray,” StarStuff, Dec. 23, 2007. Sydney: ABC News Radio. [Podcast radio programme]. Available: http://abc.net.au/newsradio/podcast/STARSTUFF.xml. [Accessed Feb. 4, 2008].</span></label>
+<label id="Podcasts_4" class="flexdisplay"><input type="radio" name="format" value="Podcasts_4" checked><span>[4] W. Brown and K. Brodie, Presenters, and P. George, Producer, “From Lake Baikal to the Halfway Mark, Yekaterinburg,” Peking to Paris: Episode 3, Jun. 4, 2007.  Sydney: ABC Television. [Podcast television programme]. Available: http://www.abc.net.au/tv/pekingtoparis/podcast/pekingtoparis.xml. [Accessed Feb. 4, 2008].</span></label>
+<label id="Readers/Study_Guides_1" class="flexdisplay"><input type="radio" name="format" value="Readers/Study_Guides_1" checked><span>[5] C. J. Campbell and J. H. Laherrere, "The End of Cheap Oil", Scientific American, vol. 278, no. 3, pp. 78-83, March 1998. Reprinted in Introduction to Energy Studies (PEC190): Selected readings. Murdoch, WA: Murdoch Univ., 2006, pp. 129-134.</span></label>
+<label id="Theses_1" class="flexdisplay"><input type="radio" name="format" value="Theses_1" checked><span>[1] M. W. Dixon, "Application of neural networks to solve the routing problem in communication networks," Ph.D. dissertation, Murdoch Univ., Murdoch, WA, Australia, 1999.</span></label>
+<label id="Theses_2" class="flexdisplay"><input type="radio" name="format" value="Theses_2" checked><span>[2] M. Lehmann, Data Access in Workflow Management Systems. Berlin: Aka, 2006.</span></label>
+<label id="Theses_3" class="flexdisplay"><input type="radio" name="format" value="Theses_3" checked><span>[3] F. Sudweeks, Development and Leadership in Computer-Mediated Collaborative Groups. PhD [Dissertation]. Murdoch, WA: Murdoch Univ., 2007. [Online]. Available: Australasian Digital Theses Program.</span></label>
+</div>
+<h4>Edit Reference</h4>
+<textarea id="entrytext" class="textfont" rows="4" cols="70" placeholder="[1] Entry Text">
+</textarea>
+<br>
+<input name="Submit" class="btn" id="Submit" type="submit" value="Add to list"/>
+</form>
+</div>
+<br>
+<div class="outstyle">
+<textarea id="reftext" class="textfont" rows="12" cols="80">
+</textarea>
+<br>
+<button class="btn" onclick="copy()">Copy To Clipboard"</button>
+</div>
+</body>
+</html>
