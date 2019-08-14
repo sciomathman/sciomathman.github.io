@@ -1,0 +1,62 @@
+    <html>
+    <head>
+    <style>
+    hr {
+        display: block;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        margin-left: auto;
+        margin-right: auto;
+        border-style: inset;
+        border-width: 3px;
+    }
+    </style>
+    <script>
+      var openFile = function(event) {
+        let input = event.target;
+
+        let reader = new FileReader();
+        reader.onload = function(){
+          let text = reader.result.split(/[\r\n]+/);          
+          document.getElementById('output').innerHTML = arrayToLineStrings(extract_titiles(text,"BookmarkLevel: 1"));          
+          console.log(reader.result.substring(0, 200));
+        };
+        reader.readAsText(input.files[0]);
+        //extract bookmarks level 1
+        function extract_titiles(txtarray,bookmarklevel){
+          let lastentry = "####";
+          let titles = [];
+            for(let i=0;i<txtarray.length;i++){
+                if(txtarray[i] == bookmarklevel){
+                  let txtcols = lastentry.split(':');                  
+                  titles.push(txtcols[1].trim());
+                }
+                lastentry = txtarray[i];
+            }
+            return titles;
+        }
+        function arrayToLineStrings(arr){
+           let result="";
+            for(let i=0;i<arr.length;i++){
+               result = result + arr[i] + "<br>";
+            }
+            return result;
+        }
+      };
+    </script>
+    </head>
+    <body>
+    
+<p>Click the icon below to download a sample pdf bookmarks text file to try:<p>
+
+<a href="data/bm.txt" download>
+  <img src="images/Icon-txt.svg" onerror="this.src='images/475px-Icon-txt.svg.png'" width="104" height="142">
+</a>
+<br>
+<hr>
+    <input type='file' accept='text/plain' onchange='openFile(event)'><br>
+    <div id='output'>
+    ...
+    </div>
+    </body>
+    </html>
