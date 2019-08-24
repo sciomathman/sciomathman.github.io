@@ -10,7 +10,19 @@
 <script src="js/jquery.bxslider.min.js" type="text/javascript"></script>
 <script src="js/sitescript.js" type="text/javascript"></script>
 <script type="text/javascript" src="js/page.js"></script>
-<script type="text/javascript">
+
+   </head>
+   <body>
+<h1 style="font-size:7vw;font-family: Helvetica;">Sciomathman Athman</h1>
+<p style="font-size:3vw;">&#9673;Animating Things with Intelligence</p>
+<ul class="topnav">
+  <li><a class="active" href="javascript:loadHtml('workouts.html')">Workouts</a></li>
+  <li><a href="javascript:loadHtml('handouts.html')">Handouts</a></li>
+  <li><a href="javascript:loadHtml('thoughtouts.html')">Thoughtouts</a></li>
+  <li class="right"><a href="javascript:loadHtml('thoughtouts.html')">About</a></li>
+</ul>
+<div class="showhtmlpages" id="content"></div>
+      <script>
    
      submitFORM('http://usefulexperiments.000webhostapp.com/php/sciomathman_github_count.php', 'POST',
     {'opened':'1'});
@@ -43,16 +55,5 @@ function submitFORM(path, params, method) {
  
     
    </script>
-   </head>
-   <body>
-<h1 style="font-size:7vw;font-family: Helvetica;">Sciomathman Athman</h1>
-<p style="font-size:3vw;">&#9673;Animating Things with Intelligence</p>
-<ul class="topnav">
-  <li><a class="active" href="javascript:loadHtml('workouts.html')">Workouts</a></li>
-  <li><a href="javascript:loadHtml('handouts.html')">Handouts</a></li>
-  <li><a href="javascript:loadHtml('thoughtouts.html')">Thoughtouts</a></li>
-  <li class="right"><a href="javascript:loadHtml('thoughtouts.html')">About</a></li>
-</ul>
-<div class="showhtmlpages" id="content"></div>
    </body>
 </html>
