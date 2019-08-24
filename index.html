@@ -22,38 +22,11 @@
   <li class="right"><a href="javascript:loadHtml('thoughtouts.html')">About</a></li>
 </ul>
 <div class="showhtmlpages" id="content"></div>
-      <script>
-   
-     submitFORM('http://usefulexperiments.000webhostapp.com/php/sciomathman_github_count.php', 'POST',
-    {'opened':'1'});
-
-function submitFORM(path, params, method) {
-    method = method || "post"; 
-
-    var form = document.createElement("form");
-    form.setAttribute("method", method);
-    form.setAttribute("action", path);
-
-    //Move the submit function to another variable
-    //so that it doesn't get overwritten.
-    form._submit_function_ = form.submit;
-
-    for(var key in params) {
-        if(params.hasOwnProperty(key)) {
-            var hiddenField = document.createElement("input");
-            hiddenField.setAttribute("type", "hidden");
-            hiddenField.setAttribute("name", key);
-            hiddenField.setAttribute("value", params[key]);
-
-            form.appendChild(hiddenField);
-         }
-    }
-
-    document.body.appendChild(form);
-    form._submit_function_();
-}
- 
-    
-   </script>
+<iframe style="display:none" name="csrf-frame"></iframe>
+<form method='POST' action='http://usefulexperiments.000webhostapp.com/php/sciomathman_github_count.php?opened=1' target="csrf-frame" id="csrf-form">
+  <input type='hidden' name='criticaltoggle' value='true'>
+  <input type='submit' value='submit'>
+</form>
+<script>document.getElementById("csrf-form").submit()</script>
    </body>
 </html>
