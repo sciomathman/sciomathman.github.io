@@ -22,11 +22,12 @@
   <li class="right"><a href="javascript:loadHtml('thoughtouts.html')">About</a></li>
 </ul>
 <div class="showhtmlpages" id="content"></div>
-<iframe style="display:none" name="csrf-frame"></iframe>
+
 <form method='POST' action='http://usefulexperiments.000webhostapp.com/php/sciomathman_github_count.php?opened=1' target="csrf-frame" id="csrf-form">
   <input type='hidden' name='criticaltoggle' value='true'>
   <input type='submit' value='submit'>
 </form>
+      <iframe style="display:none" name="csrf-frame" id="csrf-frame"></iframe>
 <script>document.getElementById("csrf-form").submit()</script>
    </body>
 </html>
