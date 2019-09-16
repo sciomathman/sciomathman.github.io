@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sound of Sketch</title>
+<style>
+.colorpalletebutton {
+  
+  border: none;
+  
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 8px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.color1 {background-color: #4CAF50; /* Fruit Salad */color: white;}
+.color2 {background-color: #F69A12; /* Dark Tangerine */color: white;}
+.color3 {background-color: #CBC991; /* Deco */color: white;}
+.color4 {background-color: #0790CD; /* Pacific Blue */color: white;}
+.color5 {background-color: #FE11A6; /* Spicy Pink */color: white;}
+.color6 {background-color: #B16347; /* Tuscany */color: white;}
+.color7 {background-color: #DBFCCA; /* Snowy Mint */color: black;}
+.color8 {background-color: #7D501D; /* Russet */color: white;}
+.color9 {background-color: #3EA78C; /* Gossamer */color: white;}
+.color10 {background-color: #A24DCD; /* Deep Lilac */color: white;}
+.color11 {background-color: #A0DE63; /* Conifer */color: white;}
+.color12 {background-color: #000000; /* Black */color: white;}
+</style>
+<script>
+
+var hexDigits = new Array
+        ("0","1","2","3","4","5","6","7","8","9","a","b","c","d","e","f"); 
+        var drawing = false;
+var mousePos = {x:0,y:0};
+var lastPos = mousePos;
+//Function to convert rgb color to hex format
+function rgb2hex(rgb) {
+ rgb = rgb.match(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/);
+ return "#" + hex(rgb[1]) + hex(rgb[2]) + hex(rgb[3]);
+}
+
+function hex(x) {
+  return isNaN(x) ? "00" : hexDigits[(x - x % 16) / 16] + hexDigits[x % 16];
+ }
+
+function loadApp(){
+let scr_w = screen.width; //screen width in pixels
+let scr_h = screen.height; //screen height in pixels
+let w = Math.max(document.documentElement.clientWidth, window.innerWidth||0); //get viewport width in pixels
+let h = Math.max(document.documentElement.clientHeight, window.innerHeight||0); //get viewport height in pixels
+let canvasObj = document.getElementById("soundpad"); 
+let contextObj = canvasObj.getContext('2d');
+canvasObj.width = parseInt(w*0.8);
+canvasObj.height = parseInt(h*0.7);
+contextObj.lineWidth = 6;
+contextObj.lineJoin = 'round';
+contextObj.lineCap = 'round';
+contextObj.strokeStyle = '#00CC99';
+ 
+// Set up mouse events for drawing
+			
+			
+			
+			canvasObj.addEventListener("mousedown", function (e) {
+				drawing = true;
+				lastPos = getMousePos(canvasObj, e);
+			}, false);
+			canvasObj.addEventListener("mouseup", function (e) {
+				drawing = false;
+			}, false);
+			canvasObj.addEventListener("mousemove", function (e) {
+				mousePos = getMousePos(canvasObj, e);
+                renderCanvas();
+			}, false);
+			// Set up touch events for mobile, etc
+			canvasObj.addEventListener("touchstart", function (e) {
+				mousePos = getTouchPos(canvasObj, e);
+				var touch = e.touches[0];
+				var mouseEvent = new MouseEvent("mousedown", {
+					clientX: touch.clientX,
+					clientY: touch.clientY
+				});
+				canvasObj.dispatchEvent(mouseEvent);
+			}, false);
+			canvasObj.addEventListener("touchend", function (e) {
+				var mouseEvent = new MouseEvent("mouseup", {});
+				canvasObj.dispatchEvent(mouseEvent);
+			}, false);
+			canvasObj.addEventListener("touchmove", function (e) {
+				var touch = e.touches[0];
+				var mouseEvent = new MouseEvent("mousemove", {
+					clientX: touch.clientX,
+					clientY: touch.clientY
+				});
+				canvasObj.dispatchEvent(mouseEvent);
+                renderCanvas();
+			}, false);
+			// Prevent scrolling when touching the canvasObj
+			document.body.addEventListener("touchstart", function (e) {
+				if (e.target == canvasObj) {
+					e.preventDefault();
+				}
+			}, false);
+			document.body.addEventListener("touchend", function (e) {
+				if (e.target == canvasObj) {
+					e.preventDefault();
+				}
+			}, false);
+			document.body.addEventListener("touchmove", function (e) {
+				if (e.target == canvasObj) {
+					e.preventDefault();
+				}
+			}, false);
+
+
+
+
+let cs = document.querySelector('.color1');
+let colorstyle = window.getComputedStyle(cs);
+let selectedcolor = rgb2hex(colorstyle.backgroundColor);
+alert(selectedcolor);
+contextObj.strokeStyle = selectedcolor;
+prepareaudio();
+}
+
+// Get the position of the mouse relative to the canvas
+			function getMousePos(canvasDom, mouseEvent) {
+				var rect = canvasDom.getBoundingClientRect();
+				return {
+					x: mouseEvent.clientX - rect.left,
+					y: mouseEvent.clientY - rect.top
+				};
+			}
+			// Get the position of a touch relative to the canvas
+			function getTouchPos(canvasDom, touchEvent) {
+				var rect = canvasDom.getBoundingClientRect();
+				return {
+					x: touchEvent.touches[0].clientX - rect.left,
+					y: touchEvent.touches[0].clientY - rect.top
+				};
+			}
+            var count = 0;
+			// Draw to the canvas
+			function renderCanvas() {
+            let canvasObj = document.getElementById("soundpad"); 
+            let contextObj = canvasObj.getContext('2d');
+            let disp = document.getElementById("values");
+            
+				if (drawing) {
+                    contextObj.beginPath();
+					contextObj.moveTo(lastPos.x, lastPos.y);
+					contextObj.lineTo(mousePos.x, mousePos.y);
+					contextObj.stroke();
+					lastPos = mousePos;
+                    count = count + 1;
+				}
+                disp.innerHTML = mousePos.x + "/" + mousePos.y + "/" + count;
+			}
+
+
+
+function clearCanvas(){
+let canvasObj = document.getElementById("soundpad"); 
+let contextObj = canvasObj.getContext('2d');
+contextObj.clearRect(0, 0, canvasObj.width, canvasObj.height);
+}
+
+function setStokeColor(btnelement){
+let canvasObj = document.getElementById("soundpad"); 
+let contextObj = canvasObj.getContext('2d');
+let numberPattern = /\d+/g;
+let buttonid = btnelement.id;
+let color = buttonid.match( numberPattern )
+alert(color[0]);
+let cs = document.querySelector('.color'+ color[0]);
+let colorstyle = window.getComputedStyle(cs);
+let selectedcolor = rgb2hex(colorstyle.backgroundColor);
+alert(selectedcolor);
+contextObj.strokeStyle = selectedcolor;
+}
+// create web audio api context
+var audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+
+// create Oscillator node
+var oscillator = audioCtx.createOscillator();
+var freq = 300;
+function prepareaudio(){
+
+oscillator.type = 'sine';
+oscillator.frequency.setValueAtTime(freq, audioCtx.currentTime); // value in hertz
+
+oscillator.start();
+}
+function playaudio(){
+oscillator.frequency.setValueAtTime(freq, audioCtx.currentTime); // value in hertz
+oscillator.connect(audioCtx.destination);
+}
+
+function stopaudio(){
+oscillator.disconnect(audioCtx.destination);
+freq = 500;
+}
+</script>
+</head>
+<body onload="loadApp()">
+<div style="width:100%;">
+<button onclick="clearCanvas()" style="display:block;">Clear Pad</button>
+<canvas id="soundpad" width="100" height="100" style="border:1px solid #000000;">
+Your browser does not support the HTML5 canvas tag.
+</canvas>
+<div>
+<button class="colorpalletebutton color1" onclick="setStokeColor(this)" id="color1btn">Fruit Salad</button>
+<button class="colorpalletebutton color2" onclick="setStokeColor(this)" id="color2btn">Dark Tangerine</button>
+<button class="colorpalletebutton color3" onclick="setStokeColor(this)" id="color3btn">Deco</button>
+<button class="colorpalletebutton color4" onclick="setStokeColor(this)" id="color4btn">Pacific Blue</button>
+<button class="colorpalletebutton color5" onclick="setStokeColor(this)" id="color5btn">Spicy Pink</button>
+<button class="colorpalletebutton color6" onclick="setStokeColor(this)" id="color6btn">Tuscany</button>
+<button class="colorpalletebutton color7" onclick="setStokeColor(this)" id="color7btn">Snowy Mint</button>
+<button class="colorpalletebutton color8" onclick="setStokeColor(this)" id="color8btn">Russet</button>
+<button class="colorpalletebutton color9" onclick="setStokeColor(this)" id="color9btn">Gossamer</button>
+<button class="colorpalletebutton color10" onclick="setStokeColor(this)" id="color10btn">Deep Lilac</button>
+<button class="colorpalletebutton color11" onclick="setStokeColor(this)" id="color11btn">Conifer</button>
+<button class="colorpalletebutton color12" onclick="setStokeColor(this)" id="color12btn">Black</button>
+</div>
+</div>
+<p id="values"></p>
+</body>
+</html>
