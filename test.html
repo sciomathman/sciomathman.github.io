@@ -1,0 +1,311 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+html, 
+body {
+		width: 100%;
+    height: 100%;
+}
+textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;   
+    width: 100%;
+		height: 50%;
+		margin-top: 10px;
+		margin-bottom: 10px;
+}
+
+</style>
+</head>
+<body>
+</body>
+<script>
+var shiftkeypressed = false;
+var chars = "";
+var unknown = '¶';
+var entries = 0;
+var key = -1;
+var mapping1 = {
+ 'a' : '1',
+ 'b' : '23',
+ 'c' : '456',
+ 'd' : '',
+ 'de' : '7',
+ 'f' : '',
+ 'fg' : '',
+ 'fgh' : '890'
+};
+var mapping2 = {
+'1' : 'a',
+'23' : 'b',
+'2' : '',
+'456' : 'c',
+'4' : '',
+'45' : '',
+'7' : 'de',
+'890' : 'fgh',
+'8' : '',
+'89' : ''
+};
+var entryset = {};
+function getCursorPosition(ele){
+	return ele.selectionStart;
+}
+function getentrypoint(cursorpos){
+
+}
+
+function getObjectOf(lang1,lang2){
+let result = {};
+result["lang1"] = lang1;
+result["lang2"] = lang2;
+result["len1"] = lang1.length;
+result["len2"] = lang2.length;
+return result;
+}
+function onlang1entry(event){
+
+
+key = event.which || event.keyCode;
+  let keyvalue = "";
+
+	  if(key == 16) {
+			return 0;
+		}
+		if((key >= 65 && key <= 90) || (key >= 97 && key <= 122)){
+		if(shiftkeypressed){ //Shift key pressed earlier
+				chars = chars + String.fromCharCode(key);
+				shiftkeypressed = false;
+			}else{		
+				chars = chars + (String.fromCharCode(key)).toLowerCase();
+			}
+			let chlen = chars.length;
+			let entry = mapping1[chars];
+			if(entry != undefined || entry != null){
+			  if(entry == ''){
+					return 1;
+				} 
+			  entries += 1;
+				entryset[entries] = getObjectOf(chars,entry);
+				document.getElementById("lang2").value += entry;
+				chars = "";
+			}else if((entry == undefined || entry == null)){
+				rejectChars(chlen,"lang1");
+				chars = "";
+				
+			}
+			
+			}else if(key != 8) {
+				rejectChars(1,"lang1");
+			}
+			if(key == 8) { //backspace
+				modifyEntrySet("delete","lang1");
+			}
+updateCharCount();
+}
+function onlang2entry(event){
+
+
+key = event.which || event.keyCode;
+  let keyvalue = "";
+
+	  if(key == 16) {
+			return 0;
+		}
+		if(key >= 48 && key <= 57){
+		if(shiftkeypressed){ //Shift key pressed earlier
+				chars = chars + String.fromCharCode(key);
+				shiftkeypressed = false;
+			}else{		
+				chars = chars + (String.fromCharCode(key)).toLowerCase();
+			}
+			let chlen = chars.length;
+			let entry = mapping2[chars];
+			if(entry != undefined || entry != null){
+			  if(entry == ''){
+					return 1;
+				} 
+			  entries += 1;
+				entryset[entries] = getObjectOf(entry,chars);
+				document.getElementById("lang1").value += entry;
+				chars = "";
+			}else if((entry == undefined || entry == null)){
+				rejectChars(chlen,"lang2");
+				chars = "";
+				
+			}
+			
+			}else if(key != 8) {
+				rejectChars(1,"lang2");
+			}
+			if(key == 8) { //backspace
+				modifyEntrySet("delete","lang2");
+			}
+updateCharCount();
+}
+
+function rejectChars(charlength,ele){
+alert("Not a lang character");
+let tmpstr = document.getElementById(ele).value;
+let pchars = tmpstr.length - charlength;
+document.getElementById(ele).value = tmpstr.substring(0,pchars);
+}
+
+function updateCharCount(){
+let displaycount1 = document.getElementById("count1");
+let displaycount2 = document.getElementById("count2");
+let display1 = document.getElementById("lang1").value;			
+displaycount1.innerHTML = display1.length;
+let display2 = document.getElementById("lang2").value;			
+displaycount2.innerHTML = display2.length;
+}
+
+function UpdateShiftKeyPressedState(event){
+if (event.shiftKey) {
+    shiftkeypressed = true;
+  }
+}
+
+function modifyEntrySet(action,ele){
+let inputelement = document.getElementById(ele);
+let curpos = inputelement.selectionStart;
+let thisset = undefined;
+switch(action) {
+  case "delete":
+		let chardeleted = curpos + 1;
+		let pkey = 0;
+		let cc = 0;
+		let clen = 0;
+		let cset = undefined;
+		for (k in entryset){
+		
+		   if(ele == "lang1"){
+				clen = entryset[k].len1;
+				cset = entryset[k].lang1;
+				}else{
+				clen = entryset[k].len2;
+				cset = entryset[k].lang2;
+				}
+				cc += clen;
+				if(cc >= chardeleted){
+					let diff = cc - chardeleted;
+					if(diff == 0 && clen == 1){
+						delete entryset[k];
+						if(ele == "lang1"){
+						updateTranslation(k,"lang1");
+						}else{
+						updateTranslation(k,"lang2");
+						}
+					}else{
+					  let chpos = clen - diff;
+						let csetnew = deletechar(cset,chpos);
+						if(ele == "lang1"){
+						entryset[k].lang1 = csetnew;
+						entryset[k].len1 = csetnew.length;
+						updateTranslation(k,"lang1");
+						}else{
+						entryset[k].lang2 = csetnew;
+						entryset[k].len2 = csetnew.length;
+						updateTranslation(k,"lang2");
+						}
+						
+					}
+				}
+		}
+    // code block
+    break;
+  case "insert":
+    // code block
+    break;
+  default:
+    // code block
+		console.log("nothing to act on")
+}
+
+}
+//deletes the character in a string at the specified position. value of 1 removes the first character
+//value of n removes the nth character
+function deletechar(str,pos){
+let result = "";
+let len = str.length;
+while (len--) {
+   if(len != pos-1){
+   result = str.charAt(len) + result;
+   }
+	 }
+return result;
+}
+
+function updateTranslation(entry,ele){
+let result = "";	
+	
+	if(ele == "lang1"){
+		let updatingElement = document.getElementById("lang2");
+		
+		for (k in entryset){
+	
+		 
+			  if(entry == k){
+				  let newch = mapping1[entryset[k].lang1];
+					if(newch == undefined){
+						newch =  unknown;
+					}
+					entryset[k].lang2 = newch;
+					entryset[k].len2 = newch.length;
+					result = result + newch;
+				}else{
+					result = result + entryset[k].lang2;
+				}
+		
+			}
+		updatingElement.value = result;
+		
+	} else {
+		let updatingElement = document.getElementById("lang1");
+		
+		for (k in entryset){
+
+		  
+			  if(entry == k){
+				  let newch = mapping2[entryset[k].lang2];
+					if(newch == undefined){
+						newch =  unknown;
+					}
+					entryset[k].lang1 = newch;
+					entryset[k].len1 = newch.length;
+					result = result + newch;
+				}else{
+					result = result + entryset[k].lang1;
+				}
+		
+			}
+		updatingElement.value = result;
+	}
+}
+function showkey(){
+ alert(JSON.stringify(entryset));
+ alert(entryset["1"].lang1);
+}
+</script>
+
+
+<table style="width:90%;height:70%;">
+
+  <tr style="height:50%;">
+    <td rowspan = "2" style="width:15%;"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="489.389" viewBox="0 0 75 130" version="1.1"><g fill-opacity="1" stroke="none" stroke-width="13.229" stroke-miterlimit="4" stroke-dashoffset="0" stroke-opacity="1"><path d="M69.096 129.128c-8.416-1.029-17.339-3.731-23.787-7.205-21.558-11.612-34.31-32.84-34.31-57.118C11 40.07 24.792 17.752 46.646 7.119 55.009 3.049 61.557 1.244 71.1.377L75.243 0V12.807l-3.892.353c-9.03.818-19.064 4.493-26.233 9.609-3.65 2.604-9.978 9.034-12.479 12.678-6.822 9.941-10.119 23.183-8.71 34.988 1.487 12.47 6.668 22.974 15.575 31.579 8.683 8.389 19.54 13.343 31.596 14.419l4.143.37V129.484l-2.272-.08c-1.25-.044-2.994-.168-3.875-.276z" opacity="1" fill="#000"/><path d="M0 77.3c.002-.145 17.584-30.319 17.628-30.255.664.958 17.413 30.163 17.34 30.235-.11.107-34.97.127-34.968.02z" opacity="1" fill="#999"/></g></svg>
+</td>
+<td style="width:60%;height:50%;"><textarea id = "lang1" onkeyup = "onlang1entry(event);"></textarea></td>
+    <td rowspan = "2" style="width:15%;"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="489.389" viewBox="0 0 75 130" version="1.1"><g fill-opacity="1" stroke="none" stroke-width="13.229" stroke-miterlimit="4" stroke-dashoffset="0" stroke-opacity="1"><path d="M6.147 129.128c8.416-1.029 17.339-3.731 23.787-7.205 21.558-11.612 34.309-32.84 34.309-57.118 0-24.734-13.791-47.053-35.645-57.686C20.234 3.049 13.686 1.244 4.143.377L0 0V12.807l3.892.353c9.03.818 19.064 4.493 26.232 9.609 3.65 2.604 9.98 9.034 12.48 12.678 6.822 9.941 10.119 23.183 8.71 34.988-1.488 12.47-6.669 22.974-15.575 31.579-8.684 8.389-19.54 13.343-31.596 14.419l-4.143.37V129.484l2.272-.08c1.25-.044 2.993-.168 3.875-.276z" opacity="1" fill="#000"/><path d="M75.243 47.116c-.002.145-17.584 30.319-17.628 30.255-.665-.958-17.413-30.163-17.34-30.235.11-.107 34.97-.127 34.968-.02z" opacity="1" fill="#999"/></g></svg></td>
+  </tr>
+	<tr style="height:50%;">
+	<td style="width:60%;height:50%;"><textarea id = "lang2" onkeyup = "onlang2entry(event);"></textarea></td>
+	</tr>
+</table>
+<p id="count1"></p>
+<p id="count2"></p>
+
+<button id="test" onclick="showkey();">Show key</button>
+</html>
