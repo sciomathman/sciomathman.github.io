@@ -1,0 +1,57 @@
+<html>
+<head>
+<title>Lehmer Code</title>
+</head>
+<body>
+<textarea id="result" cols="50" rows="10"></textarea>
+<button onclick="showlehmercodes()">show</button>
+<script>
+var output = document.getElementById("result");
+function createPermutation(arr) {
+        var intval = getRandomintvaleger(factorial(arr.length));
+        var code = intvalegerToCode(intval,arr.length);
+        return codeToPermutation(arr, code);
+    }
+		function intvalegerToCode(intval, permSize) {
+        if (permSize <= 1) {
+            return [0];
+        }
+        var multiplier = factorial(permSize-1);
+        var digit = Math.floor(intval / multiplier);
+        return [digit].concat(
+            intvalegerToCode(
+                intval % multiplier,
+                permSize-1));
+    }
+		function factorial(n) {
+        if (n <= 0) {
+            return 1;
+        } else {
+            return n * factorial(n-1);
+        }
+    }
+		function codeToPermutation(elements, code) {
+        return code.map(function (index) {
+            var elem = elements[index];
+            elements = removeElement(elements, index);
+            return elem;
+        });
+    }
+		  /**
+     * @returns a number 0 <= n < upper
+     */
+    function getRandomintvaleger(upper) {
+        return Math.floor(Math.random() * upper);
+    }
+		 /**
+     * @returns a fresh copy of arr, with the element at index removed
+     */
+    function removeElement(arr, index) {
+        return arr.slice(0, index).concat(arr.slice(index+1));
+    }
+		function showlehmercodes(){
+		output.value = createPermutation(['a','b','c']);
+		}
+</script>
+</body>
+</html>
