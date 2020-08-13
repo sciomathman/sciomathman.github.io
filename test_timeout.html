@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to wait 3 seconds, then alert "Hello".</p>
+
+<button onclick="starter()">Try it</button>
+<p id="output"></p>
+<script>
+var checkflag = false;
+var stopflag = false;
+var fn1,fn2;
+var disp = document.getElementById("output");
+function starter() {
+  var fn1 = setTimeout(function(){ let n = Date.now(); disp.innerHTML = checkflag ; clearTimeout(fn2); console.log("fn1"+ n); }, 302);
+	var fn2 = setTimeout(function pulse(){ disp.innerHTML = checkflag ; checkflag = !checkflag; fn2 = setTimeout(pulse,0)}, 0);
+}
+</script>
+
+</body>
+</html>
