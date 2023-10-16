@@ -5,15 +5,19 @@
                     <textarea placeholder="Message" class="field" name="message" required=""></textarea>
   <button type="submit">Send</button>
 </form>
-
+<p id="response"></p>
 <script>
   const scriptURL = 'https://script.google.com/macros/s/AKfycbx601STHBUlfYaFEMyyiZ-15SwSqGryZ2ex8-jrLxsVHEodHdNbwUXBSfw4F70ut47Rpw/exec'
   const form = document.forms['submit-to-google-sheet']
-
+  
   form.addEventListener('submit', e => {
     e.preventDefault()
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-      .then(response => console.log('Success!', response))
+       .then((response) => {
+         console.log('Success!', response))
+         document.getElementById("response").innerHTML = response;
+       }
+      
       .catch(error => console.error('Error!', error.message))
   })
 </script>
