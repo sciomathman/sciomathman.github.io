@@ -15,7 +15,7 @@
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
        .then((response) => {
          console.log('Success!', response);
-         document.getElementById("res").innerHTML = response.text();
+         document.getElementById("res").innerHTML = response.json();
        })      
       .catch(error => console.error('Error!', error.message))
   })
