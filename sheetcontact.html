@@ -23,7 +23,7 @@
 
         // Examine the text in the response
         response.json().then(function(data) {
-          document.getElementById("res").innerHTML = data;
+          document.getElementById("res").innerHTML = data.result + "<br>" + data.row;
         console.log(data);
         });
     })   
