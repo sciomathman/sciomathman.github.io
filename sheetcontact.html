@@ -5,7 +5,7 @@
                     <textarea placeholder="Message" class="field" name="message" required=""></textarea>
   <button type="submit">Send</button>
 </form>
-<p id="response"></p>
+<p id="res"></p>
 <script>
   const scriptURL = 'https://script.google.com/macros/s/AKfycbx601STHBUlfYaFEMyyiZ-15SwSqGryZ2ex8-jrLxsVHEodHdNbwUXBSfw4F70ut47Rpw/exec'
   const form = document.forms['submit-to-google-sheet']
@@ -15,7 +15,7 @@
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
        .then((response) => {
          console.log('Success!', response);
-         document.getElementById("response").innerHTML = response.url;
+         document.getElementById("res").innerHTML = response.text();
        })      
       .catch(error => console.error('Error!', error.message))
   })
