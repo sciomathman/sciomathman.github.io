@@ -13,10 +13,22 @@
   form.addEventListener('submit', e => {
     e.preventDefault()
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-       .then((response) => {
-         console.log('Success!', response);
-         document.getElementById("res").innerHTML = response.json();
-       })      
+      .then(
+          function(response) {
+              if (response.status !== 200) {
+              console.log('Looks like there was a problem. Status Code: ' +
+              response.status);
+              return;
+            }
+
+        // Examine the text in the response
+        response.json().then(function(data) {
+          getElementByid("res").innerHTML = data;
+        console.log(data);
+        });
+    })   
+
+  
       .catch(error => console.error('Error!', error.message))
   })
 </script>
