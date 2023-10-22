@@ -10,7 +10,7 @@
     <div class="container">
       <div class="forms-container">
         <div class="signin-signup">
-          <form action="" class="sign-in-form">
+          <form name="submit-login" action="" class="sign-in-form">
             <h2 class="title">Sign In</h2>
             <div class="input-field">
               <i class="fas fa-user"></i>
@@ -97,5 +97,32 @@
     </div>
 
     <script src="./app.js"></script>
+    <p id="res"></p>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbx601STHBUlfYaFEMyyiZ-15SwSqGryZ2ex8-jrLxsVHEodHdNbwUXBSfw4F70ut47Rpw/exec'
+  const form1 = document.forms['submit-login']
+  
+  form1.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form1)})
+      .then(
+          function(response) {
+              if (response.status !== 200) {
+              console.log('Looks like there was a problem. Status Code: ' +
+              response.status);
+              return;
+            }
+
+        // Examine the text in the response
+        response.json().then(function(data) {
+          document.getElementById("res").innerHTML = data.result + "<br>" + data.row;
+        console.log(data);
+        });
+    })   
+
+  
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
   </body>
 </html>
