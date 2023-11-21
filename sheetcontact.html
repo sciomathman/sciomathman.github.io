@@ -11,8 +11,10 @@
   const form = document.forms['submit-to-google-sheet']
   
   form.addEventListener('submit', e => {
-    e.preventDefault()
-    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    e.preventDefault();
+    fdata = new FormData(form);
+    fdata.append("formtype","formdata");
+    fetch(scriptURL, { method: 'POST', body: fdata})
       .then(
           function(response) {
               if (response.status !== 200) {
