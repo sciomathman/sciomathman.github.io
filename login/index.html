@@ -100,7 +100,8 @@ const formsignin = document.forms['signin-to-google-sheet'];
 
         // Examine the text in the response
         response.json().then(function(data) {
-          document.getElementById("res").innerHTML = data.result + "<br>" + data.info;
+          document.getElementById("res").innerHTML = data.result + "<br>" + data.info + "<a href='https://docs.google.com/spreadsheets/d/1r3qA72K8P2t-oyivt13lVFATTFabnBGxN1zKjHGCtDo/edit?usp=sharing'>view entry</a>";
+          
         console.log(data);
         resetSignup();
         });
@@ -125,7 +126,7 @@ const formsignin = document.forms['signin-to-google-sheet'];
 
         // Examine the text in the response
         response.json().then(function(data) {
-          document.getElementById("res").innerHTML = data.result + "<br>" + data.info;
+          document.getElementById("res").innerHTML = data.result + "<br>" + data.info + "<a href='https://docs.google.com/spreadsheets/d/1r3qA72K8P2t-oyivt13lVFATTFabnBGxN1zKjHGCtDo/edit?usp=sharing'>view entry</a>";
         console.log(data);
         resetSignin();
         });
