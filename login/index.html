@@ -27,13 +27,13 @@
           <form name="signup-to-google-sheet" class="sign-up-form">
             <h2 class="title">Sign Up</h2>
             <div class="input-field">              
-              <input type="text" placeholder="Username" name="user" id="user" />
+              <input type="text" placeholder="Username" name="newuser" id="newuser" />
             </div>
             <div class="input-field">              
-              <input type="password" placeholder="Password" name="password" id="password" />
+              <input type="password" placeholder="Password" name="newpassword" id="newpassword" />
             </div>
             <div class="input-field">              
-              <input type="email" placeholder="Email" name="email" id="email" />
+              <input type="email" placeholder="Email" name="newemail" id="newemail" />
             </div>
 
             <input type="submit" value="Sign Up" class="btn solid" />
@@ -41,6 +41,7 @@
             
           </form>
         </div>
+        
       </div>
       <div class="panels-container">
 
@@ -63,7 +64,7 @@
         </div>
       </div>
     </div>
-
+<h4 id="res">⚇⚉⚇⚉⚇⚉⚇⚉⚇⚉</h4>
     <script>
       const scriptURL = 'https://script.google.com/macros/s/AKfycbx601STHBUlfYaFEMyyiZ-15SwSqGryZ2ex8-jrLxsVHEodHdNbwUXBSfw4F70ut47Rpw/exec';
       
@@ -99,8 +100,9 @@ const formsignin = document.forms['signin-to-google-sheet'];
 
         // Examine the text in the response
         response.json().then(function(data) {
-          document.getElementById("res").innerHTML = data.result + "<br>" + data.row;
+          document.getElementById("res").innerHTML = data.result + "<br>" + data.info;
         console.log(data);
+        resetSignup();
         });
     })   
 
@@ -125,12 +127,23 @@ const formsignin = document.forms['signin-to-google-sheet'];
         response.json().then(function(data) {
           document.getElementById("res").innerHTML = data.result + "<br>" + data.info;
         console.log(data);
+        resetSignin();
         });
     })   
 
   
       .catch(error => console.error('Error!', error.message))
   });
+  
+  function resetSignup(){
+	document.getElementById("newuser").value = "";
+	document.getElementById("newpassword").value = "";
+	document.getElementById("newemail").value = "";
+  }
+  function resetSignin(){
+  	document.getElementById("user").value = "";
+	document.getElementById("password").value = "";
+  }
     </script>
   </body>
 </html>
