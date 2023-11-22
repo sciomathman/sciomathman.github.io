@@ -10,15 +10,13 @@
     <div class="container">
       <div class="forms-container">
         <div class="signin-signup">
-          <form action="" class="sign-in-form">
+          <form name="signin-to-google-sheet" class="sign-in-form">
             <h2 class="title">Sign In</h2>
-            <div class="input-field">
-              <i class="fas fa-user"></i>
-              <input type="text" placeholder="Username" />
+            <div class="input-field">              
+              <input type="text" placeholder="Username" name="user" id="user"/>
             </div>
-            <div class="input-field">
-              <i class="fas fa-lock"></i>
-              <input type="password" placeholder="Password" />
+            <div class="input-field">              
+              <input type="password" placeholder="Password" name="password" id="password" />
             </div>
             <input type="submit" value="Login" class="btn solid" />
 
@@ -26,20 +24,18 @@
           </form>
 
 
-          <form action="" class="sign-up-form">
+          <form name="signup-to-google-sheet" class="sign-up-form">
             <h2 class="title">Sign Up</h2>
-            <div class="input-field">
-              <i class="fas fa-user"></i>
-              <input type="text" placeholder="Username" />
+            <div class="input-field">              
+              <input type="text" placeholder="Username" name="user" id="user" />
             </div>
-            <div class="input-field">
-              <i class="fas fa-envelope"></i>
-              <input type="email" placeholder="Email" />
+            <div class="input-field">              
+              <input type="password" placeholder="Password" name="password" id="password" />
             </div>
-            <div class="input-field">
-              <i class="fas fa-lock"></i>
-              <input type="password" placeholder="Password" />
+            <div class="input-field">              
+              <input type="email" placeholder="Email" name="email" id="email" />
             </div>
+
             <input type="submit" value="Sign Up" class="btn solid" />
 
             
@@ -69,6 +65,9 @@
     </div>
 
     <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbx601STHBUlfYaFEMyyiZ-15SwSqGryZ2ex8-jrLxsVHEodHdNbwUXBSfw4F70ut47Rpw/exec';
+      
+      
     const sign_in_btn = document.querySelector("#sign-in-btn");
 const sign_up_btn = document.querySelector("#sign-up-btn");
 const container = document.querySelector(".container");
@@ -80,6 +79,58 @@ sign_up_btn.addEventListener('click', () =>{
 sign_in_btn.addEventListener('click', () =>{
     container.classList.remove("sign-up-mode");
 });
+
+const formsignup = document.forms['signup-to-google-sheet'];
+const formsignin = document.forms['signin-to-google-sheet'];
+
+  
+  formsignup.addEventListener('submit', e => {
+    e.preventDefault();
+    let fdata = new FormData(formsignup);
+    fdata.append("formtype","signup");
+    fetch(scriptURL, { method: 'POST', body: fdata})
+      .then(
+          function(response) {
+              if (response.status !== 200) {
+              console.log('Looks like there was a problem. Status Code: ' +
+              response.status);
+              return;
+            }
+
+        // Examine the text in the response
+        response.json().then(function(data) {
+          document.getElementById("res").innerHTML = data.result + "<br>" + data.row;
+        console.log(data);
+        });
+    })   
+
+  
+      .catch(error => console.error('Error!', error.message))
+  });
+  
+    formsignin.addEventListener('submit', e => {
+    e.preventDefault();
+    let fdata = new FormData(formsignin);
+    fdata.append("formtype","signin");
+    fetch(scriptURL, { method: 'POST', body: fdata})
+      .then(
+          function(response) {
+              if (response.status !== 200) {
+              console.log('Looks like there was a problem. Status Code: ' +
+              response.status);
+              return;
+            }
+
+        // Examine the text in the response
+        response.json().then(function(data) {
+          document.getElementById("res").innerHTML = data.result + "<br>" + data.info;
+        console.log(data);
+        });
+    })   
+
+  
+      .catch(error => console.error('Error!', error.message))
+  });
     </script>
   </body>
 </html>
