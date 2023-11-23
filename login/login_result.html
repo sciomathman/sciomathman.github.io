@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>  
+  <title>html page</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #e8e8e8;
+}
+  .fullscreenDiv {
+    width: 100%;
+    height: auto;
+    bottom: 0px;
+    top: 0px;
+    left: 0;
+    position: absolute;
+}
+.center {
+    position: absolute;
+    border: 1px solid blue;   
+    width: 65%;
+    padding: 10px;
+    font-size:5vw;
+    top: 20%;
+    left: 20%;
+    margin-top: -25px;
+    margin-left: -50px;
+}
+    </style>
+</head>
+<body>   
+<div class='fullscreenDiv'>
+    <div class="center">
+    As ordained by Arutperunjothi
+    The light of Vallar is execpted to appear
+    at Vadalur Sathya Jnana Sabai, Vadalur,
+    Tamilnadu, India - 607303 in <p id="result"></p>
+    
+    </div>
+</div> 
+<script>
+// Calculate milliseconds in a year
+const minute = 1000 * 60;
+const hour = minute * 60;
+const day = hour * 24;
+const year = day * 365;
+var target = 1706621880000 - 63481000;
+var diff = target- Date.now();
+var y_remainder = diff%year;
+if(y_remainder == diff && year > diff) {	
+    var y = 0;
+}else{	
+    var y = (diff - y_remainder)/year;
+    diff = diff - y*year;
+}
+
+var d_remainder = diff%day;
+if(d_remainder == diff && day > diff) {
+	var d = 0;
+}else{
+	var d = (diff - d_remainder)/day;
+	diff = diff - d*day;
+}
+
+var h_remainder = diff%hour;
+if(h_remainder == diff && hour > diff) {
+	var h = 0;
+}else{
+	var h = (diff - h_remainder)/hour;
+	diff = diff - h*hour;
+}
+
+var m_remainder = diff%minute;
+if(m_remainder == diff && minute > diff) {
+	var m = 0;
+}else{
+	var m = (diff - m_remainder)/minute;
+	diff = diff - m*minute;
+}
+var s_remainder = diff%1000;
+var s = (diff - s_remainder)/1000;
+
+
+
+
+// Divide Date.now() with a year
+let days = ((diff - (diff % day))/day);
+document.getElementById("result").innerHTML =  y + "years " + d + "days " + h + "hours " + m + "minutes " + s + "seconds.";
+</script>
+</body>
+</html>
+
+
+

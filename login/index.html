@@ -129,6 +129,9 @@ const formsignin = document.forms['signin-to-google-sheet'];
           document.getElementById("res").innerHTML = data.result + "<br>" + data.info + "<a href='https://docs.google.com/spreadsheets/d/1r3qA72K8P2t-oyivt13lVFATTFabnBGxN1zKjHGCtDo/edit?usp=sharing'>view entry</a>";
         console.log(data);
         resetSignin();
+        if(data.result == "login success"){
+       		location.href = "login/login_result.html";
+        }
         });
     })   
 
