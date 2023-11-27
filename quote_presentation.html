@@ -25,8 +25,8 @@
     padding: 10px;
     font-size:2vw;
     font-weight:bold;
-    top: 20%;
-    left: 10%;    
+    top: 5%;
+    left: 5%;    
     color:#995c00; 
 }
 
@@ -50,22 +50,29 @@ p {
 </head>
 <body>   
 <div class='fullscreenDiv'>
-   <div class="backimage">
     <div class="center" >
-<p>நினைந்து நினைந்து உணர்ந்து உணர்ந்து நெகிழ்ந்து நெகிழ்ந்து அன்பே</p>
-<p>நிறைந்து நிறைந்து ஊற்றெழும் கண்ணீரதனால் உடம்பு</p>
-<p>நனைந்து நனைந்து அருளமுதே நன்னிதியே ஞான</p>
-<p>நடத்தரசே என்னுரிமை நாயகனே என்று</p>
-<p>வனைந்து வனைந்து ஏத்துது நாம் வம்மின் உலகியலீர்</p>
-<p>மரணமிலாப் பெருவாழ்வில் வாழ்ந்திடலாம் கண்டீர்</p>
-<p>புனைந்துரையேன் பொய்புகலேன் சத்தியம் சொல்கின்றோர்</p>
-<p>சொற்சபையில் சிற்சபையில் புகுந்தருணம் இதுவே.</p>
-    
+<img id="quote" src="" alt="quote card" style="width:100%;">
     </div>
-
-</div>  
 </div> 
 <script>
+var imgid = document.getElementById("quote");
+const queryString = window.location.search;
+console.log(queryString);
+var quoteid = getParameterByName("song");
+imgid.src = "songs/tvp_js" + quoteid+".svg";
+function getParameterByName(name) {
+    var match = RegExp('[?&]' + name + '=([^&]*)').exec(queryString);
+    return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+}
+function getURLParameterByName(name, url = window.location.href) {
+    name = name.replace(/[\[\]]/g, '\\$&');
+    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+}
+
 </script>
 </body>
 </html>
