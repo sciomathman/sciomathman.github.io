@@ -17,6 +17,17 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
+      <style>
+    text,tspan {
+      font-size: 10px;
+    }
+
+    @media (max-width: 400px) {
+      text,tspan {
+        font-size: 7px;
+      }
+    }
+  </style>
   <sodipodi:namedview
      id="namedview7"
      pagecolor="#ffffff"
@@ -60,90 +71,90 @@
        transform="translate(13.882501,21.56048)">
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.565;stroke-miterlimit:4;stroke-dasharray:none"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.565;stroke-miterlimit:4;stroke-dasharray:none"
          x="56"
          y="235"
          id="text2622-36"><tspan
            sodipodi:role="line"
            id="tspan2620-0"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#803300;stroke:#803300;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#803300;stroke:#803300;stroke-opacity:1"
            x="56"
            y="235">காணாத காட்சி எலாம் கண்டு கொளலாமே.</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.565;stroke-miterlimit:4;stroke-dasharray:none"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.565;stroke-miterlimit:4;stroke-dasharray:none"
          x="56"
          y="210"
          id="text2622-0"><tspan
            sodipodi:role="line"
            id="tspan2620-9"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#803300;stroke:#803300;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#803300;stroke:#803300;stroke-opacity:1"
            x="56"
            y="210">கணிந்து உளத்தே கனிந்து நினைந்து உரைத்திடில் அப்பொழுதே</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.565;stroke-miterlimit:4;stroke-dasharray:none"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.565;stroke-miterlimit:4;stroke-dasharray:none"
          x="56"
          y="185"
          id="text2622-2"><tspan
            sodipodi:role="line"
            id="tspan2620-7"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#803300;stroke:#803300;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#803300;stroke:#803300;stroke-opacity:1"
            x="56"
            y="185">சத்தியமே இயற்கை உண்மைத் தனிப்பதியே என்று</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.565;stroke-miterlimit:4;stroke-dasharray:none"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.565;stroke-miterlimit:4;stroke-dasharray:none"
          x="56"
          y="160"
          id="text2622-9"><tspan
            sodipodi:role="line"
            id="tspan2620-1"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#803300;stroke:#803300;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#803300;stroke:#803300;stroke-opacity:1"
            x="56"
            y="160">தணிந்த நிலைப் பெருஞ்சுகமே சமரச சன்மார்க்க</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.565;stroke-miterlimit:4;stroke-dasharray:none"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.565;stroke-miterlimit:4;stroke-dasharray:none"
          x="56"
          y="135"
          id="text2622-35"><tspan
            sodipodi:role="line"
            id="tspan2620-62"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#803300;stroke:#803300;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#803300;stroke:#803300;stroke-opacity:1"
            x="56"
            y="135">துரியமுடி அனுபவமே சுத்த சித்தாந்தம் அதாய்த்</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.565;stroke-miterlimit:4;stroke-dasharray:none"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.565;stroke-miterlimit:4;stroke-dasharray:none"
          x="56"
          y="110"
          id="text2622-7"><tspan
            sodipodi:role="line"
            id="tspan2620-5"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#803300;stroke:#803300;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#803300;stroke:#803300;stroke-opacity:1"
            x="56"
            y="110">துணிந்து வந்த வேதாந்த சுத்த அனுபவமே</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.565;stroke-miterlimit:4;stroke-dasharray:none"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.565;stroke-miterlimit:4;stroke-dasharray:none"
          x="56"
          y="60"
          id="text2622"><tspan
            sodipodi:role="line"
            id="tspan2620"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#803300;stroke:#803300;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#803300;stroke:#803300;stroke-opacity:1"
            x="56"
            y="60">பணிந்து பணிந்து தணிந்து தணிந்து பாடுமினோ உலகீர்</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.565;stroke-miterlimit:4;stroke-dasharray:none"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.565;stroke-miterlimit:4;stroke-dasharray:none"
          x="56"
          y="85"
          id="text2622-3"><tspan
            sodipodi:role="line"
            id="tspan2620-6"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#803300;stroke:#803300;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#803300;stroke:#803300;stroke-opacity:1"
            x="56"
            y="85">பரம்பரமே சிதம்பரமே பராபரமே வரமே</tspan></text>
     </g>
