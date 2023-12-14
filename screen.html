@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>  
+  <title>html page</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #e8e8e8;
+}
+  .fullscreenDiv {
+    width: 100%;
+    height: auto;
+    padding:20px 20px;
+    bottom: 0px;
+    top: 0px;
+    left: 0;
+    position: absolute;
+}
+.center {
+    position: absolute;    
+    width: 90%;
+    padding: 10px;
+    /*font-size:2vw;
+    font-weight:bold;
+    color:#995c00; */
+    top: 5%;
+    left: 2%;
+    right: 2%;       
+}
+/*@media screen and (min-width: 200px) and (max-width: 600px) {
+    .center {
+        font-size:0.6vw;
+         font-weight:normal;
+         color:#000000; 
+    }
+}*/
+.backimage{
+    position: absolute;    
+    width: 80%;
+    height: 100%;
+    padding: 10px;    
+    top: 10%;
+    left: 10%;    
+    margin-left: -50px;
+background: url('oldpaper.png') 100% 10px no-repeat;
+background-size:100% 100%;
+}
+p {
+  line-height: 20px;   /* within paragraph */
+  margin-bottom: 10px; /* between paragraphs */
+  }
+
+    </style>
+</head>
+<body>   
+<div class='fullscreenDiv'>
+    <div class="center" >
+    <button id="btn_show">Show Display Size</button>
+	<h1 id="screensize"></h1>
+    </div>
+</div> 
+<script>
+
+btn_show.addEventListener("click", function() {
+  document.getElementById("screensize").innerHTML = "Height:" + window.screen.height + "<br>" + "Width:" + window.screen.width;
+});
+</script>
+</body>
+</html>
+
+
+
