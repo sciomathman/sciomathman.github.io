@@ -17,6 +17,17 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
+         <style>
+    text,tspan {
+      font-size: 10px;
+    }
+
+    @media (max-width: 400px) {
+      text,tspan {
+        font-size: 8px;
+      }
+    }
+  </style>
   <sodipodi:namedview
      id="namedview7"
      pagecolor="#ffffff"
@@ -61,91 +72,91 @@
        transform="translate(13.882501,21.56048)">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.565;stroke-miterlimit:4;stroke-dasharray:none"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.565;stroke-miterlimit:4;stroke-dasharray:none"
        x="56"
        y="110"
        id="text2622-3-3"><tspan
          sodipodi:role="line"
          id="tspan2620-6-6"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#803300;stroke:#803300;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#803300;stroke:#803300;stroke-opacity:1"
          x="56"
          y="110">நன்மார்க்கத்து எனை நடத்திச் சன்மார்க்க சங்க</tspan></text>
     
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.565;stroke-miterlimit:4;stroke-dasharray:none"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.565;stroke-miterlimit:4;stroke-dasharray:none"
          x="56"
          y="235"
          id="text2622-36"><tspan
            sodipodi:role="line"
            id="tspan2620-0"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#803300;stroke:#803300;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#803300;stroke:#803300;stroke-opacity:1"
            x="56"
            y="235">அருட்பெருஞ்சோதியை உலகீர் தெருட்கொளச் சார்வீரே.</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.565;stroke-miterlimit:4;stroke-dasharray:none"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.565;stroke-miterlimit:4;stroke-dasharray:none"
          x="56"
          y="210"
          id="text2622-2"><tspan
            sodipodi:role="line"
            id="tspan2620-7"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#803300;stroke:#803300;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#803300;stroke:#803300;stroke-opacity:1"
            x="56"
            y="210">அன்மார்க்கம் தவிர்த்து அருளி அம்பலத்தே நடஞ்செய்</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.565;stroke-miterlimit:4;stroke-dasharray:none"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.565;stroke-miterlimit:4;stroke-dasharray:none"
          x="56"
          y="185"
          id="text2622-9"><tspan
            sodipodi:role="line"
            id="tspan2620-1"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#803300;stroke:#803300;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#803300;stroke:#803300;stroke-opacity:1"
            x="56"
            y="185">பூரண மெய்ப் பொருளாகிப் பொருந்திய மா மருந்தை</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.565;stroke-miterlimit:4;stroke-dasharray:none"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.565;stroke-miterlimit:4;stroke-dasharray:none"
          x="56"
          y="160"
          id="text2622-35"><tspan
            sodipodi:role="line"
            id="tspan2620-62"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#803300;stroke:#803300;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#803300;stroke:#803300;stroke-opacity:1"
            x="56"
            y="160">புன்மார்க்கர்க்கு அறிவரிதாம் புண்ணியனை ஞான</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.565;stroke-miterlimit:4;stroke-dasharray:none"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.565;stroke-miterlimit:4;stroke-dasharray:none"
          x="56"
          y="135"
          id="text2622-7"><tspan
            sodipodi:role="line"
            id="tspan2620-5"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#803300;stroke:#803300;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#803300;stroke:#803300;stroke-opacity:1"
            x="56"
            y="135">நடுவிருக்க அருளமுதம் நல்கிய நாயகனைப்</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.565;stroke-miterlimit:4;stroke-dasharray:none"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.565;stroke-miterlimit:4;stroke-dasharray:none"
          x="56"
          y="60"
          id="text2622"><tspan
            sodipodi:role="line"
            id="tspan2620"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#803300;stroke:#803300;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#803300;stroke:#803300;stroke-opacity:1"
            x="56"
            y="60">சன்மார்க்கப் பெருங் குணத்தார் தம் பதியை என்னைத்</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.565;stroke-miterlimit:4;stroke-dasharray:none"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.565;stroke-miterlimit:4;stroke-dasharray:none"
          x="56"
          y="85"
          id="text2622-3"><tspan
            sodipodi:role="line"
            id="tspan2620-6"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#803300;stroke:#803300;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#803300;stroke:#803300;stroke-opacity:1"
            x="56"
            y="85">தாங்குகின்ற பெரும்பதியைத் தனித்த சபாபதியை</tspan></text>
     </g>

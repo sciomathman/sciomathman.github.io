@@ -17,6 +17,17 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
+         <style>
+    text,tspan {
+      font-size: 10px;
+    }
+
+    @media (max-width: 400px) {
+      text,tspan {
+        font-size: 8px;
+      }
+    }
+  </style>
   <sodipodi:namedview
      id="namedview7"
      pagecolor="#ffffff"
@@ -60,93 +71,93 @@
        transform="translate(13.882501,21.56048)">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.565;stroke-miterlimit:4;stroke-dasharray:none"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.565;stroke-miterlimit:4;stroke-dasharray:none"
        x="56"
        y="110"
        id="text2622-3-3"><tspan
          sodipodi:role="line"
          id="tspan2620-6-6"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#803300;stroke:#803300;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#803300;stroke:#803300;stroke-opacity:1"
          x="56"
          y="110">நித்திய சிற்சபை நடுவே நிறைந்து நடம் புரியும்</tspan></text>
     
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.565;stroke-miterlimit:4;stroke-dasharray:none"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.565;stroke-miterlimit:4;stroke-dasharray:none"
          x="56"
          y="235"
          id="text2622-36"><tspan
            sodipodi:role="line"
            id="tspan2620-0"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#803300;stroke:#803300;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#803300;stroke:#803300;stroke-opacity:1"
            x="56"
            y="235">சிந்தை செய்து வாழ்த்துமினோ நிந்தை எலாம் தவிர்ந்தே.</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.565;stroke-miterlimit:4;stroke-dasharray:none"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.565;stroke-miterlimit:4;stroke-dasharray:none"
          x="56"
          y="210"
          id="text2622-2"><tspan
            sodipodi:role="line"
            id="tspan2620-7"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#803300;stroke:#803300;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#803300;stroke:#803300;stroke-opacity:1"
            x="56"
            y="210">சித்தி எலாம் எனக்கு அளித்த சிவ கதியை உலகீர்</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.565;stroke-miterlimit:4;stroke-dasharray:none"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.565;stroke-miterlimit:4;stroke-dasharray:none"
          x="56"
          y="185"
          id="text2622-9"><tspan
            sodipodi:role="line"
            id="tspan2620-1"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#803300;stroke:#803300;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#803300;stroke:#803300;stroke-opacity:1"
            x="56"
            y="185">ஆவியை என் ஆவியிலே அமர்ந்த தயா நிதியைச்</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.565;stroke-miterlimit:4;stroke-dasharray:none"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.565;stroke-miterlimit:4;stroke-dasharray:none"
          x="56"
          y="160"
          id="text2622-35"><tspan
            sodipodi:role="line"
            id="tspan2620-62"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#803300;stroke:#803300;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#803300;stroke:#803300;stroke-opacity:1"
            x="56"
            y="160">அத்தகை ஓர் பெரும்பதியை அரும் மருந்தை அடியேன்</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.565;stroke-miterlimit:4;stroke-dasharray:none"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.565;stroke-miterlimit:4;stroke-dasharray:none"
          x="56"
          y="135"
          id="text2622-7"><tspan
            sodipodi:role="line"
            id="tspan2620-5"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#803300;stroke:#803300;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#803300;stroke:#803300;stroke-opacity:1"
            x="56"
            y="135">நித்த பரிபூரணனைச் சித்த சிகா மணியை</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.565;stroke-miterlimit:4;stroke-dasharray:none"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.565;stroke-miterlimit:4;stroke-dasharray:none"
          x="56"
          y="60"
          id="text2622"><tspan
            sodipodi:role="line"
            id="tspan2620"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#803300;stroke:#803300;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#803300;stroke:#803300;stroke-opacity:1"
            x="56"
-           y="60">சத்திய வேதாந்தம் எலாம் சித்தாந்தம் எல்லாம்</tspan></text>
+           y="60">சத்திய வேதாந்தம் எலாம் சித்தாந்தம் எல்லாம் தனித் தனி</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.565;stroke-miterlimit:4;stroke-dasharray:none"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.565;stroke-miterlimit:4;stroke-dasharray:none"
          x="56"
          y="85"
          id="text2622-3"><tspan
            sodipodi:role="line"
            id="tspan2620-6"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#803300;stroke:#803300;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#803300;stroke:#803300;stroke-opacity:1"
            x="56"
-           y="85">தனித் தனி மேல் உணர்ந்து உணர்ந்தும் தனை உணர்தற்கு அரிதாய்</tspan></text>
+           y="85">மேல் உணர்ந்து உணர்ந்தும் தனை உணர்தற்கு அரிதாய்</tspan></text>
     </g>
   </g>
 </svg>

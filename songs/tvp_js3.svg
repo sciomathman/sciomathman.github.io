@@ -24,7 +24,7 @@
 
     @media (max-width: 400px) {
       text,tspan {
-        font-size: 7px;
+        font-size: 8px;
       }
     }
   </style>
@@ -79,7 +79,7 @@
            id="tspan2620-0"
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#803300;stroke:#803300;stroke-opacity:1"
            x="56"
-           y="235">காணாத காட்சி எலாம் கண்டு கொளலாமே.</tspan></text>
+           y="235">அப்பொழுதே காணாத காட்சி எலாம் கண்டு கொளலாமே.</tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.565;stroke-miterlimit:4;stroke-dasharray:none"
@@ -90,7 +90,7 @@
            id="tspan2620-9"
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#803300;stroke:#803300;stroke-opacity:1"
            x="56"
-           y="210">கணிந்து உளத்தே கனிந்து நினைந்து உரைத்திடில் அப்பொழுதே</tspan></text>
+           y="210">கணிந்து உளத்தே கனிந்து நினைந்து உரைத்திடில்</tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.565;stroke-miterlimit:4;stroke-dasharray:none"

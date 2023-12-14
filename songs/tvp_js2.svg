@@ -24,7 +24,7 @@
 
     @media (max-width: 400px) {
       text,tspan {
-        font-size: 7px;
+        font-size: 8px;
       }
     }
   </style>
