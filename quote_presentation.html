@@ -52,11 +52,7 @@ p {
   line-height: 20px;   /* within paragraph */
   margin-bottom: 10px; /* between paragraphs */
   }
-        @media (min-width: 200px) and (max-width: 450px) {
-            #quote {
-                width : 60%;
-            }
-        }
+
 
 
     </style>
@@ -64,6 +60,7 @@ p {
 <body>   
 <div class='fullscreenDiv'>
     <div class="center" >
+    <div style="text-align:center;font-size:x-large;font-weight:bold;" >வள்ளல் ஒளி தோன்ற இன்னும் <p id="tam_time" style="display: inline"></p> உள்ளது <br>As ordained by Arutperunjothi the light of Vallalar is expected to appear in <p id="eng_time" style="display: inline"></p></div><br>
 <img id="quote" src="" alt="quote card" style="width:90%;">
     </div>
 </div> 
@@ -86,6 +83,56 @@ function getURLParameterByName(name, url = window.location.href) {
     return decodeURIComponent(results[2].replace(/\+/g, ' '));
 }
 
+</script>
+<script>
+// Calculate milliseconds in a year
+const minute = 1000 * 60;
+const hour = minute * 60;
+const day = hour * 24;
+const year = day * 365;
+var target = 1706621880000 - 63481000;
+var diff = target- Date.now();
+var y_remainder = diff%year;
+if(y_remainder == diff && year > diff) {	
+    var y = 0;
+}else{	
+    var y = (diff - y_remainder)/year;
+    diff = diff - y*year;
+}
+
+var d_remainder = diff%day;
+if(d_remainder == diff && day > diff) {
+	var d = 0;
+}else{
+	var d = (diff - d_remainder)/day;
+	diff = diff - d*day;
+}
+
+var h_remainder = diff%hour;
+if(h_remainder == diff && hour > diff) {
+	var h = 0;
+}else{
+	var h = (diff - h_remainder)/hour;
+	diff = diff - h*hour;
+}
+
+var m_remainder = diff%minute;
+if(m_remainder == diff && minute > diff) {
+	var m = 0;
+}else{
+	var m = (diff - m_remainder)/minute;
+	diff = diff - m*minute;
+}
+var s_remainder = diff%1000;
+var s = (diff - s_remainder)/1000;
+
+
+
+
+// Divide Date.now() with a year
+let days = ((diff - (diff % day))/day);
+document.getElementById("eng_time").innerHTML =  d + "days " + h + "hours " + m + "minutes " + s + "seconds.";
+document.getElementById("tam_time").innerHTML =  d + "நாட்கள் " + h + "மணி " + m + "நிமிடம் " + s + "வினாடி.";
 </script>
 </body>
 </html>
