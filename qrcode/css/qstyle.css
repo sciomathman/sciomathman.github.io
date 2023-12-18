@@ -1,0 +1,144 @@
+#quizmain {
+  font-family: "Segoe UI",Arial,sans-serif;
+  width:100%;
+  xxbackground-color:#fff;
+}
+#qtext {
+  font-size:18px;
+}
+#quizform {
+  margin-top:40px;  
+}
+#altcontainer {
+  xxbackground-color:#fff;
+  font-size:120%;
+  line-height:1.7em;
+}
+#answerbuttoncontainer {
+  position:relative;
+  padding:20px 0;
+  text-align:center;
+}
+.answerbutton {
+  background-color:#04AA6D;
+  padding:12px 30px !important;
+  font-size:16px;
+  border: 2px solid #f44336;
+  border-radius: 5px;
+  
+}
+
+
+#timespent {
+  position:relative;
+  text-align:center;
+  border:none;
+  font-family: "Segoe UI",Arial,sans-serif;
+  font-size:1.5vw;  
+  clear:right;
+}
+.linktotutdiv {
+  color:#555;
+  background-color: #FFF4A3;
+}
+.linktotutdiv a {
+  color:#555;
+}
+.linktotutdiv a:hover,.linktotutdiv a:active {
+  color: black;
+}
+/* The radiocontainer */
+.radiocontainer {
+  background-color:#E7E9EB;
+  display: block;
+  position: relative;
+  padding:10px 10px 10px 50px;
+  margin-bottom: 1px;
+  cursor: pointer;
+  font-size: 18px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  word-wrap: break-word;
+}
+
+/* Hide the browser's default radio button */
+.radiocontainer input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  height: 19px;
+  width: 19px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.checkedlabel {
+  background-color:#ddd;
+}
+/* On mouse-over, add a grey background color */
+.radiocontainer:hover input ~ .checkmark {
+  /*nothing*/
+}
+.radiocontainer:hover {
+  background-color: #ddd;
+}
+
+/* When the radio button is checked, add a blue background */
+.radiocontainer input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radiocontainer input:checked ~ .checkmark:after {
+  display: block;
+}
+/* Style the indicator (dot/circle) */
+.radiocontainer .checkmark:after {
+ 	top: 6px;
+	left: 6px;
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	background: white;
+}
+body.darkpagetheme .radiocontainer {
+  background-color:#38444d;
+}
+body.darkpagetheme .radiocontainer:hover {
+  background-color:#404e59;
+}
+
+body.darkpagetheme #timespent {
+  background-color:transparent;
+  color:#ddd!important;
+}
+body.darkpagetheme .linktotutdiv {
+  color:#ddd;
+}
+body.darkpagetheme .linktotutdiv a {
+  color:#ddd;
+}
+body.darkpagetheme .linktotutdiv a:hover,body.darkpagetheme .linktotutdiv a:active {
+  color: #fff;
+}
+
+@media screen and (max-width:600px) {
+  .quizresultbtn {
+    display:block;
+    width:100%;
+  }
