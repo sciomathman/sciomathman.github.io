@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+<head>  
+  <title>GK Test</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/qstyle.css">
+  <link rel="stylesheet" href="css/w3.css">
+  <script type="text/javascript" src="js/qrcode.js"></script>
+  <style type="text/css">
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        font: 12pt "Tahoma";
+        font-size:100%;
+    }
+    * {
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+    }
+    .page {
+        width: 210mm;
+        min-height: 297mm;
+        padding: 1.5cm;
+        margin: 10mm auto;
+        border: 1px #000000 solid;
+        border-radius: 5px;
+        background: white;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+    .subpage {
+        padding: 1cm;
+        border: 1px #808080 solid;
+        height: 267mm;
+        outline: 0.25cm #eea500 solid;
+    }
+    .center {
+   font-size:2vw;
+       height: auto;
+       text-align: center;
+    padding: 10px;
+    position: relative;
+    }
+    @page {
+        size: A4;
+        margin: 0;
+    }
+    @media print {
+        html, body {
+            width: 210mm;
+            height: 297mm;        
+        }
+        .page {
+            margin: 0;
+            border: initial;
+            border-radius: initial;
+            width: initial;
+            min-height: initial;
+            box-shadow: initial;
+            background: initial;
+            page-break-after: none;
+        }
+
+    }
+    /* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+  </style>
+</head>
+<body>    
+    <div class="page">
+        <div class="subpage">
+           <div class="center">
+           		<p style=" font-size: 2em;clear:both;">General Knowledge</p>
+           		<p style = "font-size: 1em; font-weight:bold;"> Time taken: <input  style="display:inline-block;width:8ch" type="text" readonly="" id="timespent" value="00:00"></p>
+           		<input type="hidden" name="starttime" value="12/12/2023 6:56:03 AM">
+           </div>
+           
+             <div id="questions_block">  
+           <input type="hidden" id="question_set" name="question_set" value="1-2">
+           <h3 id="qtitle1" style="color:red;">Question 1 of 10:</h3>
+    <h3 id="qtext1">Which country is known as the "Land of the Rising Sun"?</h3>
+     
+      
+      <div style="position:relative;width:100%;">
+        <div id="altcontainer" class="notranslate">
+          <label class="radiocontainer" id="qlabel1_1">China<input type="radio" name="quiz1" id="q1_1" onclick="clickRadio(this)" value="1" ><span class="checkmark"></span></label><label class="radiocontainer" id="qlabel1_2"> South Korea<input type="radio" name="quiz1" id="q1_2" onclick="clickRadio(this)" value="2" ><span class="checkmark"></span></label><label class="radiocontainer" id="qlabel1_3">Japan<input type="radio" name="quiz1" id="q1_3" onclick="clickRadio(this)" value="3" ><span class="checkmark"></span></label>
+        </div>
+      </div>
+      <h3 id="qtitle2" style="color:red;">Question 2 of 10:</h3>
+    <h3 id="qtext2">What is the tallest mountain in the world?</h3>
+
+      
+      <div style="position:relative;width:100%;">
+        <div id="altcontainer" class="notranslate">
+          <label class="radiocontainer" id="qlabel2_1">Mount Kilimanjaro<input type="radio" name="quiz2" id="q2_1" onclick="clickRadio(this)" value="1" ><span class="checkmark"></span></label><label class="radiocontainer" id="qlabel2_2"> Mount Everest<input type="radio" name="quiz2" id="q2_2" onclick="clickRadio(this)" value="2"><span class="checkmark"></span></label><label class="radiocontainer" id="qlabel2_3"> Mount Fuji<input type="radio" name="quiz2" id="q2_3" onclick="clickRadio(this)" value="3" ><span class="checkmark"></span></label>
+        </div>
+      </div>
+      <div id="answerbuttoncontainer">
+      <button class="answerbutton w3-btn w3-button w3-white w3-border w3-border-blue"  onclick="clickBackButton()">❮Back</button>
+        <button class="answerbutton w3-btn w3-button w3-white w3-border w3-border-blue" onclick="clickNextButton()">Next ❯</button>
+        <br>
+        <br>
+        <button class="w3-btn w3-green w3-border-red w3-xlarge" onclick="clickFinishButton()">  Finished  </button>
+      </div>
+    </div>
+        </div>
+    </div>
+    
+    
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Scan this QR code to send</p>
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="qrcode"/>
+  </svg>
+   
+  </div>
+
+</div>
+    
+    
+ <script>
+ var questions = {
+ 		"1":{
+ 			"title":"Question 1 of 10:",
+ 			"question": "Which country is known as the 'Land of the Rising Sun'?",
+ 			"options" : ["China", "South Korea", "Japan"]
+ 		},
+ 		"2":{
+ 		"title":"Question 2 of 10:",
+ 		"question": "What is the tallest mountain in the world?",
+ 		"options" :["Mount Kilimanjaro", "Mount Everest", "Mount Fuji"]
+ 		},
+ 		"3":{
+ 		"title":"Question 3 of 10:",
+ 		"question": "When was camera invented?",
+ 		"options" :["1243", "1816", "3456"]
+ 		},
+ 	  "4":{
+ 	  "title":"Question 4 of 10:",
+ 		"question":"Where was freedom fighter Udham singh born?",
+ 	     "options" :["tamilnadu", "Kerala", "punjab"]
+ 		},	
+ 	 "5":{
+ 	 "title":"Question 5 of 10:",
+ 		"question": "Who is Laby?",
+ 		 	     "options" :["YouTuber", "student", "both of the above"]
+ 		},	
+ 		
+    "6":{
+    "title":"Question 6 of 10:",
+ 		"question": "Which is the hardest mineral in the world?",
+ 		  "options" :["Diamond", "gold", "silver"]
+ 		},	
+ 		
+    "7":{
+    "title":"Question 7 of 10:",
+ 		"question":"Who developed the theory of relativity?",
+ 		  "options" :["Albert Einstein", "Issac Newton", "Devadharshni"]
+ 		},	
+     "8":{
+     "title":"Question 8 of 10:",
+ 		"question": "What is the full form of GK?",
+ 		  "options" :["General knowledge", "goal keeper", "None of the above"]
+ 		},	
+ 		
+      "9":{
+      "title":"Question 9 of 10:",
+ 		"question": "Paper is obtained from which plant?",
+ 	      "options" :["Bamboo", "Thulasi", "Venus fly trap"]
+ 		},	
+ 		
+ 	  "10":{
+ 	  "title":"Question 10 of 10:",
+ 		"question": "Where do Lions live?",
+ 		 	      "options" :["Den", "Palace", "hut"]
+ 		}
+ 		
+ };
+ 
+ const qset = ["1-2","3-4","5-6","7-8","9-10"];
+ var answers = {"1":0,"2":0,"3":0,"4":0,"5":0,"6":0,"7":0,"8":0,"9":0,"10":0};
+ 	function clickRadio(ele){
+ 		let current_qset = document.getElementById("question_set").value;
+ 		let q = current_qset.split("-");
+ 		let eid = ele.id;
+ 		let qselect = eid.split("_")[0] == "q1"?0:1;
+ 		let answerto = q[qselect];
+ 		answers[answerto] = ele.value;
+ 		//alert(JSON.stringify(answers));
+ 	}
+ 	
+ 	function clickFinishButton(){
+ 		let testflag = checkAllAttempted();
+ 		if(testflag[0] == true){
+ 			alert("Well done");
+ 			let tourl = "https://sciomathman.github.io/qrcode/result.html?answers=";
+ 			let sendthis = tourl + getAnswerString();
+ 			modal.style.display = "block";
+ 			makeCode(sendthis);
+ 		}else{
+ 			alert("Test Incomplete: " + testflag[2] + " Not completed"); 
+ 		}
+ 	}
+ 	
+ 	function getAnswerString(){
+ 		let str = "";
+ 		for (let a in answers) {
+ 			str = str + answers[a];
+ 		}
+ 		return str;
+ 	}
+ 	
+ 	
+ 	function checkAllAttempted(){
+ 	let r = [false,0,""];
+ 		for (let a in answers) {
+  			if(answers[a] == 0){
+  				r[0] = false;
+  				r[1] = r[1] + 1;
+  				r[2] = r[2] + "[Q" + a + ']';
+  			}
+  			
+		}
+		if(r[1] == 0) r[0] = true;
+		return r;
+ 	}
+ 	function clickBackButton(){
+ 	let current_question = document.getElementById("question_set").value;
+ 	let qindex = qset.indexOf(current_question);
+	 	if(qindex > 0){
+	 		qindex --;
+	 		qvalue = qset[qindex];
+	 		const qarray = qvalue.split("-");
+	 		const keys = qarray.keys();
+            let toset = 1;
+			for (let x of keys) {
+  					document.getElementById("qtitle"+toset).innerHTML = questions[qarray[x]].title;
+  					document.getElementById("qtext"+toset).innerHTML = questions[qarray[x]].question;  															
+  					document.getElementById("qlabel"+toset + "_1").firstChild.data = questions[qarray[x]].options[0];  																			
+  				     document.getElementById("qlabel"+toset + "_2").firstChild.data = questions[qarray[x]].options[1];
+  				     document.getElementById("qlabel"+toset + "_3").firstChild.data = questions[qarray[x]].options[2];
+  				   if(answers[qarray[x]] != 0) {
+  				     	let tocheck = answers[qarray[x]] ;
+  				     	document.getElementById("q" + toset + "_" + tocheck).checked = true;
+  				     }
+  				     
+  					toset = toset +1;																				
+			}
+			document.getElementById("question_set").value = qvalue;
+	 	}
+ 	}
+ 	
+ 	function clickNextButton(){
+ 	 	let current_question = document.getElementById("question_set").value;
+ 	let qindex = qset.indexOf(current_question);
+	 	if(qindex < qset.length-1){
+	 		qindex ++;
+	 		qvalue = qset[qindex];
+	 		const qarray = qvalue.split("-");
+	 		const keys = qarray.keys();
+            let toset = 1;
+			for (let x of keys) {
+  					document.getElementById("qtitle"+toset).innerHTML = questions[qarray[x]].title;
+  					document.getElementById("qtext"+toset).innerHTML = questions[qarray[x]].question;  															
+  					document.getElementById("qlabel"+toset + "_1").firstChild.data = questions[qarray[x]].options[0];  																			
+  				     document.getElementById("qlabel"+toset + "_2").firstChild.data = questions[qarray[x]].options[1];
+  				     document.getElementById("qlabel"+toset + "_3").firstChild.data = questions[qarray[x]].options[2];
+  				   if(answers[qarray[x]] != 0) {
+  				     	let tocheck = answers[qarray[x]] ;
+  				     	document.getElementById("q" + toset + "_" + tocheck).checked = true;
+  				     }
+  					toset = toset +1;																				
+			}
+			document.getElementById("question_set").value = qvalue;
+	 	}
+ 	}
+
+var totalSeconds = 0;
+var totalMinutes = 0;
+var qtimer = document.getElementById("timespent");
+setInterval(setTime, 1000);
+
+function setTime() {
+  ++totalSeconds;
+  let ts = totalSeconds % 60;
+  if(ts == 0) {
+  	++totalMinutes;
+  }
+  qtimer.value =  pad(totalMinutes) + ":" + pad(ts);
+}
+function pad(val) {
+  var valString = val + "";
+  if (valString.length < 2) {
+    return "0" + valString;
+  } else {
+    return valString;
+  }
+}
+
+// Get the modal
+var modal = document.getElementById("myModal");
+
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+var qrcode = new QRCode(document.getElementById("qrcode"), {
+      width : 100,
+      height : 100,
+      useSVG: true
+  });
+
+  function makeCode (senddata) {
+
+      qrcode.makeCode(senddata);
+  }
+
+
+
+ </script>
+    
+</body>
+</html>
