@@ -60,15 +60,85 @@ p {
 <body>   
 <div class='fullscreenDiv'>
     <div class="center" >
-			<h3 id="results"></h3>
+			<h3 id="results"></h3>			
+			<img id="img_result" src="" alt="result icon" style="width:40%;">
     </div>
 </div> 
 <script>
+var qanswers = {
+	"01" : "3223311111",
+	"02" : "2133211223"
+};
+
+var grade = {
+"100" : "Extraordinary",
+"90" : "Excellent",
+"80"	: "Very good",
+"70" : "Good",
+"60" : "Satisfactory",
+"50" : "Sufficient",
+"40" : "Insufficient",
+"30" : "Poor",
+"20" : "Very Poor",
+"10" : "Unlucky",
+"0" : "Missed"
+};
+
+var imgs = {
+	"Extraordinary" : "Extraordinary.svg",
+	"Excellent" : "Excellent.svg",
+	"Very good" : "verygood.svg",
+	"Good" : "good.svg",
+	"Satisfactory" : "satisfactory.svg",
+	"Sufficient" : "sufficient.png",
+	"Insufficient" : "insufficient.png",
+	"Poor" : "poor.jpg",
+	"Very Poor" : "verypoor.png",
+	"Unlucky" : "unlucky.jpg",
+	"Missed" : "missed.png"
+};
+
 var myresult = document.getElementById("results");
+var result_svg = document.getElementById("img_result");
 const queryString = window.location.search;
 console.log(queryString);
-var testresult = getParameterByName("answers");
-myresult.innerHTML = testresult;
+
+
+document.onreadystatechange = function(e)
+{
+    if (document.readyState === 'complete')
+    {
+        //dom is ready, window.onload fires later
+    }
+};
+window.onload = function(e)
+{
+    //document.readyState will be complete, it's one of the requirements for the window.onload event to be fired
+    //do stuff for when everything is loaded
+    
+    var test_a = getParameterByName("answers");
+var test_q = getParameterByName("q");
+var test_t = getParameterByName("t");
+
+
+var marks = getMarks(test_a,test_q);
+var announcement = "Hi there, " +"you have scored: " + marks + " out of 100. Your grade is : " + grade[marks] ;
+myresult.innerHTML = announcement;
+result_svg.src = "images/" + imgs[grade[marks]];
+};
+
+myresults.innerHTML = testresult;
+
+function getMarks(ans,q){
+	let m = 0;
+	let c_ans = qanswers[q];
+	for (var i = 0; i < ans.length; i++) {
+  		if(ans[i] == c_ans[i]){
+  		m = m + 10;
+  		}
+	}
+	return m;
+}
 
 
 function getParameterByName(name) {
@@ -77,8 +147,8 @@ function getParameterByName(name) {
 }
 function getURLParameterByName(name, url = window.location.href) {
     name = name.replace(/[\[\]]/g, '\\$&');
-    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)');
-        let results = regex.exec(url);
+    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
     if (!results) return null;
     if (!results[2]) return '';
     return decodeURIComponent(results[2].replace(/\+/g, ' '));
@@ -132,8 +202,8 @@ var s = (diff - s_remainder)/1000;
 
 // Divide Date.now() with a year
 let days = ((diff - (diff % day))/day);
-console.log(d + "days " + h + "hours " + m + "minutes " + s + "seconds.");
-
+document.getElementById("eng_time").innerHTML =  d + "days " + h + "hours " + m + "minutes " + s + "seconds.";
+document.getElementById("tam_time").innerHTML =  d + "நாட்கள் " + h + "மணி " + m + "நிமிடம் " + s + "வினாடி.";
 </script>
 </body>
 </html>
