@@ -110,7 +110,7 @@
            <div class="center">
            		<p style=" font-size: 2em;clear:both;">General Knowledge</p>
            		<p style = "font-size: 1em; font-weight:bold;"> Time taken: <input  style="display:inline-block;width:8ch" type="text" readonly="" id="timespent" value="00:00"></p>
-           		<input type="hidden" name="starttime" value="12/12/2023 6:56:03 AM">
+           		<input type="hidden" name="qcode" value="01">
            </div>
            
              <div id="questions_block">  
@@ -237,7 +237,9 @@
  		if(testflag[0] == true){
  			alert("Well done");
  			let tourl = "https://sciomathman.github.io/qrcode/result.html?answers=";
- 			let sendthis = tourl + getAnswerString();
+ 			 			let elements = document.getElementsByName("qcode");
+ 			let tt = document.getElementById("timespent");
+ 			let sendthis = tourl + getAnswerString() + '&q=' + elements[0].value + '&t=' + tt.value ;
  			modal.style.display = "block";
  			makeCode(sendthis);
  		}else{
