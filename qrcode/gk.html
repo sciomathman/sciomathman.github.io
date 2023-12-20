@@ -135,7 +135,7 @@
       </div>
       <div id="answerbuttoncontainer">
       <button class="answerbutton w3-btn w3-button w3-white w3-border w3-border-blue"  onclick="clickBackButton()">❮Back</button>
-        <button class="answerbutton w3-btn w3-button w3-white w3-border w3-border-blue" onclick="clickNextButton()">Next ❯</button>
+        <buttodocument.getElementById("rtext").value = sendthis;n class="answerbutton w3-btn w3-button w3-white w3-border w3-border-blue" onclick="clickNextButton()">Next ❯</button>
         <br>
         <br>
         <button class="w3-btn w3-green w3-border-red w3-xlarge" onclick="clickFinishButton()">  Finished  </button>
@@ -155,7 +155,8 @@
       <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <g id="qrcode"/>
   </svg>
-   
+  <input id="rtext" type="text" value="" style="width:80%" />
+   <input 
   </div>
 
 </div>
@@ -242,6 +243,7 @@
  			 			let elements = document.getElementsByName("qcode");
  			let tt = document.getElementById("timespent");
  			let sendthis = tourl + getAnswerString() + '&q=' + elements[0].value + '&t=' + tt.value ;
+ 			document.getElementById("rtext").value = sendthis;
  			modal.style.display = "block";
  			makeCode(sendthis);
  		}else{

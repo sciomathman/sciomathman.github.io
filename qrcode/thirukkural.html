@@ -155,7 +155,7 @@ _____ முதற்றே உலகு</h4>
       <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <g id="qrcode"/>
   </svg>
-   
+     <input id="rtext" type="text" value="" style="width:80%" />
   </div>
 
 </div>
@@ -241,6 +241,7 @@ _____ முதற்றே உலகு</h4>
  			let elements = document.getElementsByName("qcode");
  			let tt = document.getElementById("timespent");
  			let sendthis = tourl + getAnswerString() + '&q=' + elements[0].value + '&t=' + tt.value ;
+ 			document.getElementById("rtext").value = sendthis;
  			modal.style.display = "block";
  			makeCode(sendthis);
  		}else{
