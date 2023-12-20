@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>  
-  <title>html page</title>
+  <title>QR Code Project</title>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style 
+    <link rel="stylesheet" href="css/qstyle.css">
+  <link rel="stylesheet" href="css/w3.css"> 
   <style>
   html, body {
     height: 100%;
@@ -22,77 +23,38 @@
 .center {
     position: absolute;
     border: 1px solid blue;   
-    width: 65%;
-    padding: 10px;
-    font-size:5vw;
-    top: 20%;
-    left: 20%;
+    width: 80%;
+    padding: 10px;    
+    left: 10%;
     margin-top: -25px;
     margin-left: -50px;
+    text-align: center;
 }
     </style>
 </head>
 <body>   
 <div class='fullscreenDiv'>
     <div class="center">
-    As ordained by Arutperunjothi
-    The light of Vallar is execpted to appear
-    at Vadalur Sathya Jnana Sabai, Vadalur,
-    Tamilnadu, India - 607303 in <p id="result"></p>
-    
+   <h2>Welcome to QR Code Based Examination System</h2>
+   <br><br>
+    <h3>Presented By: </h3>
+    <div class="w3-blue w3-animate-zoom" style="display:inline-block; width: 80%; font-weight: bold; font-size: 22px;  text-shadow:1px 1px 0 #444;">  
+U. Deva Dharshni
     </div>
-</div> 
-<script>
-// Calculate milliseconds in a year
-const minute = 1000 * 60;
-const hour = minute * 60;
-const day = hour * 24;
-const year = day * 365;
-var target = 1706621880000 - 63481000;
-var diff = target- Date.now();
-var y_remainder = diff%year;
-if(y_remainder == diff && year > diff) {	
-    var y = 0;
-}else{	
-    var y = (diff - y_remainder)/year;
-    diff = diff - y*year;
-}
+    <br>
+<br>
+<br>
+<h3>Question Papers:</h3>
 
-var d_remainder = diff%day;
-if(d_remainder == diff && day > diff) {
-	var d = 0;
-}else{
-	var d = (diff - d_remainder)/day;
-	diff = diff - d*day;
-}
+<div class="w3-container">
+  <a href="qpaper.html?q=gk.html" class="w3-button w3-black">General Knowledge 1</a>
+  <a href="qpaper.html?q=thirukkural.html" class="w3-button w3-black">Thirukkural</a>
+</div>
 
-var h_remainder = diff%hour;
-if(h_remainder == diff && hour > diff) {
-	var h = 0;
-}else{
-	var h = (diff - h_remainder)/hour;
-	diff = diff - h*hour;
-}
-
-var m_remainder = diff%minute;
-if(m_remainder == diff && minute > diff) {
-	var m = 0;
-}else{
-	var m = (diff - m_remainder)/minute;
-	diff = diff - m*minute;
-}
-var s_remainder = diff%1000;
-var s = (diff - s_remainder)/1000;
+    </div>
+</div>
 
 
-
-
-// Divide Date.now() with a year
-let days = ((diff - (diff % day))/day);
-document.getElementById("result").innerHTML =  y + "years " + d + "days " + h + "hours " + m + "minutes " + s + "seconds.";
-</script>
 </body>
 </html>
-
-
 

@@ -235,7 +235,9 @@ _____ முதற்றே உலகு</h4>
  		let testflag = checkAllAttempted();
  		if(testflag[0] == true){
 			alert("Well done");
- 			let tourl = "https://sciomathman.github.io/qrcode/result.html?answers=";
+			const queryString = window.location.href;
+  			var mainurl = queryString.substring(0, queryString.lastIndexOf('/')) ;  			 
+ 			let tourl = mainurl + "/" + "result.html?answers=";
  			let elements = document.getElementsByName("qcode");
  			let tt = document.getElementById("timespent");
  			let sendthis = tourl + getAnswerString() + '&q=' + elements[0].value + '&t=' + tt.value ;

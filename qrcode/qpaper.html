@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+  <head>
+    <title>Cross-Browser QRCode generator for Javascript</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+   
+    <script type="text/javascript" src="js/qrcode.js"></script>
+  </head>
+  <body>
+  <input id="text" type="text" value="" style="width:80%" />
+  <br><br><br><br>
+  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="qrcode"/>
+  </svg>
+  <script type="text/javascript">
+  const queryString = window.location.href;
+  var url_inputtext =  document.getElementById("text");
+  var selected_q = getParameterByName("q");
+  var mainurl = queryString.substring(0, queryString.lastIndexOf('/')) ;
+  url_inputtext.value = mainurl + "/" + selected_q;
+  var qrcode = new QRCode(document.getElementById("qrcode"), {
+      width : 100,
+      height : 100,
+      useSVG: true
+  });
+
+  function makeCode () {		
+      var elText = document.getElementById("text");
+
+      if (!elText.value) {
+          alert("Input a text");
+          elText.focus();
+          return;
+      }
+
+      qrcode.makeCode(elText.value);
+  }
+
+  makeCode();
+
+ url_inputtext.addEventListener("keydown",keyfunction);
+ function keyfunction(){
+ 	if (event.type == "keydown") {
+    //some browsers support evt.charCode, some only evt.keyCode
+   if (event.charCode) {
+      var charCode = event.charCode;
+   }
+   else {
+      var charCode = event.keyCode;
+   }
+   if(charCode == 13){
+   		makeCode(document.getElementById("text").value);
+   }
+}
+ }
+ 
+ function getParameterByName(name) {
+    var match = RegExp('[?&]' + name + '=([^&]*)').exec(queryString);
+    return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+}
+function getURLParameterByName(name, url = window.location.href) {
+    name = name.replace(/[\[\]]/g, '\\$&');
+    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+}
+    </script>
+  </body>
+</html>
