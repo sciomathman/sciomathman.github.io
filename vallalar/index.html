@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Post Tweet</title>   
+    <style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, 
+body {
+    height: 100%;
+    width: 100%;
+}
+body,
+input {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.forms-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0rem 5rem;
+  transition: all 0.2s 0.7s;
+  overflow: hidden;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+
+form.post-in-form {
+  z-index: 2;
+}
+.input-field {
+  width: 70%;  
+  display: block;
+  padding: 0 0.4rem;
+  position: relative;
+}
+
+.btn {
+  width: 150px;
+  background-color: #5995fd;
+  border: none;
+  outline: none;
+  height: 49px;
+  border-radius: 49px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background-color: #4d84e2;
+}
+textarea {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="forms-container">
+        <div class="post-tweet">
+          <form name="post-google-sheet" class="post-in-form">
+            <h2 class="title">To Post</h2>
+            <div class="input-field">              
+              <textarea id="tweet" name="tweet" rows="4" cols="20">
+Vallalar quotes
+</textarea>
+            </div>
+         
+            <input type="submit" value="Post" class="btn solid" />
+
+           
+          </form>
+
+
+    </div>
+</div>
+</div>
+<p id="res"></p>
+    <script>
+    
+    //https://script.google.com/macros/s/AKfycbx601STHBUlfYaFEMyyiZ-15SwSqGryZ2ex8-jrLxsVHEodHdNbwUXBSfw4F70ut47Rpw/exec
+    
+    //https://script.google.com/macros/s/AKfycbyUj1NXW4-KgI9vYZu63CQd6ejLj5jxoftVFfJGmKaJbS2zWeWbkx7JY_FACi4FnuAL8A/exec
+const scriptURL = "https://script.google.com/macros/s/AKfycbx601STHBUlfYaFEMyyiZ-15SwSqGryZ2ex8-jrLxsVHEodHdNbwUXBSfw4F70ut47Rpw/exec";
+ 
+const formpost = document.forms['post-google-sheet'];
+
+
+  
+  formpost.addEventListener('submit', e => {
+    e.preventDefault();
+    let fdata = new FormData(formpost);
+    fdata.append("formtype","formtweet");
+    fetch(scriptURL, { method: 'POST', body: fdata})
+      .then(
+          function(response) {
+              if (response.status !== 200) {
+              console.log('Looks like there was a problem. Status Code: ' +
+              response.status);
+              return;
+            }
+
+        // Examine the text in the response
+        response.json().then(function(data) {
+          document.getElementById("res").innerHTML = data.result + "<br>" + data.info ;          
+        console.log(data);
+        resetPost();
+        });
+    })   
+
+  
+      .catch(error => console.error('Error!', error.message))
+  });
+  
+  function resetPost(){
+	document.getElementById("tweet").value = "";
+  }
+
+    </script>
+  </body>
+</html>
+
