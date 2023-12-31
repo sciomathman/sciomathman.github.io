@@ -26,12 +26,12 @@ input {
   background-color: #fff;
   min-height: 100vh;
   overflow: hidden;
+  text-align:center;
 }
 
 .forms-container {
   position: absolute;
   width: 100%;
-  height: 100%;
   top: 0;
   left: 0;
 }
@@ -82,6 +82,15 @@ textarea {
     display: block;
     margin-left: auto;
     margin-right: auto;
+   width: 80%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
 }
     </style>
   </head>
@@ -92,7 +101,7 @@ textarea {
           <form name="post-google-sheet" class="post-in-form">
             <h2 class="title">To Post</h2>
             <div class="input-field">              
-              <textarea id="tweet" name="tweet" rows="4" cols="20">
+              <textarea id="tweet" name="tweet">
 Vallalar quotes
 </textarea>
             </div>
@@ -101,12 +110,13 @@ Vallalar quotes
 
            
           </form>
-
+<p id="res" style="position:relative;font-size:16px;font-weight:bold;">check response here....</p>
 
     </div>
 </div>
+
 </div>
-<p id="res"></p>
+
     <script>
     
     //https://script.google.com/macros/s/AKfycbx601STHBUlfYaFEMyyiZ-15SwSqGryZ2ex8-jrLxsVHEodHdNbwUXBSfw4F70ut47Rpw/exec
