@@ -143,7 +143,7 @@ const formpost = document.forms['post-google-sheet'];
 
         // Examine the text in the response
         response.json().then(function(data) {
-          document.getElementById("res").innerHTML = data.result + "<br>" + data.info ;          
+          document.getElementById("res").innerHTML = data.result + "<br>" + data.info + "<br>" + "Tweets remaining:" + data.remaining;          
         console.log(data);
         resetPost();
         });
