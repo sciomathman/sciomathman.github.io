@@ -89,7 +89,7 @@ const formsignin = document.forms['signin-to-google-sheet'];
     e.preventDefault();
     let fdata = new FormData(formsignup);
     fdata.append("formtype","signup");
-    fetch(scriptURL, { method: 'POST', body: fdata})
+    fetch(scriptURL, { method: 'POST', body: fdata, mode: 'cors'})
       .then(
           function(response) {
               if (response.status !== 200) {
